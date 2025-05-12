@@ -1,0 +1,21 @@
+# List of tools and resources largely reusing YAML file format from RSQkit as proven for user community curation, interoperability in mind and aiding reuse cases.
+# Conforms to https://w3id.org/everse/rs/0.0.1
+#
+# Before contributing be sure to check the CONTRIBUTING.md information.
+#
+# Entry template:
+# - description: A short description of the purpose of the resource
+#   type: This is the resource category type chosen from those maintained in the TOOLS_SELECTION_CRITERIA.md file in the top level folder e.g. Registry
+#   id: This is the id by which the resource will be referenced on where used on other webpages e.g. for Ersilia Model Hub the id is ersiliamodelhub 
+#   name: This is the name of the resource e.g. Ersilia Model Hub
+#   url: the primary homepage of the resource e.g. https://www.ersilia.io/model-hub
+#   biotools-url: This is followed by a bio.tools registry link containing information about this resource (where available)  e.g. https://bio.tools/X
+#   fairsharing-url: This is followed by a fairsharing.org registry link containing information about this resource (where available) e.g. https://fairsharing.org/FAIRsharing.X
+#   osai-recommendation: Open and Sustainable AI (OSAI) Recommendation (see osai_recommendations.yml file in this folder) to create direct mappings. More than one OSAI Recommendation may be declared per entry as per formatting. e.g. R2
+#   osai-explanation: Relation to Open and Sustainable AI (OSAI) Recommendation (see osai_recommendations.yml file in this folder) to aid understandability of mapping. e.g. Ersilia Model Hub is a registry (R2) providing accessible ML models for drug discovery/disease research.
+- description: text
+  id: x
+  name: x
+  url: 
+  biotools-url:
+  fairsharing-url:

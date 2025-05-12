@@ -66,7 +66,7 @@ All participants are expected to adhere to the project's [Code of Conduct](CODE_
 
 ## Contact
 
-For questions, suggestions, or to report issues, please open an [Issue](https://github.com/[your-username]/[your-repository-name]/issues) *(Replace `[your-username]/[your-repository-name]` with the actual repository path, e.g., `gavinf97/OSAI_ecosystem`)* in this repository, or contact the **maintainers** at **gavinmichael.farrell@studenti.unipd.it**.
+For questions, suggestions, or to report issues, please open an [Issue](https://github.com/gavinf97/OSAI_ecosystem]/issues) in this repository, or contact the **primary maintainer** at **gavinmichael.farrell@studenti.unipd.it**.
 
 ## Acknowledgements – RSQkit & RDMkit
 

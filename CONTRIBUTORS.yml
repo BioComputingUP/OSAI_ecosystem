@@ -1,0 +1,18 @@
+# List of contributors 
+# (template reused from RSQkit)
+#
+# Full Name:
+#    git: github id (required)
+#    email: email adress
+#    orcid: orcid id
+#    role: the role of the contributor (current possible values "editor" or leave empty)
+#    affiliation: affiliation
+#    image_url: absolute path to image (defaults to image from GitHub)
+# 
+# This information will later be used to represent contributor's for credit.
+
+
+Gavin Farrell:
+    git: gavinf97
+    orcid: 0000-0001-5166-8551
+    role: author

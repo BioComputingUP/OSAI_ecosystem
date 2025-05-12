@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: OSAI Ecosystem Components
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - name: ELIXIR Machine Learning Focus Group Members
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15391274
+repository-code: 'https://github.com/gavinf97/OSAI_ecosystem/'
+abstract: >-
+  Open and Sustainable AI (OSAI) Ecosystem Components, is a GitHub hpsted resource to track and maintain a reusable components list of AI ecocystem components.
+  This list maintained as open JSON can be hosted and mapped to community recommendations spanning, FAIR, Open, Sustainable, (+types) of AI where relevant. 
+  A sample implementation cna be found on https://dome-ml.org/ai-ecosystem.
+keywords:
+  - AI
+  - Open
+  - Sustainable
+  - FAIR
+  - research
+license:  
+version: v1.0.0
+date-released: '2025-05-12'

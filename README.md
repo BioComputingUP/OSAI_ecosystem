@@ -2,7 +2,7 @@
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-<!-- [![DOI](https://zenodo.org/badge/DOI/...)](...) --> <!-- Keep DOI badge here or move below -->
+<!-- [![DOI](https://doi.org/10.5281/zenodo.15391273)](https://doi.org/10.5281/zenodo.15391273) 
 
 Welcome to the Open and Sustainable AI (OSAI) Ecosystem Catalog! This repository hosts a community-curated list of components relevant to building and utilizing AI in ways that are transparent, fair, accessible, and environmentally conscious.
 

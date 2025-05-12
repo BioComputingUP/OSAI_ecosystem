@@ -11,7 +11,7 @@ Our goal is to provide a central resource for discovering tools, datasets, model
 The catalog data is maintained in human-readable Tab-Separated Values (`.tsv`) files within the `/data` directory. These files are automatically converted to JSON format for easy consumption by websites and applications.
 
 > [!NOTE]
-> This catalog is under active development and curation. Contributions and suggestions are highly encouraged!
+> This catalog is under active development and curation. Community curation contributions and suggestions are very welcome to create an open and living components lsit to facilitate, Open and Sustainable AI.
 
 ## Contributing
 

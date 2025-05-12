@@ -12,13 +12,13 @@ Our goal is to provide a centrally curated list for discovering relevant AI reso
 
 ## OSAI Ecosystem Components: Background and Purpose
 
-This list originates from an upcoming publication by members of the **ELIXIR Machine Learning Focus Group** found at: (TBC). It represents a collective effort to identify and map key components supporting the **OSAI Recommendations** within the life sciences.
+This list originates from an upcoming publication by members of the **ELIXIR Machine Learning Focus Group**. It represents a collective effort to identify and map key components supporting the **OSAI Recommendations** within the life sciences.
 
-**Digital Object Identifier (DOI):** [*https://doi.org/10.5281/zenodo.15391274*](https://doi.org/10.5281/zenodo.15391274)
+**Digital Object Identifier (DOI):** TBC - upon preprint.
 
 The primary goal of this list is to serve as a dynamic, community-maintained inventory. It is explicitly **designed for reuse and adaptation**. We envision this list feeding into various resources, frameworks, and platforms, providing a long-term, accessible collection of OSAI ecosystem components.
 
-While the initial curation may align with specific OSAI principles or **OSAI Recommendations**, the structure allows the components listed here to be mapped or repurposed according to different sets of guidelines or perspectives. We acknowledge that there is no single, perfect set of **OSAI Recommendations**, and diverse global viewpoints exist. This list aims to support these varied efforts by providing a central, collaboratively curated foundation of relevant tools, data, models, and practices.
+While the initial curation may align with specific OSAI principles or **OSAI Recommendations**, the structure allows the components listed here to be mapped or repurposed according to different sets of guidelines or perspectives. We acknowledge that there is no single, perfect set of AI best practice recommendations, and diverse global viewpoints exist. This list aims to support these varied efforts by providing a central, collaboratively curated foundation of AI sharing relevant tools, resgistries, metadata, and practices.
 
 ---
 
@@ -56,10 +56,9 @@ Information about the license can be found in [LICENSE.md](LICENSE.md). By contr
 
 If you use this list in your work, please cite it. We recommend using the `CITATION.cff` file in the repository root for standardized citation information.
 
-*Recommended Citation (please update via `CITATION.cff` and Zenodo once finalized):*
-> OSAI Community Contributors. (Year). *OSAI Ecosystem Components List*. GitHub Repository. [Insert GitHub Repository URL here, e.g., https://github.com/gavinf97/OSAI_ecosystem]. [Insert DOI for the list/repository here, if applicable]
+*Recommended Citation:*
 
-See [CITATION.cff](CITATION.cff) (once created and finalized).
+See [CITATION.cff](CITATION.cff) 
 
 ## Code of Conduct
 

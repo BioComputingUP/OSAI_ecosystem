@@ -6,7 +6,7 @@
 
 Welcome to the Open and Sustainable AI (OSAI) Ecosystem Components list! This repository hosts a community-curated list of AI relevant components useful in AI research to help make developed models and datasets more FAIR, Open and resultingly Environmentally Sustainable.
 
-Our goal is to provide a centrally ciurated list for discovering relevant AI resources such as tools, regsistries, best practice frameworks, which we have mapped to the OSAI Recommendations. We understand the OSAI Recommendations may not be in use by all organisations but the ecocystem components may be of great value. Therefore, this listis intended for researchers, developers, policymakers, educators, students, and anyone interested in the field of Open and Sustainable AI to reuse them for their own resources as needed such as through remapping the components or other modes of repurposing.
+Our goal is to provide a centrally ciurated list for discovering relevant AI resources such as tools, regsistries, metadata standards, AI best practice frameworks, +. We have then used this collection to map to our OSAI Recommendations to support matching researchers to practical AI model and dataset sharing support resources. We understand the OSAI Recommendations may not be in use by all organisations but that the list of ecocystem components may be of great value. Therefore, this list is intended for researchers, developers, policymakers, educators, students, and anyone interested in the field of Open and Sustainable AI to reuse them for their own resources as needs, such as through remapping the components.
 
 ---
 

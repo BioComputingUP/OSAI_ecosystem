@@ -33,14 +33,13 @@ We welcome contributions to help grow and maintain this resource. The **OSAI Eco
 
 The contribution process is designed to be straightforward:
 
-1.  **Edit the TSV:** Locate the `ecosystem_components.tsv` file in the `/data` directory. Add your component or modify existing lines.
+1.  **Edit the .yml file:** Locate the `ecosystem_components.yml` file in the `/data` directory. Add a new component using the template and correct fields or modify existing lines.
 2.  **Submit a Pull Request (PR):** Propose your changes via a GitHub Pull Request. Please use the provided PR template to describe your contribution.
 3.  **Review:** The project maintainers will review your submission for relevance, accuracy, and formatting.
 4.  **Merge & Convert:** Once approved, your changes will be merged into the main `ecosystem_components.tsv` file. The updated JSON file will be automatically generated shortly thereafter.
 
 After contributing:
-1.  **JSON Generation:** The `ecosystem_components.tsv` file (in `/data`) will be automatically converted to a web-reusable JSON format (e.g., for use in other resources). The generated JSON will be made available with versioning.
-2.  **Hosted Online:** The JSON will be used to populate the **OSAI Ecosystem Components List** on [https://dome-ml.org/ai-ecosystem](https://dome-ml.org/ai-ecosystem).
+1.  **Hosted Online:** The JSON will be used to populate the **OSAI Ecosystem Components List** on [https://dome-ml.org/ai-ecosystem](https://dome-ml.org/ai-ecosystem).
 
 **Please see our [Contribution Guidelines](CONTRIBUTING.md) for detailed instructions on formatting entries and the PR process.**
 

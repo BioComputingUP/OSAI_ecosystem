@@ -4,17 +4,17 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15391273.svg)](https://doi.org/10.5281/zenodo.15391273) 
 
-Welcome to the Open and Sustainable AI (OSAI) Ecosystem Catalog! This repository hosts a community-curated list of components relevant to building and utilizing AI in ways that are transparent, fair, accessible, and environmentally conscious.
+Welcome to the Open and Sustainable AI (OSAI) Ecosystem Components list! This repository hosts a community-curated list of AI relevant components useful in AI research to help make developed models and datasets more FAIR, Open and environmentally Sustainable.
 
-Our goal is to provide a central resource for discovering tools, datasets, models, frameworks, research, best practices, organizations, and educational materials aligned with OSAI principles. This catalog is intended for researchers, developers, policymakers, educators, students, and anyone interested in the field of open and sustainable AI.
+Our goal is to provide a centrally ciurated list for discovering relevant AI resources such as tools, regsistries, best practice frameworks, which we have mapped to the OSAI Recommendations. We understand the OSAI Recommendations may not be in use by all organisations but the ecocystem components may be of great value. Therefore, this listis intended for researchers, developers, policymakers, educators, students, and anyone interested in the field of Open and Sustainable AI to reuse them for their own resources as needed such as through remapping the components or other modes of repurposing.
 
 ---
 
-## Project Background and Purpose
+## OSAI Ecosystem Components: Background and Purpose
 
-This catalog originates as a publication and curated resource from the **ELIXIR Machine Learning Focus Group**. It represents a collective effort to identify and organize key components supporting Open and Sustainable AI (OSAI) practices within the life sciences and beyond.
+This list originates from our upcoming publication by members of the **ELIXIR Machine Learning Focus Group**. It represents a collective effort to identify and map key components supporting Open and Sustainable AI (OSAI) Recommendations within the life sciences.
 
-**Digital Object Identifier (DOI):** *[Space reserved for DOI - e.g., https://doi.org/...]*
+**Digital Object Identifier (DOI):** *[https://doi.org/10.5281/zenodo.15391274]*
 
 The primary goal of this catalog is to serve as a dynamic, community-maintained inventory. It is explicitly **designed for reuse and adaptation**. We envision this list feeding into various resources, frameworks, and platforms, providing a long-term, accessible collection of OSAI ecosystem components.
 

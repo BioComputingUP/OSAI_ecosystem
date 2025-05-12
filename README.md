@@ -27,19 +27,21 @@ The catalog data is maintained in human-readable Tab-Separated Values (`.tsv`) f
 > [!NOTE]
 > This catalog is under active development and curation. Contributions and suggestions are highly encouraged!
 
-## Contributing
-... (rest of the README follows) ...
 
 ## Contributing
 
-We welcome contributions to help grow and maintain this valuable resource! The OSAI catalog relies on community input.
+We welcome contributions to help grow and maintain this resource. The OSAI ecosystem components relies on community input and updating to remain of value.
 
 The contribution process is designed to be straightforward:
 
-1.  **Edit the TSV:** Identify the correct `.tsv` file in the `/data` directory for your component and add or modify the relevant line(s).
+1.  **Edit the TSV:** Identify the `ecosystem_components.tsv` file in the `/data` directory for your component and add or modify the relevant line(s).
 2.  **Submit a Pull Request (PR):** Propose your changes via a GitHub Pull Request. Please use the provided PR template to describe your contribution.
 3.  **Review:** The project maintainers will review your submission for relevance, accuracy, and formatting.
-4.  **Merge & Convert:** Once approved, your changes will be merged into the main `.tsv` file. The updated JSON file will be automatically generated shortly after.
+4.  **Merge & Convert:** Once approved, your changes will be merged into the main `ecosystem_components.tsv` file. The updated JSON file will be automatically generated shortly after.
+
+After contributing:
+1. **JSON Generation** The TSV will be converted automatically for web reusable JSON for example in other resources and made available with versioning under `ecosystem_components.tsv` file in the `/data`.
+2. **Hosted online** The JSON will be used to feed the OSAI Ecosystem Components list on https://dome-ml.org/ai-ecosystem
 
 **Please see our [Contribution Guidelines](CONTRIBUTING.md) for detailed instructions on formatting entries and the PR process.**
 
@@ -56,7 +58,7 @@ Information about the license can be found in [LICENSE.md](LICENSE.md). By contr
 If you use this catalog in your work, please cite it. We recommend creating a `CITATION.cff` file in the repository root for standardized citation information.
 
 *Placeholder Citation (update once finalized, possibly via CITATION.cff and Zenodo):*
-> OSAI Community Contributors. (2025). *OSAI: Open and Sustainable AI Ecosystem Catalog*. GitHub Repository. https://github.com/[your-username]/OSAI *(Replace with actual URL)*
+> OSAI Community Contributors. (2025). *OSAI: Open and Sustainable AI Ecosystem Catalog*. GitHub Repository. https://github.com/gavinf97/OSAI_ecosystem
 
 See [CITATION.cff](CITATION.cff) (once created).
 
@@ -66,11 +68,8 @@ All participants are expected to adhere to the project's [Code of Conduct](CODE_
 
 ## Contact
 
-For questions, suggestions, or to report issues, please open an [Issue](https://github.com/[your-username]/OSAI/issues) *(Replace with actual URL)* in this repository, or contact the maintainers at **[INSERT CONTACT METHOD HERE]**.
+For questions, suggestions, or to report issues, please open an [Issue](https://github.com/[your-username]/OSAI/issues) *(Replace with actual URL)* in this repository, or contact the maintainers at **gavinmichael.farrell@studenti.unipd.it**.
 
-## Acknowledgements
+## Acknowledgements - RSQkit & RDMkit
 
-The structure and documentation approach of this repository drew inspiration from the excellent work done by the [Research Software Quality Kit (RSQKit)](https://github.com/EVERSE-ResearchSoftware/RSQKit) and ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/).
-
-<!-- ## Funding
-Optional: Add any relevant funding information here. -->
+This repostiories structure and documentation approach draws direct inspiration and code from the excellent work done by the [Research Software Quality Kit (RSQKit)](https://github.com/EVERSE-ResearchSoftware/RSQKit) and ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/).

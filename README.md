@@ -3,7 +3,6 @@
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15391274.svg)](https://doi.org/10.5281/zenodo.15391274)
-*(Note: The DOI badge above now matches the DOI linked in the "Background and Purpose" section. Please verify this is the intended primary DOI.)*
 
 Welcome to the **OSAI Ecosystem Components List**! This repository hosts a community-curated list of AI-relevant components useful for AI research. Our aim is to connect researchers developing AI models and datasets with resources that are FAIR, Open, and environmentally sustainable.
 

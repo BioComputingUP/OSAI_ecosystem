@@ -1,2 +1,62 @@
-# OSAI_ecosystem
+# Open & Susatainable AI Ecosystem
 A community-curated catalog of Open and Sustainable AI (OSAI) ecosystem components. 
+
+# OSAI: Open and Sustainable AI Ecosystem Catalog
+
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+<!-- [![DOI](https://zenodo.org/badge/DOI/...)](...) -->
+
+Welcome to the Open and Sustainable AI (OSAI) Ecosystem Catalog! This repository hosts a community-curated list of components relevant to building and utilizing AI in ways that are transparent, fair, accessible, and environmentally conscious.
+
+Our goal is to provide a central resource for discovering tools, datasets, models, frameworks, research, best practices, organizations, and educational materials aligned with OSAI principles. This catalog is intended for researchers, developers, policymakers, educators, students, and anyone interested in the field of open and sustainable AI.
+
+The catalog data is maintained in human-readable Tab-Separated Values (`.tsv`) files within the `/data` directory. These files are automatically converted to JSON format for easy consumption by websites and applications.
+
+> [!NOTE]
+> This catalog is under active development and curation. Contributions and suggestions are highly encouraged!
+
+## Contributing
+
+We welcome contributions to help grow and maintain this valuable resource! The OSAI catalog relies on community input.
+
+The contribution process is designed to be straightforward:
+
+1.  **Edit the TSV:** Identify the correct `.tsv` file in the `/data` directory for your component and add or modify the relevant line(s).
+2.  **Submit a Pull Request (PR):** Propose your changes via a GitHub Pull Request. Please use the provided PR template to describe your contribution.
+3.  **Review:** The project maintainers will review your submission for relevance, accuracy, and formatting.
+4.  **Merge & Convert:** Once approved, your changes will be merged into the main `.tsv` file. The updated JSON file will be automatically generated shortly after.
+
+**Please see our [Contribution Guidelines](CONTRIBUTING.md) for detailed instructions on formatting entries and the PR process.**
+
+The OSAI project is maintained by the **Project Team**, who review contributions and manage the repository.
+
+## License
+
+The content of this catalog (the data in TSV and generated JSON files) is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+Information about the license can be found in [LICENSE.md](LICENSE.md). By contributing, you agree that your contributions will be licensed under CC BY 4.0.
+
+## Citation
+
+If you use this catalog in your work, please cite it. We recommend creating a `CITATION.cff` file in the repository root for standardized citation information.
+
+*Placeholder Citation (update once finalized, possibly via CITATION.cff and Zenodo):*
+> OSAI Community Contributors. (2025). *OSAI: Open and Sustainable AI Ecosystem Catalog*. GitHub Repository. https://github.com/[your-username]/OSAI *(Replace with actual URL)*
+
+See [CITATION.cff](CITATION.cff) (once created).
+
+## Code of Conduct
+
+All participants are expected to adhere to the project's [Code of Conduct](CODE_OF_CONDUCT.md). Please ensure you are familiar with its contents.
+
+## Contact
+
+For questions, suggestions, or to report issues, please open an [Issue](https://github.com/[your-username]/OSAI/issues) *(Replace with actual URL)* in this repository, or contact the maintainers at **[INSERT CONTACT METHOD HERE]**.
+
+## Acknowledgements
+
+The structure and documentation approach of this repository drew inspiration from the excellent work done by the [Research Software Quality Kit (RSQKit)](https://github.com/EVERSE-ResearchSoftware/RSQKit) and ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/).
+
+<!-- ## Funding
+Optional: Add any relevant funding information here. -->

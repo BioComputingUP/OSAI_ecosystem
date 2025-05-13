@@ -1,6 +1,6 @@
 # Contributing to the Open and Sustainable AI (OSAI) Ecosystems Components List
 
-Thank you for your interest in contributing! This document outlines how to contribute to the OSAI Ecosystems Components List, a community-curated GitHub of AI resources that support sustainable, FAIR and Open AI.
+Thank you for your interest in contributing! This document outlines how to contribute to the OSAI Ecosystem Components List, a community-curated GitHub of AI resources that support sustainable, FAIR and Open AI.
 
 We primarily use a GitHub-based workflow. Contributions are made via Pull Requests (PRs) which are then reviewed and merged by the project maintainers.
 

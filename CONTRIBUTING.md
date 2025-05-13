@@ -56,18 +56,23 @@ This is the preferred way to add or modify resources on the list.
 ## What to Contribute
 We welcome contributions that add or improve:
 
-* **AI Resources:** Links and brief descriptions of tools, datasets, frameworks, platforms, libraries, research papers, or educational materials that can be used to support fair, transparent, ethical, and open AI development and deployment.
+* **AI Resources:** Links and brief descriptions of tools, datasets, frameworks, platforms, libraries, research papers, or educational materials that can be used to support FAIR, transparent, ethical, and Open AI development and sharing.
 * **Corrections:** Fixes for typos, broken links, or outdated information.
 * **Categorization/Organization:** Suggestions or PRs that improve the structure and findability of the list (discuss via an issue first for major changes).
 
-When adding a resource, please consider its relevance to:
-* Transparency and Explainability (XAI)
-* Bias detection and mitigation
-* Fairness and equity in AI
-* Privacy-preserving AI techniques
-* Open-source AI models and tools
-* Ethical AI guidelines and best practices
-* Accessibility in AI
+When adding a resource, please consider its mappings to the correct OSAI Recommendations:
+**Reusability**
+* R1: Generate and share standardised AI metadata for models and datasets
+* R2: Leverage AI registries as central hubs for sharing and discovering reusable AI models and datasets
+* R3: Host, promote and share trainings on correct deposition of AI research objects for reuse
+**Reproducibility**
+* R4: Ensure transparent disclosure and clear documentation of all model relevant information
+* R5: Provide portable code and reproducible environments to facilitate smooth reuse
+* R6: Use standardised ML datasets and benchmarking evaluation protocols to facilitate model comparability
+**Environmental sustainability**
+* R7: Use standardised ML datasets and benchmarking evaluation protocols to facilitate model comparability
+* R8: Implement green AI model development techniques
+* R9: Choose and optimise hardware to reduce environmental impact
 
 ## What Not to Contribute
 * Resources that are primarily commercial without a significant free/open tier or component directly supporting open and sustainable AI.
@@ -76,7 +81,7 @@ When adding a resource, please consider its relevance to:
 * Promotional material disguised as resources.
 
 ## Contribution Licensing
-By contributing, you agree that your contributions will be licensed under the project's license (e.g., CC-BY-4.0 or MIT - *please specify your chosen license here*). All contributed content must respect the copyrights of others.
+By contributing, you agree that your contributions will be licensed under the project's license CC-BY-4.0. All contributed content must respect the copyrights of others.
 
 ## Review Process
 Project maintainers will review Pull Requests.
@@ -84,4 +89,4 @@ Project maintainers will review Pull Requests.
 * Feedback or requests for changes may be made via comments on the Pull Request.
 * Once a PR is approved, a maintainer will merge it into the `main` branch.
 
-We appreciate your contributions to building a valuable resource for the Open and Sustainable AI community!
+We appreciate your contributions to building a valuable list of OSAI Ecosystem components!

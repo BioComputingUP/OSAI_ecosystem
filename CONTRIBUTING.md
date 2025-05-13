@@ -60,16 +60,22 @@ We welcome contributions that add or improve:
 * **Corrections:** Fixes for typos, broken links, or outdated information.
 * **Categorization/Organization:** Suggestions or PRs that improve the structure and findability of the list (discuss via an issue first for major changes).
 
-When adding a resource, please consider its mappings to the correct OSAI Recommendations:
+When adding a resource, please consider its mappings to the correct OSAI Recommendations: 
+
 **Reusability**
+
 * R1: Generate and share standardised AI metadata for models and datasets
 * R2: Leverage AI registries as central hubs for sharing and discovering reusable AI models and datasets
 * R3: Host, promote and share trainings on correct deposition of AI research objects for reuse
+  
 **Reproducibility**
+
 * R4: Ensure transparent disclosure and clear documentation of all model relevant information
 * R5: Provide portable code and reproducible environments to facilitate smooth reuse
 * R6: Use standardised ML datasets and benchmarking evaluation protocols to facilitate model comparability
+  
 **Environmental sustainability**
+
 * R7: Use standardised ML datasets and benchmarking evaluation protocols to facilitate model comparability
 * R8: Implement green AI model development techniques
 * R9: Choose and optimise hardware to reduce environmental impact

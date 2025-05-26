@@ -394,7 +394,7 @@
   access-model: Free
   domain: domain-agnostic # Applies to all ML-based science
   osai-recommendation: R4
-  osai-explanation: Focuses on disclosing relevant model and dataset information.
+  osai-explanation: Focuses on practical guide for disclosing relevant model and dataset information (R4).
 
 - id: quareplimiimagechecklists
   name: Community-developed checklists for publishing images and image analyses
@@ -408,7 +408,7 @@
   access-model: Free
   domain: life science # QUAREP-LiMi is for Light Microscopy, often biological
   osai-recommendation: R4
-  osai-explanation: Provides guidelines for disclosing information.
+  osai-explanation: Provides guidelines for disclosing light microscopy AI information (R4).
 
 - id: sustainablemldesignpatternmatrix
   name: Sustainable ML Design Pattern Matrix (SML-DPM)
@@ -417,19 +417,19 @@
     Framework or matrix organizing design patterns for creating more environmentally
     sustainable and energy-efficient machine learning systems. Specific public URL
     not readily found, concept exists in green AI literature.
-  url: ''
+  url: https://link.springer.com/article/10.1007/s10796-024-10526-6
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R7
-  osai-explanation: Directly relates to implementing green AI/ML techniques.
+  osai-explanation: Directly relates to guiding the implementing of Green AI/ML techniques.
 
 - id: greensoftwarepatterns
   name: Green Software Patterns
   type: Best practice
   description: >-
-    Collection of design patterns by the Green Software Foundation to build
+    Collection of software design patterns by the Green Software Foundation to build
     more energy-efficient and environmentally sustainable software, applicable to
     ML systems.
   url: https://patterns.greensoftware.foundation/
@@ -437,8 +437,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R7
-  osai-explanation: Directly relates to implementing green AI/ML techniques.
+  osai-recommendation: R7, R8
+  osai-explanation: Directly hosts accessible information for implementing Green AI/ML techniques (R7, 8).
 
 - id: greenalgorithms
   name: Green Algorithms
@@ -452,7 +452,7 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R9
-  osai-explanation: Measures and monitors environmental impact.
+  osai-explanation: Measures and monitors environmental impact which can be reported.
 
 - id: codeocean
   name: Code Ocean
@@ -479,8 +479,8 @@
   fairsharing-url: ''
   access-model: Free with Paid Tiers
   domain: domain-agnostic
-  osai-recommendation: R2, R5, R8
-  osai-explanation: Platform for sharing (R2), using notebooks for portable code (R5), and providing hardware access (R8).
+  osai-recommendation: R5
+  osai-explanation: Platform for sharing model code using notebooks for portability (R5).
 
 - id: codeberg
   name: CodeBerg
@@ -512,17 +512,17 @@
 
 - id: biomodels
   name: BioModels
-  type: Database
+  type: Registry
   description: >-
     EMBL-EBI repository for storing, sharing, and simulating quantitative
     models of biological processes, including systems biology and ML-based models.
   url: https://www.ebi.ac.uk/biomodels/
-  biotools-url: https://bio.tools/biomodels_database
-  fairsharing-url: https://fairsharing.org/FAIRsharing.jpt2xj
+  biotools-url: https://bio.tools/biomodels
+  fairsharing-url: https://fairsharing.org/FAIRsharing.paz6mh
   access-model: Free
   domain: life science
   osai-recommendation: R2
-  osai-explanation: Database for sharing models.
+  osai-explanation: Database that hosts and shares ML models (R2).
 
 - id: dataverse
   name: Dataverse

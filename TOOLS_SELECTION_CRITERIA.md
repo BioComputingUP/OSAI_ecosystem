@@ -1,12 +1,14 @@
 # Introduction
 
-This page contains set of criteria to help community curators determine if something is suitable for our TSV maintained **OSAI Ecosystem components list**.
+This page contains a set of criteria to help community curators determine if a resource is suitable for inclusion in the **AI Ecosystem components list file**.
 
-This list is not intended to be exclusive, but capture all relevant components that can be mapped to community recommendation/guidance frameworks to support FAIR, Open, Sustainable, Responsible, Green, + AI. This mapping will support practical implemntations and can be hosted on community supported resources.
+This AI Ecosystem components list (ecosystem_components_list.yml) aims to capture relevant resources that can be mapped to community recommendation and guidance frameworks, such as the Open & Sustainable AI (OSAI) recommendations (see paper: [https://arxiv.org/abs/2505.16619](https://arxiv.org/abs/2505.16619)). While the OSAI recommendations detailed in that paper have a strong life science focus, the AI Ecosystem components list itself is designed to be broadly applicable. The goal is to support the practical implementation of principles like FAIR, Open, Sustainable, Responsible, and Green AI.
 
-An example hosting of this tool list can be found on [ELIXIR's DOME website](https://dome-ml.org/ai-ecosystem). Howeverm we hope it can be reused and adapted for other scientific domains or global regions where recommendation and guidance frameworks differ.
+An example of this AI Ecosystem components list being hosted and utilized can be found on [ELIXIR's DOME website](https://dome-ml.org/ai-ecosystem). However, we hope this list structure and its underlying YAML format can be reused and adapted for other scientific domains or global regions, especially where different recommendation and guidance frameworks are pertinent.
 
-# Initial category of AI resource captured:
+# Categories of AI resources captured:
+
+The AI Ecosystem components list captures various types of resources, categorized as follows:
 
 - AI/ML Library (e.g. Scikit-learn)
 - Analysis platform (e.g. Google Colab)
@@ -22,7 +24,7 @@ An example hosting of this tool list can be found on [ELIXIR's DOME website](htt
 - Registry (e.g. Ersilia Model Hub)
 - Reproducibility tool (e.g. Bioconda)
 - Standard (e.g. Schema.org)
-- Tool (e.g. Green Algortihms)
+- Tool (e.g. Green Algorithms)
 - Training (e.g. Coursera)
 - Visualisation tool (e.g. TensorBoard)
 - Other (e.g. **anything not within the other categories above**)

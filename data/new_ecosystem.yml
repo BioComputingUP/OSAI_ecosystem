@@ -59,8 +59,8 @@
   description: >-
     Python library for advanced Natural Language Processing (NLP) tasks,
     designed for production use. Features include NER, POS tagging, dependency parsing,
-    and word vectors.
-  url: https://github.com/explosion/spaCy
+    and word vectors. Also contains spaCy biomedical solutions.
+  url: https://spacy.io/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
@@ -75,13 +75,13 @@
     Widely-used Python library providing tools and corpora for Natural
     Language Processing research and development, including tokenization, stemming,
     tagging, parsing, and classification.
-  url: https://github.com/nltk/nltk
-  biotools-url: https://bio.tools/nltk
+  url: https://www.nltk.org/
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: As a library, it provides code that can be made portable.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: transformers
   name: Transformers (Hugging Face)
@@ -90,27 +90,27 @@
     Hugging Face library providing thousands of pre-trained models for
     Natural Language Processing (NLP), Computer Vision (CV), and audio tasks. Enables
     easy download and use of state-of-the-art transformer models.
-  url: https://github.com/huggingface/transformers
+  url: https://huggingface.co/docs/transformers/en/index
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R2, R5
-  osai-explanation: Provides access to models (R2) and is a library for portable code (R5).
-
+  osai-recommendation: R2
+  osai-explanation: Provides access to pretrained reusable models (R2).
+  
 - id: pytorchlightning
   name: PyTorch Lightning
   type: AI/ML Library
   description: >-
     A lightweight PyTorch wrapper for high-performance AI research. Scales
     models and training loops with minimal code changes.
-  url: https://github.com/Lightning-AI/lightning
+  url: https://lightning.ai/docs/pytorch/stable/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: Focuses on code structure for models, contributing to portability.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: fastai
   name: Fastai
@@ -118,13 +118,13 @@
   description: >-
     High-level deep learning library built on PyTorch, simplifying the
     training of fast and accurate neural nets using modern best practices.
-  url: https://github.com/fastai/fastai
-  biotools-url: https://bio.tools/fastai
+  url: https://www.fast.ai/
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5, R3
-  osai-explanation: Offers training/courses on best practices (R3) and is a library for portable code (R5).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: xgboost
   name: XGBoost
@@ -137,8 +137,8 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5, R7
-  osai-explanation: Library for portable code (R5); efficiency can be a green AI technique (R7).
+  osai-recommendation: R7
+  osai-explanation: Improved model efficiency is a green AI technique (R7).
 
 - id: lightgbm
   name: LightGBM
@@ -147,13 +147,13 @@
     Gradient boosting framework by Microsoft that uses tree-based learning
     algorithms. Known for its speed, efficiency, and performance, especially with
     large datasets.
-  url: https://github.com/microsoft/LightGBM
-  biotools-url: https://bio.tools/lightgbm
+  url: https://lightgbm.readthedocs.io/en/stable/
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5, R7
-  osai-explanation: Library for portable code (R5); efficiency can be a green AI technique (R7).
+  osai-recommendation: R7
+  osai-explanation: Improved model efficiency is a green AI technique (R7).
 
 - id: dask
   name: Dask
@@ -167,8 +167,8 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: Facilitates portable and scalable code.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: replicate
   name: Replicate

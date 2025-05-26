@@ -8,7 +8,7 @@ An example of this AI Ecosystem components list being hosted and utilized can be
 
 # Categories of AI ecosystem components captured:
 
-The AI Ecosystem components list captures various types of resources and aims to have a wider focus to ensure best content value, categorized as follows:
+The AI Ecosystem components list captures various types of resources and aims to have a wide focus to ensure all relevant components are captured. They are categorized as follows:
 
 - AI/ML Library (e.g. Scikit-learn)
 - Analysis platform (e.g. Google Colab)

@@ -162,8 +162,8 @@
     Flexible parallel computing library for Python that scales existing
     Python libraries like NumPy, Pandas, and Scikit-learn to larger-than-memory datasets
     or distributed environments.
-  url: https://github.com/dask/dask
-  biotools-url: https://bio.tools/dask
+  url: https://www.dask.org/
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
@@ -174,15 +174,15 @@
   name: Replicate
   type: Analysis platform
   description: >-
-    Platform for running and sharing machine learning models via APIs.
-    Users can run models hosted by others or deploy their own.
-  url: https://replicate.com/
+    Primarily a platform for running and sharing machine learning models via APIs.
+    Users can also discover or run models hosted by others and deploy their own.
+  url: https://replicate.com/explore
   biotools-url: ''
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Acts as a registry/platform to share models.
+  osai-explanation: Acts as a registry/platform to find and share models (very commercial focused).
 
 - id: databrickslakehouseplatform
   name: Databricks Lakehouse Platform
@@ -190,14 +190,14 @@
   description: >-
     Unified data analytics platform that combines data lakes with data
     warehouses to provide a single source for data engineering, machine learning,
-    and business analytics.
+    and business analytics. Commercial focused.
   url: https://www.databricks.com/product/data-lakehouse
   biotools-url: ''
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Can host models and datasets for AI.
+  osai-explanation: Can be used to host models and datasets for AI.
 
 - id: vertaai
   name: Verta.ai
@@ -224,8 +224,8 @@
   fairsharing-url: ''
   access-model: Free with Paid Tiers
   domain: domain-agnostic
-  osai-recommendation: R4, R9
-  osai-explanation: Tracks experiments (R4) and can monitor resource usage (R9).
+  osai-recommendation: R4, R6
+  osai-explanation: Tracks experiments (R4) and can be used for benchmarking (R6).
 
 - id: labelstudio
   name: Label Studio
@@ -233,13 +233,13 @@
   description: >-
     Open-source data labeling tool supporting various data types (images,
     text, audio, video, time series) for machine learning.
-  url: https://github.com/heartexlabs/label-studio
+  url: https://labelstud.io/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R6
-  osai-explanation: Aids in standardizing datasets through labeling.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: nvidiagpucloudngc
   name: NVIDIA GPU Cloud (NGC)
@@ -263,12 +263,12 @@
     (Notebook, Lab) supporting code, equations, visualizations, and narrative text
     across many programming languages.
   url: https://jupyter.org/
-  biotools-url: https://bio.tools/jupyter
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
   osai-recommendation: R5
-  osai-explanation: Notebooks facilitate portable code and documentation.
+  osai-explanation: Notebooks facilitate portable code and documentation (R5).
 
 - id: apachesark
   name: Apache Spark
@@ -281,8 +281,8 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: Provides a framework for scalable and potentially portable ML code.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: dreamchallenges
   name: DREAM (Dialogue for Reverse Engineering Assessments and Methods) Challenges
@@ -296,7 +296,7 @@
   access-model: Free
   domain: life science
   osai-recommendation: R6
-  osai-explanation: Defines evaluation protocols and uses standardized datasets.
+  osai-explanation: Defines benchmarking evaluation protocols and uses standardized datasets (R6).
 
 - id: mlperf
   name: MLPerf
@@ -309,8 +309,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R6, R8, R9
-  osai-explanation: Standardizes evaluation (R6), hardware performance (R8), and energy (R9).
+  osai-recommendation: R6, R8
+  osai-explanation: Standardizes model performance evaluation (R6), and considers hardware performance (R8).
 
 - id: bioasq
   name: BioASQ (Biomedical Semantic Question Answering)
@@ -338,7 +338,7 @@
   access-model: Free
   domain: life science
   osai-recommendation: R6
-  osai-explanation: Defines evaluation protocols and uses standardized datasets.
+  osai-explanation: Defines intrinsically disordered proteins (IDP) prediction evaluation protocols and uses standardized datasets (R6).
 
 - id: casp
   name: CASP (Critical Assessment of protein Structure Prediction)
@@ -352,7 +352,7 @@
   access-model: Free
   domain: life science
   osai-recommendation: R6
-  osai-explanation: Defines evaluation protocols and uses standardized datasets.
+  osai-explanation: Defines protein structure prediction evaluation protocols and uses standardized datasets (R6).
 
 - id: cagi
   name: CAGI (Critical Assessment of Genome Interpretation)
@@ -366,7 +366,7 @@
   access-model: Free
   domain: life science
   osai-recommendation: R6
-  osai-explanation: Defines evaluation protocols and uses standardized datasets.
+  osai-explanation: Defines genomic interpretation prediction evaluation protocols and uses standardized datasets (R6).
 
 - id: esipaireadinesschecklist
   name: Checklist to Examine AI-readiness for Open Environmental Datasets. Version 1.0. Earth Science Information Partners.

@@ -6,9 +6,9 @@ This AI Ecosystem components list (ecosystem_components_list.yml) aims to captur
 
 An example of this AI Ecosystem components list being hosted and utilized can be found on [ELIXIR's DOME website](https://dome-ml.org/ai-ecosystem). However, we hope this list structure and its underlying YAML format can be reused and adapted for other scientific domains or global regions, especially where different recommendation and guidance frameworks are pertinent.
 
-# Categories of AI resources captured:
+# Categories of AI ecosystem components captured:
 
-The AI Ecosystem components list captures various types of resources, categorized as follows:
+The AI Ecosystem components list captures various types of resources and aims to have a wider focus to ensure best content value, categorized as follows:
 
 - AI/ML Library (e.g. Scikit-learn)
 - Analysis platform (e.g. Google Colab)

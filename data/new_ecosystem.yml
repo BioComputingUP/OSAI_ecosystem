@@ -1,22 +1,27 @@
 
 ```yaml
-# List of tools and resources reusing YAML file format from EVERSE RSQkit which supports community curation, interoperability and aids reuse.
-# Metadata format of the EVERSE RSQkit: https://w3id.org/everse/rs/0.0.1
-# This list of tools is mapped to the Open & Sustainable AI (OSAI) Recommendations (https://arxiv.org/abs/2505.16619) but can be copied and repurposed with other mappings.
+# This AI Ecosystem components list reuses the YAML file format from the EVERSE RSQkit
+# (metadata format: https://w3id.org/everse/rs/0.0.1), which supports community curation,
+# interoperability, and reuse.
 #
-# Before contributing be sure to check the CONTRIBUTING.md information.
+# It is mapped to the Open & Sustainable AI (OSAI) Recommendations
+# (see paper: https://arxiv.org/abs/2505.16619) but can be copied and
+# repurposed with other mappings for different domains or regions.
 #
-# Tool entry template information:
-# - description: A short description of the purpose of the resource
-#   type: This is the resource category type chosen from those maintained in the TOOLS_SELECTION_CRITERIA.md file in the top level folder e.g. Registry
-#   id: This is the id by which the resource will be referenced on where used on other webpages e.g. for Ersilia Model Hub the id is ersiliamodelhub
-#   name: This is the name of the resource e.g. Ersilia Model Hub
-#   url: the primary homepage of the resource e.g. https://www.ersilia.io/model-hub
-#   biotools-url: This is followed by a bio.tools registry link containing information about this resource (where available)  e.g. https://bio.tools/entry
-#   fairsharing-url: This is followed by a fairsharing.org registry link containing information about this resource (where available) e.g. https://fairsharing.org/FAIRsharing.X
-#   osai-recommendation: Open and Sustainable AI (OSAI) Recommendation (see osai_recommendations.yml file in this folder) to create direct mappings. More than one OSAI Recommendation may be declared per entry as per formatting. e.g. R2 / for multiple: R2, R3
-#   osai-explanation: Relation to Open and Sustainable AI (OSAI) Recommendation (see osai_recommendations.yml file in this folder) to aid understandability of mapping. e.g. Ersilia Model Hub is a registry (R2) providing accessible ML models for drug discovery/disease research.
-#   domain: life science or domain-agnostic
+# Before contributing, please check the CONTRIBUTING.md information.
+#
+# Tool entry template information (fields should be in this order):
+# - id: A unique, lowercase, string identifier for the resource (e.g., 'ersiliamodelhub' for 'Ersilia Model Hub'). Used for referencing.
+#   name: The full, human-readable name of the resource (e.g., Ersilia Model Hub).
+#   type: Resource category type (see selection criteria in TOOLS_SELECTION_CRITERIA.md, e.g., 'Registry').
+#   description: A short description of the purpose of the resource.
+#   url: The primary homepage of the resource (e.g., https://www.ersilia.io/model-hub).
+#   biotools-url: A bio.tools registry link for this resource, if available (e.g., https://bio.tools/entry).
+#   fairsharing-url: A fairsharing.org registry link for this resource, if available (e.g., https://fairsharing.org/FAIRsharing.X).
+#   access-model: The access model for the resource (e.g., Open Source, Commercial, Free, Mixed).
+#   domain: The primary application domain of the resource (e.g., 'life science', 'domain-agnostic').
+#   osai-recommendation: Mapped Open and Sustainable AI (OSAI) Recommendation(s) (see osai_recommendations.yml; e.g., R2 or R2, R3).
+#   osai-explanation: Brief explanation of the OSAI recommendation mapping (e.g., Ersilia Model Hub is a registry (R2) providing accessible ML models for drug discovery/disease research.).
 
 # Blank tool entry template (Make a copy and insert at bottom of file after the last existing entry):
 
@@ -32,6 +37,7 @@
 #   osai-recommendation:
 #   osai-explanation:
 
+# AI Ecosystem List start
 - id: scikitlearn
   name: Scikit-learn
   type: AI/ML Library

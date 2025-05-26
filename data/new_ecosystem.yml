@@ -45,13 +45,13 @@
     Foundational Python library for traditional machine learning algorithms
     (classification, regression, clustering, dimensionality reduction, model selection,
     and preprocessing).
-  url: https://github.com/scikit-learn/scikit-learn
+  url: https://scikit-learn.org/stable/
   biotools-url: https://bio.tools/scikit-learn
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: As a library, it provides code that can be made portable.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: spacy
   name: spaCy
@@ -61,12 +61,12 @@
     designed for production use. Features include NER, POS tagging, dependency parsing,
     and word vectors.
   url: https://github.com/explosion/spaCy
-  biotools-url: https://bio.tools/spacy
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: As a library, it provides code that can be made portable.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: nltk
   name: NLTK (Natural Language Toolkit)

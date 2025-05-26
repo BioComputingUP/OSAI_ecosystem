@@ -15,7 +15,8 @@
 #   osai-recommendation: Open and Sustainable AI (OSAI) Recommendation (see osai_recommendations.yml file in this folder) to create direct mappings. More than one OSAI Recommendation may be declared per entry as per formatting. e.g. R2 / for multiple: R2, R3
 #   osai-explanation: Relation to Open and Sustainable AI (OSAI) Recommendation (see osai_recommendations.yml file in this folder) to aid understandability of mapping. e.g. Ersilia Model Hub is a registry (R2) providing accessible ML models for drug discovery/disease research.
 
-# Blank tool entry template:
+# Blank tool entry template (Make a copy and insert at bottom of file):
+
 #- description: 
 #  id: 
 #  name: 

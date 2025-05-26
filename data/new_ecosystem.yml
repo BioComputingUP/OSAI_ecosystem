@@ -369,7 +369,7 @@
   osai-explanation: Defines genomic interpretation prediction evaluation protocols and uses standardized datasets (R6).
 
 - id: esipaireadinesschecklist
-  name: Checklist to Examine AI-readiness for Open Environmental Datasets. Version 1.0. Earth Science Information Partners.
+  name: Checklist to Examine AI-readiness for Open Environmental Datasets. 
   type: Best practice
   description: >-
     Guidelines by ESIP to evaluate if environmental datasets are prepared

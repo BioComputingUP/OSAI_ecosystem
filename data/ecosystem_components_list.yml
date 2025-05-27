@@ -2286,8 +2286,7 @@
   name: Data Chain AI
   type: Tool
   description: >-
-    DataChain connects the unstructured data in cloud storage
-with AI models and APIs.
+    DataChain connects the unstructured data in cloud storage with AI models and APIs.
   url: https://datachain.ai/
   biotools-url: ''
   fairsharing-url: ''

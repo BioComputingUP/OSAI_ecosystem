@@ -1288,7 +1288,7 @@
   biotools-url: ''
   fairsharing-url: ''
   access-model: ''
-  domain: domain-agnostic # Placeholder
+  domain: domain-agnostic
   osai-recommendation: ''
   osai-explanation: ''
 
@@ -1335,7 +1335,7 @@
   osai-recommendation: R1
   osai-explanation: SKOS can be used for AI-specific metadata applications.
 
-- id: fairprinciplesaimodels_naturepaper_placeholder
+- id: fairprinciplesaimodels_naturepaper
   name: FAIR principles for AI models with a practical application for accelerated high energy diffraction microscopy
   type: Paper
   description: >-
@@ -1349,7 +1349,7 @@
   osai-recommendation: R1, R4
   osai-explanation: Discusses AI-specific metadata principles (R1) and info disclosure guidance (R4).
 
-- id: fair2squared_placeholder
+- id: fair2squared
   name: FAIR² Data Management
   type: Paper
   description: >-
@@ -2452,7 +2452,7 @@ with AI models and APIs.
   osai-recommendation: R9
   osai-explanation: Standard for measuring environmental impact.
 
-- id: aimlo_placeholder
+- id: ai_ontology
   name: Artificial Intelligence Ontology (AIO)
   type: Metadata
   description: >-
@@ -2633,33 +2633,19 @@ with AI models and APIs.
   osai-recommendation: R9
   osai-explanation: Tool for measuring environmental impact (R9).
 
-- id: googlelabs
-  name: Google Labs
-  type: Tool # Showcase of tools/prototypes
-  description: >-
-    Showcase for experimental tools, prototypes, and research projects
-    from Google's various labs, often featuring new AI/ML capabilities.
-  url: https://labs.google/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
 - id: microsoftemissionsdashboard
   name: Microsoft Emissions Dashboard
   type: Tool
   description: >-
     Tool within Microsoft Cloud for Sustainability (and Azure) to help
     customers measure and track carbon emissions from their cloud usage.
-  url: https://learn.microsoft.com/en-us/industry/sustainability/solutions/emissions-impact-dashboard-overview
+  url: https://learn.microsoft.com/en-us/industry/well-architected/sustainability/emissions-impact-dashboard-overview
   biotools-url: ''
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R9
-  osai-explanation: Dashboard for measuring environmental impact.
+  osai-explanation: Dashboard for measuring environmental impact (R9).
 
 - id: googlecarbonfootprint
   name: Google Carbon Footprint
@@ -2673,7 +2659,7 @@ with AI models and APIs.
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact.
+  osai-explanation: Tool for measuring environmental impact (R9).
 
 - id: awscarbonfootprinttool
   name: AWS (Amazon Web Services) Carbon Footprint Tool
@@ -2687,48 +2673,34 @@ with AI models and APIs.
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact.
-
-- id: watttime
-  name: WattTime
-  type: Tool # Provides data for tools
-  description: >-
-    Organization providing data and APIs on the real-time marginal carbon
-    intensity of electricity grids, used by carbon tracking tools.
-  url: https://www.watttime.org/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free with Paid Tiers
-  domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Provides data for measuring environmental impact.
+  osai-explanation: Tool for measuring environmental impact (R9).
 
 - id: catboost
   name: CatBoost
-  type: Tool # Or AI/ML Library
+  type: AI/ML Library
   description: >-
     Gradient boosting on decision trees library by Yandex, excelling with
     categorical features and good performance.
   url: https://catboost.ai/
-  biotools-url: https://bio.tools/catboost
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5, R7
-  osai-explanation: Library for portable code (R5); efficiency can be a green AI technique (R7).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: fairlearn
   name: Fairlearn
-  type: Tool # Or Library
+  type: Tool
   description: >-
-    Python package to assess and improve fairness of machine learning models,
+    Python package to assess and improve sociotechnical fairness of machine learning models,
     with algorithms for bias mitigation.
   url: https://fairlearn.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: '' # Could be R4
+  osai-recommendation: ''
   osai-explanation: ''
 
 - id: interpretml
@@ -2738,12 +2710,12 @@ with AI models and APIs.
     Open-source Python package for training interpretable models (glass-box)
     and explaining black-box systems (Explainable AI).
   url: https://interpret.ml/
-  biotools-url: https://bio.tools/interpretml
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R4
-  osai-explanation: Focuses on disclosing model information (interpretability).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: captum
   name: Captum
@@ -2756,8 +2728,8 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R4
-  osai-explanation: Focuses on disclosing model information (interpretability).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: labelbox
   name: Labelbox
@@ -2770,22 +2742,22 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
-  osai-recommendation: R6
-  osai-explanation: Aids in standardizing datasets through labeling.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: dataecosystemmlmaterialsscience
   name: A data ecosystem to support machine learning in materials science
-  type: Training # Listed as training, but it's a paper describing an ecosystem
+  type: Paper
   description: >-
     MRS Communications paper describing a data infrastructure to facilitate
-    ML in materials science. This is a paper, not a training resource itself.
+    ML in materials science. This is a paper, not a training resource itself - DLHub.
   url: https://link.springer.com/article/10.1557/mrc.2019.118
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science # Materials science can be considered related
-  osai-recommendation: R2, R3
-  osai-explanation: Describes an ecosystem for sharing data (R2) and implies best practices (R3).
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: elsitraining
   name: ELIXIR Slovenia e-Learning Platform
@@ -2793,28 +2765,28 @@ with AI models and APIs.
   description: >-
     The ELIXIR Slovenia e-Learning Platform (ELSI), providing bioinformatics
     training resources.
-  url: https://elsi.training/
+  url: https://elixir.mf.uni-lj.si/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: life science
   osai-recommendation: R3
-  osai-explanation: Directly a training platform.
+  osai-explanation: A life science data focused e-learning training platform that could be used to host training on AI/ML deposition practices (R3).
 
 - id: tess
   name: Training e-Support System (TeSS)
   type: Training
   description: >-
-    ELIXIR's training portal, aggregating bioinformatics training materials
+    ELIXIRs life science data focused training portal, aggregating bioinformatics training materials
     and events from various providers.
   url: https://tess.elixir-europe.org/
-  biotools-url: https://bio.tools/tess
-  fairsharing-url: https://fairsharing.org/FAIRsharing.d06wfr
+  biotools-url: ''
+  fairsharing-url: ''
   access-model: Free
   domain: life science
   osai-recommendation: R3
-  osai-explanation: Directly a training portal.
-
+  osai-explanation: A life science data focused e-learning training platform that could be used to host training on AI/ML deposition practices (R3).
+  
 - id: coursera
   name: Coursera
   type: Training
@@ -2826,50 +2798,49 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Free with Paid Tiers
   domain: domain-agnostic
-  osai-recommendation: R3
-  osai-explanation: Directly a training platform.
+  osai-recommendation: ''
+  osai-explanation: ''
 
-- id: fastdotai # ID for fast.ai
+- id: fastdotai
   name: fast.ai
   type: Training
   description: >-
-    Organization offering practical, code-first deep learning courses and
-    a software library.
+    Practical, code-first deep learning courses hosting website.
   url: https://www.fast.ai/
-  biotools-url: '' # fastai library has a biotools entry
+  biotools-url: '' 
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R3
-  osai-explanation: Directly offers training.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: deeplearningai
   name: DeepLearning.AI
   type: Training
   description: >-
     AI education company founded by Andrew Ng, offering courses and specializations
-    in deep learning and AI, often via Coursera.
+    in deep learning and AI.
   url: https://www.deeplearning.ai/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free with Paid Tiers
   domain: domain-agnostic
-  osai-recommendation: R3
-  osai-explanation: Directly offers training.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: tensorboard
   name: TensorBoard
   type: Visualisation tool
   description: >-
-    TensorFlow's visualization toolkit for inspecting and understanding
+    TensorFlows visualization toolkit for inspecting and understanding
     ML experiments, models, and data.
   url: https://www.tensorflow.org/tensorboard
-  biotools-url: https://bio.tools/tensorboard
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R4
-  osai-explanation: Helps disclose model and experiment information.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: matplotlib
   name: Matplotlib
@@ -2882,8 +2853,8 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R4
-  osai-explanation: Used for disclosing/visualizing model/data info.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: seaborn
   name: Seaborn
@@ -2892,26 +2863,12 @@ with AI models and APIs.
     Python data visualization library based on Matplotlib, providing a
     high-level interface for drawing attractive and informative statistical graphics.
   url: https://seaborn.pydata.org/
-  biotools-url: https://bio.tools/seaborn
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R4
-  osai-explanation: Used for disclosing/visualizing model/data info.
-
-- id: plotlydash
-  name: Plotly / Dash
-  type: Visualisation tool
-  description: >-
-    Company providing interactive graphing libraries (Plotly for Python,
-    R, JS) and a framework (Dash) for building analytical web applications.
-  url: https://plotly.com/
-  biotools-url: https://bio.tools/plotly
-  fairsharing-url: ''
-  access-model: Free with Paid Tiers
-  domain: domain-agnostic
-  osai-recommendation: R4
-  osai-explanation: Used for disclosing/visualizing model/data info.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: altairviz
   name: Altair
@@ -2920,30 +2877,30 @@ with AI models and APIs.
     Declarative statistical visualization library for Python, based on
     Vega and Vega-Lite, enabling concise and expressive chart creation.
   url: https://altair-viz.github.io/
-  biotools-url: https://bio.tools/altair
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R4
-  osai-explanation: Used for disclosing/visualizing model/data info.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: h2oai
   name: H2O.ai
   type: Analysis platform
   description: >-
     Company providing an open-source and enterprise platform for AI/ML,
-    including tools for automated machine learning (H2O AutoML).
+    including tools for automated machine learning.
   url: https://h2o.ai/
-  biotools-url: https://bio.tools/h2o
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Mixed
   domain: domain-agnostic
-  osai-recommendation: R7
-  osai-explanation: AutoML features can be part of green AI techniques.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: clearml
   name: ClearML
-  type: Reproducibility tool # MLOps platform
+  type: Reproducibility tool
   description: >-
     Open-source MLOps platform for experiment tracking, orchestration,
     data management, and model deployment.
@@ -2952,12 +2909,12 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Free with Paid Tiers
   domain: domain-agnostic
-  osai-recommendation: R1, R2, R4, R5
-  osai-explanation: Manages metadata (R1), models (R2), experiment info (R4), and code (R5).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: pachyderm
   name: Pachyderm
-  type: Reproducibility tool # MLOps platform
+  type: Reproducibility tool
   description: >-
     Data versioning and pipeline platform for MLOps, built on Kubernetes,
     enabling reproducible data science workflows.
@@ -2966,8 +2923,8 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Free with Paid Tiers
   domain: domain-agnostic
-  osai-recommendation: R1, R2, R4, R5
-  osai-explanation: Manages data/model versions (R1, R2), pipeline info (R4), and ensures portable workflows (R5).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: rodaaws
   name: Registry of Open Data on AWS (RODA)
@@ -2978,10 +2935,10 @@ with AI models and APIs.
   url: https://registry.opendata.aws/
   biotools-url: ''
   fairsharing-url: ''
-  access-model: Free
+  access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Registry for datasets.
+  osai-explanation: Registry which can be of use for AI/ML datasets.
 
 - id: opencv
   name: OpenCV (Open Source Computer Vision Library)
@@ -2990,12 +2947,12 @@ with AI models and APIs.
     Open-source library for computer vision and machine learning software,
     with a wide array of algorithms for image and video processing.
   url: https://opencv.org/
-  biotools-url: https://bio.tools/opencv
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: As a library, it provides code that can be made portable.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: stablebaselines3
   name: Stable Baselines3

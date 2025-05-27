@@ -1263,7 +1263,7 @@
   osai-explanation: Focuses on disclosing relevant model and dataset information.
 
 - id: fair4aipaper_action
-  name: FAIR for AI: An interdisciplinary and international community building perspective
+  name: FAIR for AI - An interdisciplinary and international community building perspective
   type: Paper
   description: >-
     Perspectives, vision, and experiences of researchers from different countries, disciplines, 

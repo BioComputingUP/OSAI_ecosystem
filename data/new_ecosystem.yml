@@ -3656,11 +3656,11 @@ with AI models and APIs.
   osai-recommendation: R1
   osai-explanation: Provides foudnation model metadata supports in one place (R1).
 
-- id: x
-  name: x
-  type: x
+- id: oecdai
+  name: OECD AI - Catalogue of Tools & Metrics for Trustworthy AI
+  type: Tool
   description: >-
-    x
+    A catalogue of tools and metrics for trustworthy AI.
   url: ''
   biotools-url: ''
   fairsharing-url: ''
@@ -3669,16 +3669,16 @@ with AI models and APIs.
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: x
-  name: x
-  type: x
+- id: rocrate
+  name: Research Object Crate (RO-Crate)
+  type: Reproducibility tool
   description: >-
-    x
-  url: ''
+    RO-Crate is a community effort to establish a lightweight approach to packaging research data with their metadata.
+  url: https://www.researchobject.org/ro-crate/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: life science
-  osai-recommendation: ''
-  osai-explanation: ''
+  osai-recommendation: R5
+  osai-explanation: Extensible format which can be of use for structured AI/ML model and dataset depositions.
 ```

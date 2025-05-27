@@ -1364,59 +1364,46 @@
 
 - id: caidpaper_placeholder
   name: CAID (Critical Assessment of Intrinsic Disorder prediction)
-  type: Paper
+  type: Benchmarking
   description: >-
-    Placeholder. Could refer to papers published as part of the CAID benchmark
-    results. Search on PubMed for "CAID prediction".
-  url: ''
+    A community-based benchmarking challenge to determine the state-of-the-art in predicting intrinsically 
+    disordered regions and the subset of residues involved in binding.
+  url: https://caid.idpcentral.org/challenge
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: life science 
   osai-recommendation: R6
-  osai-explanation: Benchmarking implies standardized evaluation.
+  osai-explanation: Benchmarking standardised challenge for protein Intrinsic Disorder prediction (R6).
 
 - id: casppaper_placeholder
   name: CASP (Critical Assessment of protein Structure Prediction)
-  type: Paper
+  type: Benchmarking
   description: >-
-    'Placeholder. Could refer to overview papers published after each CASP
-    experiment, often in the journal Proteins: Structure, Function, and Bioinformatics.'
-  url: ''
+    . The Critical Assessment of protein Structure Prediction (CASP) experiments aim at establishing the 
+    current state of the art in protein structure prediction, 
+    identifying what progress has been made, and highlighting where future effort may be most productively focused through standardised benchmarking of AI/ML methods.
+  url: https://predictioncenter.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science # CASP is life science
+  domain: life science
   osai-recommendation: R6
-  osai-explanation: Benchmarking implies standardized evaluation.
+  osai-explanation: Benchmarking standardised challenge for protein structure prediction (R6).
 
 - id: cagipaper_pubmed38389099
   name: CAGI (Critical Assessment of Genome Interpretation)
-  type: Paper
+  type: Benchmarking
   description: >-
-    This specific link is to a paper "CAGI, the Critical Assessment of
-    Genome Interpretation, establishes benchmarks for computational genomics".
-  url: https://pubmed.ncbi.nlm.nih.gov/38389099/
+    Critical Assessment of Genome Interpretation (CAGI) is to establish the state of the art in the field of 
+    interpreting genomic variation through periodic editions of the CAGI experiment and extensive dissemination of their outcomes.
+  url: https://genomeinterpretation.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science # CAGI is life science
+  domain: life science
   osai-recommendation: R6
-  osai-explanation: Benchmarking implies standardized evaluation.
-
-- id: pullinmorebenchmarking_action
-  name: Pull in more benchmarking (Action Item)
-  type: Paper
-  description: >-
-    Placeholder instruction to identify and add more benchmarking resources
-    to this list.
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: ''
-  domain: domain-agnostic # Placeholder action
-  osai-recommendation: ''
-  osai-explanation: ''
+  osai-explanation: Benchmarking standardised challenge for interpreting genomic variation predictions (R6).
 
 - id: bioconda
   name: Bioconda
@@ -1431,11 +1418,11 @@
   access-model: Free
   domain: life science
   osai-recommendation: R5
-  osai-explanation: Ensures portable code through environment management.
+  osai-explanation: Ensures portable code through environment management (R5).
 
 - id: modelshareai_concept
   name: Model Share AI
-  type: Paper # Type is paper, referring to concept
+  type: Paper
   description: >-
     Refers to the concept or platforms for sharing ML models. Could also
     be a specific project/paper. See also ModelShare.org.

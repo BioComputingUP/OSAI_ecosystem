@@ -1531,20 +1531,6 @@
   osai-recommendation: R1, R3, R4, R6
   osai-explanation: Covers metadata (R1), best practices (R3), info disclosure (R4), and dataset standards (R6).
 
-- id: recup_reproducibility
-  name: 'RECUP: scalable metadata and provenance for reproducible hybrid workflow'
-  type: Project
-  description: >-
-    Project developing methodologies for capturing metadata and provenance
-    at scale to ensure reproducibility in complex scientific workflows.
-  url: https://sites.google.com/view/recup-reproducibility/home
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Portal
-  domain: domain-agnostic # Scientific workflows generally
-  osai-recommendation: R1, R4
-  osai-explanation: Focuses on metadata (R1) and disclosing provenance info (R4).
-
 - id: elsaai
   name: 'ELSA: European Lighthouse on Secure and Safe AI'
   type: Project
@@ -1571,7 +1557,7 @@
   access-model: Portal
   domain: domain-agnostic
   osai-recommendation: R7, R9
-  osai-explanation: Directly targets green AI techniques (R7) and likely impact measurement (R9).
+  osai-explanation: Directly targets green AI techniques (R7) and considers impact measurement (R9).
 
 - id: ahead_euproject
   name: AHEAD (Accelerating the Health Data Economy via AI and Distributed Technologies)

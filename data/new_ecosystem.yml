@@ -1697,7 +1697,7 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: An AI/ML model registry (R3).
+  osai-explanation: An AI/ML model registry of reusable components (R2).
 
 - id: googlecloudmodelgarden
   name: Google Cloud Model Garden
@@ -1711,48 +1711,48 @@
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Registry of AI/ML models (R3).
+  osai-explanation: Registry of AI/ML models (R2).
 
 - id: aircheckai
   name: Artificial Intelligence-Ready CHEmiCal Knowledge Base (AIRCHECK) 
   type: Registry
   description: >-
-    Registry of AI/ML models and datasets for to predict how small molecules interact with proteins.
+    Registry of AI/ML models and datasets for predicting how small molecules interact with proteins.
   url: https://aircheck.ai/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R4, R6
-  osai-explanation: Validates models (disclosing info R4) against evaluation protocols (R6).
+  osai-explanation: Will eventually validate hosted models (R2) against evaluation protocols in challenges (R6).
 
 - id: kipoimodelregistry
-  name: Kipoi model registry
+  name: Kipoi: Model Zoo for Genomics
   type: Registry
   description: >-
     Repository for sharing pre-trained machine learning models used in
     genomics, emphasizing model reproducibility.
   url: http://kipoi.org/
-  biotools-url: https://bio.tools/kipoi
-  fairsharing-url: https://fairsharing.org/FAIRsharing.x7q20k
+  biotools-url: ''
+  fairsharing-url: ''
   access-model: Free
   domain: life science
-  osai-recommendation: R2, R4
-  osai-explanation: Model registry (R2) with an emphasis on reproducibility/info disclosure (R4).
+  osai-recommendation: R2
+  osai-explanation: Model registry (R2) with an emphasis on reproducibility/info disclosure.
 
 - id: openebench
   name: OpenEBench
-  type: Registry # Or Benchmarking Platform
+  type: Benchmarking
   description: >-
-    ELIXIR platform for technical monitoring and scientific benchmarking
-    of bioinformatics tools and services, including ML-based ones.
-  url: https://openebench.bsc.es/
+    Technical monitoring and scientific benchmarking platform for
+    bioinformatics tools and services, including ML-based ones. 
+  url: https://openebench.bsc.es/benchmarking
   biotools-url: https://bio.tools/openebench
-  fairsharing-url: https://fairsharing.org/FAIRsharing.5wf1a7
+  fairsharing-url: ''
   access-model: Free
   domain: life science
   osai-recommendation: R6
-  osai-explanation: Platform for benchmarking and standardizing evaluation.
+  osai-explanation: Platform hosts benchmarking and standardized evaluation protocols information such as CAID & CASP.
 
 - id: nvidiaaifoundationmodels
   name: NVIDIA AI Foundation Models
@@ -1766,19 +1766,18 @@
   access-model: Mixed
   domain: domain-agnostic
   osai-recommendation: R2, R8
-  osai-explanation: Registry of models (R2) focused on specific hardware (R8).
+  osai-explanation: Registry of models (R2) focused on specific hardware optimisation (R8).
 
-- id: mlentory_placeholder
+- id: mlentory
   name: MLentory
   type: Registry
   description: >-
-    Could not find a specific, widely recognized ML registry with this
-    exact name. May be a niche or new platform.
-  url: ''
+    Coming in late 2025
+  url: https://ceur-ws.org/Vol-3890/paper-39.pdf
   biotools-url: ''
   fairsharing-url: ''
   access-model: ''
-  domain: domain-agnostic # Placeholder
+  domain: domain-agnostic 
   osai-recommendation: ''
   osai-explanation: ''
 
@@ -1786,67 +1785,52 @@
   name: AWS (Amazon Web Services) SageMaker Model Registry / JumpStart
   type: Registry
   description: >-
-    AWS SageMaker services for managing, versioning (Registry), and discovering/deploying
+    AWS SageMaker services for managing, versioning, and discovering/deploying
     pre-trained models (JumpStart).
-  url: https://aws.amazon.com/sagemaker/model-registry/
+  url: https://aws.amazon.com/it/sagemaker-ai/jumpstart/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Provides model registry functionality.
+  osai-explanation: Provides model registry of reusable models (R2).
 
 - id: azuremlmodelregistry
-  name: Azure Machine Learning Model Registry / Catalog
+  name: Azure AI Foundry Models
   type: Registry
   description: >-
-    Microsoft Azure services for model management (Registry) and discovering
+    Microsoft Azure services for model management and discovering
     pre-built models and components (Catalog/Studio).
-  url: https://learn.microsoft.com/en-us/azure/machine-learning/concept-model-management?view=azureml-api-2
+  url: https://learn.microsoft.com/en-us/azure/machine-learning/foundry-models-overview?view=azureml-api-2
   biotools-url: ''
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Provides model registry functionality.
+  osai-explanation: Provides model registry of reusable models  (R2).
 
 - id: wandbpublichub
-  name: Weights & Biases (Public Hub / Reports)
+  name: Weights & Biases: The AI Developer Platform
   type: Registry
   description: >-
     MLOps platform where public reports and artifacts are often used to
-    share models, results, and datasets. The "Fully Connected" section features community
-    reports.
-  url: https://wandb.ai/fully-connected
+    share models, results, and datasets.
+  url: https://docs.wandb.ai/guides/models/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free with Paid Tiers
   domain: domain-agnostic
-  osai-recommendation: R2, R4
-  osai-explanation: Platform for sharing models/datasets (R2) and experiment results (R4).
-
-- id: civitai
-  name: Civitai
-  type: Registry
-  description: >-
-    Large community hub for sharing models (especially for generative AI
-    like Stable Diffusion), LoRAs, prompts, and images.
-  url: https://civitai.com/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Community for sharing models.
+  osai-explanation: Platform for sharing models/datasets (R2) and experiment results.
 
 - id: kubeflow
-  name: Kubeflow
-  type: Registry # This is an MLOps platform, not purely a registry
+  name: Kubeflow Model Registry
+  type: Registry
   description: >-
     The Machine Learning Toolkit for Kubernetes, providing components for
     deploying, managing, and scaling ML workloads. Not a model registry itself but
-    facilitates model deployment.
-  url: https://github.com/kubeflow/kubeflow
+    facilitates own model registry set up.
+  url: https://www.kubeflow.org/docs/components/model-registry/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
@@ -1862,24 +1846,24 @@
     of machine learning algorithms.
   url: https://archive.ics.uci.edu/ml/index.php
   biotools-url: ''
-  fairsharing-url: https://fairsharing.org/FAIRsharing.tf17a3
+  fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R2, R6
-  osai-explanation: Dataset repository (R2) used for standardized evaluation (R6).
+  osai-explanation: AI model and dataset repository (R2) used also for hosting standardized evaluation datasets for benchmarking (R6).
 
 - id: googledatasetsearch
   name: Google Dataset Search
   type: Registry
   description: >-
-    Search engine for finding datasets hosted across the web.
+    Search engine for finding datasets hosted across the web. Helps find datasets for AI where annoatted with Croissant metadata
   url: https://datasetsearch.research.google.com/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R2
-  osai-explanation: Helps find datasets for AI.
+  osai-recommendation: ''
+  osai-explanation: ''.
 
 - id: huggingfacedatasets
   name: Hugging Face Datasets

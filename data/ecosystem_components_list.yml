@@ -1808,7 +1808,7 @@
   osai-explanation: Provides model registry of reusable models  (R2).
 
 - id: wandbpublichub
-  name: Weights & Biases: The AI Developer Platform
+  name: Weights & Biases - The AI Developer Platform
   type: Registry
   description: >-
     MLOps platform where public reports and artifacts are often used to

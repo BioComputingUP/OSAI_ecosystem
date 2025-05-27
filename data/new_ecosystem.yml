@@ -3604,31 +3604,31 @@ with AI models and APIs.
   osai-recommendation: R4
   osai-explanation: Disclosure best practice checklist (R4)
 
-  - id: x
-  name: x
-  type: x
+  - id: carbonaware
+  name: Carbon Aware
+  type: Tool
   description: >-
-    x
-  url: ''
+    CarbonAware schedules jobs intelligently by time and region shifting to minimize carbon impact. See the results for your jobs below.
+  url: https://www.carbonaware.dev/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science
-  osai-recommendation: ''
-  osai-explanation: ''
+  domain: domain-agnostic
+  osai-recommendation: R8, R9
+  osai-explanation: Green AI tooling to schedule AI workloads over green zones (R8) dynamically and report carbon emissions (R9) 
 
-- id: x
-  name: x
-  type: x
+- id: aidrin
+  name: AI Data Readiness Inspector (AIDRIN) for Quantitative Assessment of Data Readiness for AI
+  type: Best practice
   description: >-
-    x
-  url: ''
+    AIDRIN defines parameters of AI data readiness.
+  url: https://arxiv.org/abs/2406.19256
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science
-  osai-recommendation: ''
-  osai-explanation: ''
+  domain: domain-agnostic
+  osai-recommendation: R4
+  osai-explanation: AI-ready data disclosure support (R4).
 
 - id: x
   name: x

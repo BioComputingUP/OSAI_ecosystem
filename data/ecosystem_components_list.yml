@@ -1456,7 +1456,7 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation:''
+  osai-recommendation: ''
   osai-explanation: ''
 
 - id: airiseeu

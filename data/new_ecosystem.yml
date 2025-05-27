@@ -1,11 +1,11 @@
 
 ```yaml
-# This AI Ecosystem components list reuses the YAML file format from the EVERSE RSQkit
+# This AI Ecosystem components list repurposes the YAML file format from the EVERSE RSQkit
 # (metadata format: https://w3id.org/everse/rs/0.0.1), which supports community curation,
 # interoperability, and reuse. It adds new fields relevant to its use case of capturing AI ecosystem components.
 #
 # It is mapped to the Open & Sustainable AI (OSAI) Recommendations
-# (see paper: https://arxiv.org/abs/2505.16619) but can be copied and
+# (see paper: https://arxiv.org/abs/2505.16619), but can be copied and
 # repurposed with other mappings for different domains or regions.
 #
 # Before contributing, please check the CONTRIBUTING.md information.
@@ -438,7 +438,7 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R7, R8
-  osai-explanation: Directly hosts accessible information for implementing Green AI/ML techniques (R7, 8).
+  osai-explanation: Directly hosts accessible information for implementing Green AI/ML techniques (R7, R8).
 
 - id: greenalgorithms
   name: Green Algorithms
@@ -3446,13 +3446,130 @@ with AI models and APIs.
 
 - id: elixirmlfocusgroup
   name: ELIXIR Machine Learning Focus Group
-  type: Focus Group
+  type: Organisation
   description: >-
     An ELIXIR agile structure that brings together interested parties to
     address emerging areas of interest in Machine Learning, aiming to increase the
     reproducibility and transparency of ML methods in the life sciences and responsible
     for developing the DOME Recommendations and Registry.
   url: https://elixir-europe.org/focus-groups/machine-learning
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: moframework
+  name: Model Openness Framework (MOF)
+  type: Best practice
+  description: >-
+    A comprehensive system for evaluating and classifying the completeness and openness of machine learning models. 
+  url: https://isitopen.ai/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R4
+  osai-explanation: Best practice disclosure checklist for AI models.
+
+- id: microsoftresponsible
+  name: Responsible AI at Microsoft
+  type: Best practice
+  description: >-
+    Collection of tools, practices, and policies we’ve created to uphold our responsible AI principles.
+  url: https://www.microsoft.com/en-us/ai/responsible-ai
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: scilifeguidance
+  name: SciLifeLab Funder requirements and FAIR ML models
+  type: Best practice
+  description: >-
+    Example of national life science guidance to make ML models Open & FAIR.
+  url: https://serve.scilifelab.se/docs/model-serving/fair/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R3
+  osai-explanation: Example of AI model deposition guidance (R3), could be repruposed and adapted for institutional or national needs.
+
+- id: x
+  name: x
+  type: x
+  description: >-
+    x
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: x
+  name: x
+  type: x
+  description: >-
+    x
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: x
+  name: x
+  type: x
+  description: >-
+    x
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: x
+  name: x
+  type: x
+  description: >-
+    x
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: x
+  name: x
+  type: x
+  description: >-
+    x
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: x
+  name: x
+  type: x
+  description: >-
+    x
+  url: ''
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free

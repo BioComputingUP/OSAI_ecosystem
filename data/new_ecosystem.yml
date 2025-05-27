@@ -3707,4 +3707,17 @@ with AI models and APIs.
   domain: domain-agnostic
   osai-recommendation: R5
   osai-explanation: Used for downloading and sharing container software to support portability across systems and reproducibility (R5).
+
+- id: fair4rs
+  name: FAIR Principles for research software
+  type: Paper
+  description: >-
+    FAIR for Research Software (FAIR4RS) Working Group has adapted the FAIR Guiding Principles to create the FAIR Principles for Research Software (FAIR4RS Principles)
+  url: https://www.nature.com/articles/s41597-022-01710-x
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
 ```

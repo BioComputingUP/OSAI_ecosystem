@@ -1016,7 +1016,7 @@
   osai-explanation: Guideline on disclosing AI/ML light microscopy information (R4).
 
 - id: fairformlpaper_zenodo  
-  name: FAIR for Machine Learning Model: Principles and Assessment Metrics
+  name: 'FAIR for Machine Learning Model: Principles and Assessment Metrics'
   type: Paper
   description: >-
     Research paper, specifies the translation of the FAIR principles for ML models, including a set of metrics to conduct its assessment.

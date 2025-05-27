@@ -1877,95 +1877,82 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Platform for sharing datasets.
-
-- id: bioimageio
-  name: BioImage.IO
-  type: Registry
-  description: >-
-    Community initiative and format standard for sharing and reusing AI
-    models in bioimaging, including a model zoo.
-  url: https://bioimage.io/
-  biotools-url: https://bio.tools/bioimage.io
-  fairsharing-url: https://fairsharing.org/FAIRsharing.d5p4x7
-  access-model: Free
-  domain: life science
-  osai-recommendation: R1, R2
-  osai-explanation: Defines AI metadata format (R1) and is a model zoo (R2).
+  osai-explanation: Platform for AI sharing datasets (R2).
 
 - id: condaanaconda
-  name: Conda / Anaconda
+  name: Anaconda, Conda & Miniconda
   type: Reproducibility tool
   description: >-
-    Conda is an open-source package and environment management system.
-    Anaconda is a distribution of Conda, Python, and many scientific packages.
-  url: https://conda.io/en/latest/
-  biotools-url: https://bio.tools/conda
+    Anaconda is a distribution of Conda, Python, and many other scientific packages.
+    Conda specifically is an open-source package and environment management system.
+    Miniconda is a free, miniature installation of Anaconda Distribution that includes only conda, Python, the packages they both depend on, and a small number of other useful packages.
+  url: https://docs.conda.io/en/latest/
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Mixed
   domain: domain-agnostic
   osai-recommendation: R5
-  osai-explanation: Ensures portable code through environment management.
+  osai-explanation: Ensures portable AI model code through environment management (R5).
 
 - id: dlhub
   name: DLHub (Data and Learning Hub for Science)
   type: Registry
   description: >-
-    Model publication and serving platform for scientific machine learning
-    models, aiming to make them FAIR and easier to run.
+    AI model publication and serving platform for scientific machine learning
+    models, aiming to make them FAIR and easier to run. However, website no longer resolving as of 20250527.
   url: https://dlhub.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic # For science broadly
   osai-recommendation: R2
-  osai-explanation: Platform for sharing models.
+  osai-explanation: Platform for sharing AI models (R2).
 
 - id: foundryml
   name: Foundry ML
   type: Registry
   description: >-
     ML platform for discovering, using, and managing ML models and associated
-    data, often for scientific or industrial applications.
+    datasets, for scientific or industrial applications.
   url: https://foundry-ml.org/
   biotools-url: ''
   fairsharing-url: ''
-  access-model: Commercial
+  access-model: Free
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Platform for model management and sharing.
+  osai-explanation: Platform for AI model and dataset management and sharing (R2).
 
 - id: hydroshare
   name: HydroShare
   type: Registry
   description: >-
-    Online collaborative platform for sharing hydrological data and models,
+    Online collaborative platform for sharing water related data and models,
     supporting FAIR principles for water science.
   url: https://www.hydroshare.org/
   biotools-url: ''
-  fairsharing-url: https://fairsharing.org/FAIRsharing.3xwbz8
+  fairsharing-url: https://fairsharing.org/FAIRsharing.ZvHsiN
   access-model: Free
-  domain: life science # Hydrology is earth/environmental science
+  domain: life science
   osai-recommendation: R2
-  osai-explanation: Platform for sharing data and models.
+  osai-explanation: Platform for sharing water related AI datasets and models (R2).
 
 - id: zenodo
   name: Zenodo
-  type: Database
+  type: Registry
   description: >-
-    General-purpose open-access repository (CERN) for sharing research
-    outputs, including datasets, software (ML models), publications, with persistent
+    General-purpose open-access repository (CERN) for sharing diverse research
+    outputs, including AI datasets, software (ML models), publications, with persistent
     DOIs.
   url: https://zenodo.org/
-  biotools-url: https://bio.tools/zenodo
-  fairsharing-url: https://fairsharing.org/FAIRsharing.dpwfg6
+  biotools-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.wy4egf
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: General repository used to share AI models and datasets.
+  osai-explanation: Generalist repository that can be used to share AI models and datasets (R2), for example in structured RO-crates.
 
 - id: aimemethodology # ID from AIME, AI Methodology
-  name: AIMe (AI Methodology) registry # Name has 'registry' but it's a methodology paper
+  name: AIMe (AI Methodology) registry  
   type: Registry # This refers to a paper defining a methodology, not a registry of models.
   description: >-
     'This Nature Methods paper introduces "AIME: an AI model development
@@ -1986,12 +1973,12 @@
     Free, open-source web platform by the Center for Open Science supporting
     research project management, collaboration, and sharing of data, code, and papers.
   url: https://osf.io/
-  biotools-url: https://bio.tools/osf
-  fairsharing-url: https://fairsharing.org/FAIRsharing.v42s2p
+  biotools-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.g4z879
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R2, R5
-  osai-explanation: Platform for sharing data/code (R2, R5).
+  osai-recommendation: R2
+  osai-explanation: Generalist platform that can be used for sharing AI model code and datasets (R2).
 
 - id: mlflow
   name: MLflow
@@ -2000,18 +1987,18 @@
     Open-source platform by Databricks to manage the ML lifecycle, including
     experiment tracking, code packaging, model deployment, and a model registry.
   url: https://mlflow.org/
-  biotools-url: https://bio.tools/mlflow
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R1, R2, R4, R5
-  osai-explanation: Uses metadata (R1), has model registry (R2), tracks experiments (R4), packages code (R5).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: deepseek
   name: DeepSeek
   type: Organisation
   description: >-
-    AI company developing large language models and related AI technologies.
+    China based AI company developing large language models and related AI technologies.
   url: https://www.deepseek.com/
   biotools-url: ''
   fairsharing-url: ''
@@ -2022,17 +2009,16 @@
 
 - id: efficientbioai
   name: EfficientBioAI
-  type: Resource
+  type: Tool
   description: >-
-    Repository for the "EfficientBioAI" project, likely focusing on computationally
-    efficient AI methods for bioinformatics.
+    GitHub hosted software package mainly focused on the efficiency (latency improvement, energy saving...) of BioImage AI tasks.
   url: https://github.com/MMV-Lab/EfficientBioAI
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: life science
   osai-recommendation: R7
-  osai-explanation: Focuses on efficient (green) AI techniques.
+  osai-explanation: Focuses on efficient Green AI techniques for bioimaging e.g. quantiztion and pruning.
 
 - id: paperswithcode
   name: Papers with Code
@@ -2050,21 +2036,21 @@
 
 - id: aif360
   name: AIF360 (AI Fairness 360)
-  type: Resource
+  type: Tool
   description: >-
     Open-source toolkit by IBM providing metrics to detect bias in datasets
     and ML models, and algorithms to mitigate such bias.
-  url: https://aif360.mybluemix.net/ # Note: mybluemix.net might be outdated, project is on GitHub
+  url: https://ai-fairness-360.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: '' # Could be R4 (disclosure of fairness metrics)
+  osai-recommendation: '' 
   osai-explanation: ''
 
 - id: tensorflowresponsibleai
   name: TensorFlow Responsible AI
-  type: Resource
+  type: Tool
   description: >-
     Toolkit and resources within TensorFlow for building responsible AI
     systems, focusing on fairness, explainability, privacy, and security.
@@ -2073,12 +2059,12 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R4
-  osai-explanation: Tools for explainability contribute to info disclosure.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: aequitas
   name: Aequitas
-  type: Resource
+  type: Tool
   description: >-
     Open-source bias and fairness audit toolkit from UChicago's Center
     for Data Science and Public Policy to assess fairness metrics for ML models.
@@ -2087,26 +2073,26 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: '' # Could be R4
+  osai-recommendation: ''
   osai-explanation: ''
 
 - id: allenAIleaderboards
   name: Allen AI Leaderboards
-  type: Resource # Or Benchmarking
+  type: Benchmarking
   description: >-
     Leaderboards hosted by the Allen Institute for AI (AI2) tracking performance
-    of models on various NLP tasks (e.g., ARC, TQA).
+    of models on various NLP tasks (e.g., ARC, TQA). Being archived in May, 2025.
   url: https://leaderboard.allenai.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: domain-agnostic # NLP tasks
+  domain: domain-agnostic 
   osai-recommendation: R6
-  osai-explanation: Provides standardized evaluation.
+  osai-explanation: Provides standardized evaluation of models in leaderboards (R6).
 
-- id: irenelca # Combined irene and lca
+- id: irenelca
   name: IrEne
-  type: Project # This is part of Green Algorithms project
+  type: Project
   description: >-
     Part of the Green Algorithms project, IrEne LCA focuses on Life Cycle
     Assessment for computational research to provide more holistic environmental impact

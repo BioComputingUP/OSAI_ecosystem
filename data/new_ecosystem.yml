@@ -2508,20 +2508,6 @@ with AI models and APIs.
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: aidvrda
-  name: AIDV (Artificial Intelligence and Data Visitation) RDA (Research Data Alliance) template
-  type: Standard
-  description: >-
-    Template or outputs from the RDA working group on AI and Data Visitation,
-    focusing on AI interactions with research data.
-  url: https://www.rd-alliance.org/groups/artificial-intelligence-and-data-visitation-aidv-wg.html
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: R1, R4
-  osai-explanation: Template for AI metadata (R1) and data disclosure (R4).
-
 - id: pytorch
   name: PyTorch
   type: AI/ML Library
@@ -2533,8 +2519,8 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: As a library, it provides code that can be made portable.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: tensorflow
   name: TensorFlow
@@ -2547,51 +2533,49 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: As a library, it provides code that can be made portable.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: keras
   name: Keras
-  type: Tool # High-level API
+  type: Tool
   description: >-
     High-level API for building and training neural networks, supporting
     multiple backends like TensorFlow, JAX, and PyTorch.
   url: https://keras.io/
-  biotools-url: https://bio.tools/keras
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: API for building models, contributes to portable code.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: carbontracker_general
   name: Carbon tracker
   type: Tool
   description: >-
-    'Refers to general tools for estimating CO2 emissions from computations.
-    This specific OpenEBench link may refer to a planned integration. Other tools:
-    CodeCarbon, ML CO2 Impact.'
-  url: https://openebench.bsc.es/benchmarking # This is a generic OpenEBench link
+    Refers to general tools for estimating CO2 emissions from computations.
+  url: https://carbontracker.info/
   biotools-url: ''
   fairsharing-url: ''
-  access-model: Open Source # Assuming general concept refers to open tools
+  access-model: Open Source
   domain: domain-agnostic
   osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact.
+  osai-explanation: Tool for measuring environmental impact (R9).
 
-- id: automlorg # ID specific to automl.org
-  name: AutoML
-  type: Tool # Or Field/Community
+- id: automlorg
+  name: AutoML Website
+  type: Tool
   description: >-
     Automated Machine Learning; field and tools that automate ML pipeline
     development. AutoML.org is a community resource.
   url: https://www.automl.org/
   biotools-url: ''
   fairsharing-url: ''
-  access-model: Mixed # AutoML.org lists various tools, some open, some not
+  access-model: Mixed
   domain: domain-agnostic
-  osai-recommendation: R7
-  osai-explanation: Automated techniques can be part of green AI development.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: codecarbon
   name: CodeCarbon
@@ -2605,10 +2589,10 @@ with AI models and APIs.
   access-model: Open Source
   domain: domain-agnostic
   osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact.
+  osai-explanation: Tool for measuring environmental impact (R9).
 
-- id: mlco2impact # From URL
-  name: Machine Learning Emissions Calculator
+- id: mlco2impact
+  name: ML CO2 Impact Calculator
   type: Tool
   description: >-
     Online calculator and research project for estimating the CO2 footprint
@@ -2619,7 +2603,7 @@ with AI models and APIs.
   access-model: Open Source
   domain: domain-agnostic
   osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact.
+  osai-explanation: Tool for measuring environmental impact (R9).
 
 - id: autosklearn
   name: Auto-sklearn
@@ -2628,12 +2612,12 @@ with AI models and APIs.
     Open-source AutoML toolkit in Python, built on scikit-learn, automating
     algorithm selection and hyperparameter tuning.
   url: https://automl.github.io/auto-sklearn/master/
-  biotools-url: https://bio.tools/auto-sklearn
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R7
-  osai-explanation: Automated techniques can be part of green AI development.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: experimentimpacttracker
   name: Experiment Impact Tracker
@@ -2647,7 +2631,7 @@ with AI models and APIs.
   access-model: Open Source
   domain: domain-agnostic
   osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact.
+  osai-explanation: Tool for measuring environmental impact (R9).
 
 - id: googlelabs
   name: Google Labs

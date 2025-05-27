@@ -1362,7 +1362,7 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: caidpaper_placeholder
+- id: caid_bench
   name: CAID (Critical Assessment of Intrinsic Disorder prediction)
   type: Benchmarking
   description: >-
@@ -1376,7 +1376,7 @@
   osai-recommendation: R6
   osai-explanation: Benchmarking standardised challenge for protein Intrinsic Disorder prediction (R6).
 
-- id: casppaper_placeholder
+- id: casp_bench
   name: CASP (Critical Assessment of protein Structure Prediction)
   type: Benchmarking
   description: >-
@@ -1391,7 +1391,7 @@
   osai-recommendation: R6
   osai-explanation: Benchmarking standardised challenge for protein structure prediction (R6).
 
-- id: cagipaper_pubmed38389099
+- id: cagi_bench
   name: CAGI (Critical Assessment of Genome Interpretation)
   type: Benchmarking
   description: >-
@@ -1449,7 +1449,7 @@
 
 - id: featurecloud
   name: Feature Cloud
-  type: Registry
+  type: Project
   description: >-
     EU-funded project and AI/ML analysis platform for privacy-preserving federated machine
     learning, allowing analysis on distributed datasets.
@@ -1458,8 +1458,8 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R2
-  osai-explanation: Platform for federated learning models and components for reuse (R2).
+  osai-recommendation:''
+  osai-explanation: ''
 
 - id: airiseeu
   name: AIRISE EU
@@ -1560,18 +1560,18 @@
   osai-explanation: Directly targets green AI techniques (R7) and considers impact measurement (R9).
 
 - id: ahead_euproject
-  name: AHEAD (Accelerating the Health Data Economy via AI and Distributed Technologies)
+  name: AHEAD (AI for Health: Evaluation of Applications & Datasets)
   type: Project
   description: >-
     EU project aiming to accelerate the health data economy using AI and
     distributed technologies for federated health data analysis.
-  url: https://cordis.europa.eu/project/id/101183031
+  url: https://www.biodiritto.org/Attivita/Progetti/AHEAD-AI-for-Health-Evaluation-of-Applications-Datasets1
   biotools-url: ''
   fairsharing-url: ''
   access-model: Portal
-  domain: life science # Health data
-  osai-recommendation: R2
-  osai-explanation: Focuses on datasets for AI.
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: openeurollm
   name: OpenEuroLLM (Open European Large Language Model)
@@ -1584,14 +1584,14 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R2
-  osai-explanation: Aims to share models.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: bridge2ai
   name: Bridge2AI
   type: Project
   description: >-
-    NIH program creating flagship biomedical datasets that are ethically
+    NIH project creating flagship biomedical datasets that are ethically
     sourced, trustworthy, FAIR, and AI-ready.
   url: https://commonfund.nih.gov/bridge2ai
   biotools-url: ''
@@ -1613,7 +1613,7 @@
   access-model: Free
   domain: life science
   osai-recommendation: R2
-  osai-explanation: Directly a model registry.
+  osai-explanation: A model sharing registry (R2).
 
 - id: featurecloudappstore
   name: Feature Cloud App Store
@@ -1627,7 +1627,7 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Platform to share models/apps.
+  osai-explanation: Platform to share model algorithms reusable for AI model development.
 
 - id: huggingface
   name: Hugging Face
@@ -1635,27 +1635,27 @@
   description: >-
     Major platform and community hub for sharing and discovering open-source
     pre-trained models, datasets, and tools for MLOps.
-  url: https://huggingface.co/models # Main model hub link
+  url: https://huggingface.co/models
   biotools-url: ''
-  fairsharing-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.4ccbbf
   access-model: Mixed
   domain: domain-agnostic
-  osai-recommendation: R2, R1, R4
-  osai-explanation: Provides metadata (R1), is a model/dataset registry (R2), and model cards disclose info (R4).
+  osai-recommendation: R1, R2, R4
+  osai-explanation: Is a model/dataset registry (R2), and model cards disclose info (R1, R4).
 
-- id: kagglemodels # Updated ID from 'kaggle' to be more specific
+- id: kagglemodels
   name: Kaggle
   type: Registry
   description: >-
     Platform for data science and machine learning, hosting competitions,
     datasets, code notebooks, and a growing model registry.
-  url: https://www.kaggle.com/models # Specific link to models
+  url: https://www.kaggle.com/models
   biotools-url: ''
-  fairsharing-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.mjq9vj
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R2, R6
-  osai-explanation: Hosts models/datasets (R2) and competitions define evaluation (R6).
+  osai-explanation: Hosts models/datasets (R2) and benchmarking competitions standardize evaluation protocols (R6).
 
 - id: openml
   name: OpenML
@@ -1663,12 +1663,12 @@
   description: >-
     Online collaborative science platform for machine learning, allowing
     sharing of datasets, tasks, flows (algorithms/code), and runs (experimental results).
-  url: https://www.openml.org/search?type=task # Link to tasks, general site is www.openml.org
+  url: https://www.openml.org/search?type=task 
   biotools-url: https://bio.tools/openml
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R2, R4, R6 # Updated: was R2,R1,R4,R6. R1 is covered by R4/R2.
+  osai-recommendation: R2, R4, R6
   osai-explanation: Shares models/datasets (R2), shares experiment info (R4), and standardizes tasks (R6).
 
 - id: ai4lifebioimagemodelzoo

@@ -1057,7 +1057,7 @@
   osai-explanation: AI benchmarking ontology metadata (R6) and standardizes concepts for tasks/benchmarks (R6).
 
 - id: languagemodelsbio_primer
-  name: Language models for biological research: a primer
+  name: Language models for biological research - a primer
   type: Paper
   description: >-
     Nature Methods paper on the use of language models in biological research.
@@ -1167,7 +1167,7 @@
   osai-explanation: Discusses AI training and education needs in research.
 
 - id: scientificml_systemsbiology
-  name: The rise of scientific machine learning: a perspective on combining mechanistic modelling with machine learning for systems biology
+  name: The rise of scientific machine learning - a perspective on combining mechanistic modelling with machine learning for systems biology
   type: Paper
   description: >-
     Frontiers in Systems Biology paper on combining mechanistic models
@@ -1558,7 +1558,7 @@
   osai-explanation: Directly targets green AI techniques (R7) and considers impact measurement (R9).
 
 - id: ahead_euproject
-  name: AHEAD (AI for Health: Evaluation of Applications & Datasets)
+  name: AHEAD (AI for Health - Evaluation of Applications & Datasets)
   type: Project
   description: >-
     EU project aiming to accelerate the health data economy using AI and
@@ -1725,7 +1725,7 @@
   osai-explanation: Will eventually validate hosted models (R2) against evaluation protocols in challenges (R6).
 
 - id: kipoimodelregistry
-  name: Kipoi: Model Zoo for Genomics
+  name: Kipoi - Model Zoo for Genomics
   type: Registry
   description: >-
     Repository for sharing pre-trained machine learning models used in
@@ -3512,7 +3512,7 @@ with AI models and APIs.
   osai-explanation: ''
 
 - id: 3rsgreendatamining
-  name: Reduce, Reuse, Recycle: Green Information Retrieval Research
+  name: Reduce, Reuse, Recycle - Green Information Retrieval Research
   type: Paper
   description: >-
     Paper describing Green data mining and information retrieval techniques.

@@ -1029,7 +1029,7 @@
   osai-explanation: Proposes AI-specific principles covering metadata (R1) and info disclosure (R4).
 
 - id: aiontologyllmassisted
-  name: The Artificial Intelligence Ontology: LLM-assisted construction of AI concept hierarchies
+  name: The Artificial Intelligence Ontology - LLM-assisted construction of AI concept hierarchies
   type: Paper
   description: >-
     Preprint describing the development of an AI ontology using LLMs to

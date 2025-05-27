@@ -910,8 +910,7 @@
   type: Organisation
   description: >-
     AI research and deployment company known for models like GPT, DALL-E,
-    and ChatGPT, aiming to ensure artificial general intelligence benefits all of
-    humanity.
+    and ChatGPT.
   url: https://openai.com/
   biotools-url: ''
   fairsharing-url: ''
@@ -1046,24 +1045,24 @@
   osai-explanation: Focuses on AI-specific metadata (ontology) (R1).
 
 - id: aiknowledgegraphpaper
-  name: A curated, ontology-based, large-scale knowledge graph of artificial intelligence tasks and benchmarks
+  name: Intelligence Task Ontology
   type: Paper
   description: >-
-    Scientific Data paper on a knowledge graph for AI tasks and benchmarks,
-    using ontologies.
-  url: https://www.nature.com/articles/s41597-022-01435-x
+    The Intelligence Task Ontology and Knowledge Graph (ITO) provides a comprehensive, curated model of artificial intelligence tasks, 
+    benchmarks and benchmark results, including the biomedical domain. 
+  url: https://bioportal.bioontology.org/ontologies/ITO
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R1, R2, R6
-  osai-explanation: Uses AI metadata (R1), acts as a model/dataset DB (R2), standardizes tasks/benchmarks (R6).
+  osai-recommendation: R1, R6
+  osai-explanation: AI benchmarking ontology metadata (R6) and standardizes concepts for tasks/benchmarks (R6).
 
 - id: languagemodelsbio_primer
-  name: 'Language models for biological research: a primer'
+  name: Language models for biological research: a primer
   type: Paper
   description: >-
-    Nature Methods primer on the use of language models in biological research.
+    Nature Methods paper on the use of language models in biological research.
   url: https://www.nature.com/articles/s41592-024-02354-y
   biotools-url: ''
   fairsharing-url: ''
@@ -1082,9 +1081,9 @@
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: domain-agnostic # Concept is general, though paper in Nat Methods
+  domain: domain-agnostic 
   osai-recommendation: R4, R6
-  osai-explanation: Addresses info disclosure (R4) and dataset/protocol integrity (R6).
+  osai-explanation: Addresses info disclosure (R4) and dataset/ evaluation protocol integrity (R6).
 
 - id: mlguidebiologists
   name: A guide to machine learning for biologists
@@ -1098,7 +1097,7 @@
   access-model: Free
   domain: life science
   osai-recommendation: R3
-  osai-explanation: Training material.
+  osai-explanation: Training material of use to life scientists starting with ML.
 
 - id: reproducibilitystandardsmllifesci
   name: Reproducibility standards for machine learning in the life sciences
@@ -1112,21 +1111,21 @@
   access-model: Free
   domain: life science
   osai-recommendation: R4, R5, R6
-  osai-explanation: Proposes info disclosure (R4), portable code practices (R5), and dataset/eval standards (R6).
+  osai-explanation: Proposes info disclosure guidance (R4), portable code practices (R5), and dataset/evaluation standards (R6).
 
 - id: keepingchecksonml
   name: Keeping checks on machine learning
   type: Paper
   description: >-
     Nature Methods comment on the importance of continuous monitoring and
-    validation of ML models.
+    validation of ML models with links to further useful papers.
   url: https://www.nature.com/articles/s41592-021-01300-6
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: domain-agnostic # General ML principle
-  osai-recommendation: R4
-  osai-explanation: Advocates for info disclosure and model validation.
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: embeddingaiinbiology
   name: Embedding AI in biology

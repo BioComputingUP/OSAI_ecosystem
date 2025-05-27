@@ -2090,24 +2090,9 @@
   osai-recommendation: R6
   osai-explanation: Provides standardized evaluation of models in leaderboards (R6).
 
-- id: irenelca
-  name: IrEne
-  type: Project
-  description: >-
-    Part of the Green Algorithms project, IrEne LCA focuses on Life Cycle
-    Assessment for computational research to provide more holistic environmental impact
-    assessments.
-  url: https://www.green-algorithms.org/irene-lca
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Focuses on measuring environmental impact.
-
 - id: rlenergyleaderboard
   name: RL (Reinforcement Learning) Energy Leaderboard
-  type: Tool # Or Benchmarking
+  type: Benchmarking
   description: >-
     A leaderboard focusing on the energy consumption and computational
     efficiency of Reinforcement Learning algorithms.
@@ -2116,12 +2101,12 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R9, R6
-  osai-explanation: Standardized evaluation (R6) focusing on energy/environmental impact (R9).
+  osai-recommendation: R6, R9
+  osai-explanation: Standardized evaluation energy benchmarking protocol leaderboard (R6) focusing on energy/environmental impact (R9).
 
 - id: biochatter
   name: BioChatter
-  type: Tool
+  type: LLM
   description: >-
     Conversational AI system using LLMs to query biomedical knowledge graphs
     and databases via natural language.
@@ -2146,14 +2131,14 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R4
-  osai-explanation: Checklist for disclosing model information.
+  osai-explanation: Checklist for disclosing model information (R4).
 
 - id: describeml
   name: DescribeML
-  type: Resource
+  type: Tool
   description: >-
-    Repository for DescribeML, a tool or methodology for describing machine
-    learning models or datasets.
+    DescribeML is a Visual Studio Code language plug-in to describe 
+    machine-learning datasets in a structured format.
   url: https://github.com/SOM-Research/DescribeML
   biotools-url: ''
   fairsharing-url: ''
@@ -2162,23 +2147,9 @@
   osai-recommendation: R1, R4
   osai-explanation: Tool/methodology for AI metadata (R1) and info disclosure (R4).
 
-- id: guidanceai # ID from repo name
-  name: guidance
-  type: Resource
-  description: >-
-    Programming paradigm and library by Microsoft for controlling large
-    language models (LLMs) with more precision and efficiency than traditional prompting.
-  url: https://github.com/guidance-ai/guidance
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Open Source
-  domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: Library enabling more controlled, potentially portable code.
-
 - id: ollama
   name: Ollama
-  type: Tool
+  type: LLM
   description: >-
     Open-source tool to download, set up, and run open-source large language
     models (LLMs) locally.
@@ -2187,24 +2158,24 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R2, R5
-  osai-explanation: Facilitates local use of shared models (R2) and portable setup (R5).
+  osai-recommendation:  R5
+  osai-explanation: Facilitates local use of shared models and portable setup (R5).
 
 - id: bitbucket
   name: BitBucket
-  type: Resource # Or Code sharing
+  type: Code sharing
   description: >-
     Web-based version control repository hosting service by Atlassian,
     supporting Git and previously Mercurial.
-  url: https://bitbucket.org/product/
+  url: https://www.atlassian.com/software/bitbucket
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free with Paid Tiers
   domain: domain-agnostic
-  osai-recommendation: R2, R5
-  osai-explanation: Platform for sharing models/datasets (R2) and code (R5).
+  osai-recommendation: R5
+  osai-explanation: Platform for sharing model code aiding portability (R5).
 
-- id: mercurialscm # ID with scm to differentiate if needed
+- id: mercurialscm
   name: Mercurial
   type: Code sharing
   description: >-
@@ -2216,35 +2187,35 @@
   access-model: Open Source
   domain: domain-agnostic
   osai-recommendation: R5
-  osai-explanation: Version control system for portable code.
+  osai-explanation: Version control system for portable code (R5).
 
 - id: gigantum
   name: Gigantum
-  type: Resource
+  type: Reproducibility tool
   description: >-
     Open-source platform for managing data science and ML projects by bundling
     code, data, parameters, and environment for reproducibility and collaboration.
-  url: https://gigantum.com/
+  url: https://github.com/gigantum
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
   osai-recommendation: R5
-  osai-explanation: Ensures portable code through environment bundling.
+  osai-explanation: Supports portability of code aiding reproducibility (R5).
 
 - id: modeldepot
   name: ModelDepot
   type: Registry
   description: >-
     Platform for hosting, sharing, discovering, versioning, and deploying
-    machine learning models.
+    machine learning models. Shut down and unavailable 20250527.
   url: https://modeldepot.io/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Directly a model registry.
+  osai-explanation: An AI model registry (R2).
 
 - id: caffe
   name: Caffe
@@ -2253,12 +2224,12 @@
     Deep learning framework developed by BAIR, known for speed and computer
     vision tasks.
   url: https://caffe.berkeleyvision.org/
-  biotools-url: https://bio.tools/caffe
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: As a library, it provides code that can be made portable.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: qsardatabase
   name: QSAR (Quantitative Structure-Activity Relationship) DataBase

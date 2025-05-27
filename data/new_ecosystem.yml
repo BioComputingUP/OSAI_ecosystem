@@ -1274,7 +1274,7 @@
   url: https://www.nature.com/articles/s41597-023-02298-6
   biotools-url: ''
   fairsharing-url: ''
-  access-model: ''
+  access-model: Free
   domain: domain-agnostic  
   osai-recommendation: ''
   osai-explanation: ''
@@ -1308,7 +1308,7 @@
   osai-explanation: AI-specific metadata schema for models, datasets and experiments (R1).
 
 - id: mex_aksw
-  name: MEX
+  name: Machine Learning EXchange (MEX)
   type: Metadata
   description: >-
     Machine Learning EXchange (MEX) format
@@ -1410,7 +1410,7 @@
   type: Reproducibility tool
   description: >-
     A channel for the Conda package manager specializing in bioinformatics
-    software, facilitating reproducible environments for computational biology, including
+    software, facilitating reproducible software environments for computational biology, including
     many AI/ML tools.
   url: https://bioconda.github.io/
   biotools-url: https://bio.tools/bioconda
@@ -1422,48 +1422,47 @@
 
 - id: modelshareai_concept
   name: Model Share AI
-  type: Paper
+  type: Analysis platform
   description: >-
     Refers to the concept or platforms for sharing ML models. Could also
     be a specific project/paper. See also ModelShare.org.
-  url: ''
+  url: https://www.modelshare.ai/
   biotools-url: ''
   fairsharing-url: ''
-  access-model: Free
+  access-model: Commercial
   domain: domain-agnostic
-  osai-recommendation: R2
-  osai-explanation: Concept directly relates to sharing models in registries/databases.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: ai4eosc_projectoutputs
-  name: AI4EOSC (AI for European Open Science Cloud)
-  type: Paper # Type is paper, referring to project outputs
+  name: AI4EOSC Platform
+  type: Analysis platform
   description: >-
-    Refers to publications and outputs from the AI4EOSC project, which
-    aims to integrate AI/ML/DL tools into the European Open Science Cloud.
-  url: https://ai4eosc.eu/
+     Software ecosystem platform designed to enhance the development and deployment of AI/ML/DL models and applications within the European Open Science Cloud (EOSC) 
+  url: https://dashboard.cloud.ai4eosc.eu/catalog/modules
   biotools-url: ''
   fairsharing-url: ''
   access-model: Portal
-  domain: domain-agnostic # EOSC is broad
-  osai-recommendation: R2, R3
-  osai-explanation: Project aims to share models/datasets (R2) and likely promotes best practices (R3).
+  domain: domain-agnostic
+  osai-recommendation: R2
+  osai-explanation: Project output aims to share reusable AI models (R2).
 
 - id: featurecloud
   name: Feature Cloud
-  type: Project
+  type: Registry
   description: >-
-    EU-funded project and platform for privacy-preserving federated machine
+    EU-funded project and AI/ML analysis platform for privacy-preserving federated machine
     learning, allowing analysis on distributed datasets.
   url: https://featurecloud.ai/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
-  domain: domain-agnostic # Federated learning platform
-  osai-recommendation: R2, R5
-  osai-explanation: Platform for models (R2) and provides code/tools for portability (R5).
+  domain: domain-agnostic
+  osai-recommendation: R2
+  osai-explanation: Platform for federated learning models and components for reuse (R2).
 
 - id: airiseeu
-  name: AIRISE (AI Research, Innovation and Skills Ecosystem) EU
+  name: AIRISE EU
   type: Project
   description: >-
     EU initiative (AI Research, Innovation & Software Engineering) focused
@@ -1474,21 +1473,21 @@
   access-model: Portal
   domain: domain-agnostic
   osai-recommendation: R3
-  osai-explanation: Focuses on skills, implying training on best practices.
+  osai-explanation: Focuses on skills and training on best practices (R3).
 
 - id: ai4life
-  name: AI4Life
-  type: Project
+  name: AI4Life BioImage Model Zoo
+  type: Registry
   description: >-
     European project developing and providing AI-powered tools and services
     for life scientists, particularly for bioimage analysis, leveraging Euro-BioImaging.
-  url: https://ai4life.eurobioimaging.eu/
+  url: https://bioimage.io/#/
   biotools-url: ''
-  fairsharing-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.77fc63
   access-model: Portal
   domain: life science
   osai-recommendation: R2, R3
-  osai-explanation: Provides models/services (R2) and likely training (R3).
+  osai-explanation: Registry provides bioimaging models/services (R2) and related training such as project webinars on project output usage (R3).
 
 - id: synthiaihi
   name: Synthia IHI (Innovative Health Initiative)
@@ -1501,14 +1500,14 @@
   fairsharing-url: ''
   access-model: Portal
   domain: life science
-  osai-recommendation: R2
-  osai-explanation: Focuses on creating and sharing datasets.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: farrrcn
-  name: FAIR AI Readiness & Reproducibility (FARR)
+  name: FAIR AI Readiness & Reproducibility Research Coordination Network (FARR-RCN)
   type: Project
   description: >-
-    Initiative developing frameworks and tools to assess and improve the
+    Initiative developing frameworks and METHODS to assess and improve the
     FAIRness and reproducibility of AI systems.
   url: https://www.farr-rcn.org/
   biotools-url: ''
@@ -1516,11 +1515,11 @@
   access-model: Portal
   domain: domain-agnostic
   osai-recommendation: R1, R3, R4
-  osai-explanation: Focuses on metadata (R1), best practices (R3), and info disclosure (R4).
+  osai-explanation: Focuses on metadata (R1), AI best practices (R3), and info disclosure (R4).
 
 - id: aireadinessbiomedicaldata_bridge2ai
-  name: 'AI-readiness for biomedical data: Bridge2AI recommendations'
-  type: Project # This is a preprint/recommendations from a project
+  name: AI-readiness for biomedical data: Bridge2AI recommendations
+  type: Project
   description: >-
     Preprint detailing recommendations from the NIH Bridge2AI program for
     making biomedical datasets AI-ready.

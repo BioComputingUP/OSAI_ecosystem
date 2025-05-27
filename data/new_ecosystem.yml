@@ -996,7 +996,7 @@
   description: >-
     Cnsortium that develops and promotes data mining standards,
     most notably PMML (Predictive Model Markup Language).
-  url: https://www.dmg.org/
+  url: https://dmg.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Portal
@@ -1004,36 +1004,35 @@
   osai-recommendation: R1
   osai-explanation: Develops AI-specific metadata standards (PMML) (R1). #to add in PMML
 
-- id: quareplimipaper # Name based on URL content
-  name: Community-developed checklists for publishing images and image analyses
-  type: Paper
+- id: quareplimipaper  
+  name: Quality Assessment and Reproducibility for Instruments & Images in Light Microscopy
+  type: Best practice
   description: >-
-    Nature Methods paper presenting community-developed checklists (QUAREP-LiMi)
+    Nature Methods published community-developed checklist (QUAREP-LiMi)
     for publishing images and image analyses, including ML aspects.
-  url: https://www.nature.com/articles/s41592-023-01987-9
+  url: https://quarep.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science # Based on Nature Methods and QUAREP-LiMi context
+  domain: life science  
   osai-recommendation: R4
-  osai-explanation: Guideline on disclosing information.
+  osai-explanation: Guideline on disclosing AI/ML light microscopy information (R4).
 
-- id: fairformlpaper_zenodo13835105 # Name to distinguish, using Zenodo ID
-  name: 'FAIR for Machine Learning Model: Principles and Assessment Metrics'
+- id: fairformlpaper_zenodo  
+  name: FAIR for Machine Learning Model: Principles and Assessment Metrics
   type: Paper
   description: >-
-    Research paper proposing principles and assessment metrics for making
-    machine learning models FAIR.
+    Research paper, specifies the translation of the FAIR principles for ML models, including a set of metrics to conduct its assessment.
   url: https://zenodo.org/records/13835105
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R1, R4
-  osai-explanation: Proposes AI-specific metadata/principles (R1) and info disclosure (R4).
+  osai-explanation: Proposes AI-specific principles covering metadata (R1) and info disclosure (R4).
 
 - id: aiontologyllmassisted
-  name: 'The Artificial Intelligence Ontology: LLM-assisted construction of AI concept hierarchies'
+  name: The Artificial Intelligence Ontology: LLM-assisted construction of AI concept hierarchies
   type: Paper
   description: >-
     Preprint describing the development of an AI ontology using LLMs to
@@ -1044,7 +1043,7 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R1
-  osai-explanation: Focuses on AI-specific metadata (ontology).
+  osai-explanation: Focuses on AI-specific metadata (ontology) (R1).
 
 - id: aiknowledgegraphpaper
   name: A curated, ontology-based, large-scale knowledge graph of artificial intelligence tasks and benchmarks

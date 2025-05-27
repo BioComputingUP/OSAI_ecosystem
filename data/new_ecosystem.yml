@@ -3482,7 +3482,7 @@ with AI models and APIs.
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science
+  domain: domain-agnostic
   osai-recommendation: ''
   osai-explanation: ''
 
@@ -3499,12 +3499,65 @@ with AI models and APIs.
   osai-recommendation: R3
   osai-explanation: Example of AI model deposition guidance (R3), could be repruposed and adapted for institutional or national needs.
 
-- id: x
-  name: x
-  type: x
+- id: genaicommons
+  name: Generative AI Commons
+  type: Organisation
   description: >-
-    x
-  url: ''
+    The Linux Foundation AI & Data Generative AI Commons is dedicated to fostering the democratization, advancement and adoption of efficient, secure, reliable, 
+    and ethical Generative AI open source innovations through neutral governance, open and transparent collaboration and education.
+  url: https://genaicommons.org/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: 3rsgreendatamining
+  name: Reduce, Reuse, Recycle: Green Information Retrieval Research
+  type: Paper
+  description: >-
+    Paper describing Green data mining and information retrieval techniques.
+  url: https://dl.acm.org/doi/10.1145/3477495.3531766
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R9
+  osai-explanation: Green data retrieval techniques useful for AI application (R9).
+
+- id: popcoe
+  name: Performance Optimisation and Productivity Centre of Excellence in HPC 
+  type: Organisation
+  description: >-
+    Provides performance optimisation and productivity services for academic and industrial code in all domains in the EU.
+  url: https://pop-coe.eu/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R8, R9
+  osai-explanation: ''
+
+- id: top500green
+  name: Top 500 Green HPC List
+  type: Tool
+  description: >-
+    Ranking of Green500 top green HPC centres.
+  url: https://top500.org/lists/green500/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R8
+  osai-explanation: Useful resource to check if a HPC centre is green for informing deployment choice to optimise Green AI (R8).
+
+- id: aibio
+  name: AIBIO-UK
+  type: Project
+  description: >-
+    A community-building project supporting AI in the Biosciences in the UK.
+  url: https://aibio.ac.uk/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -3512,42 +3565,16 @@ with AI models and APIs.
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: x
-  name: x
-  type: x
+- id: nairr
+  name: National Artificial Intelligence Research Resource (NAIRR) Task Force
+  type: Project
   description: >-
-    x
-  url: ''
+    Pilot concept for a national infrastructure that connects U.S. researchers to computational, data, software, model and training resources they need to participate in AI research.
+  url: https://www.nsf.gov/focus-areas/artificial-intelligence/nairr
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: x
-  name: x
-  type: x
-  description: >-
-    x
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: life science
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: x
-  name: x
-  type: x
-  description: >-
-    x
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: life science
+  domain: domain-agnostic
   osai-recommendation: ''
   osai-explanation: ''
 

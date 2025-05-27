@@ -3678,7 +3678,20 @@ with AI models and APIs.
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science
+  domain: domain-agnostic
   osai-recommendation: R5
   osai-explanation: Extensible format which can be of use for structured AI/ML model and dataset depositions.
+
+- id: dockercontainer
+  name: Docker
+  type: Reproducibility tool
+  description: >-
+    Docker is a container technology that helps developers build, share, run, and verify applications without tedious environment configuration or management.
+  url: https://www.docker.com/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R5
+  osai-explanation: Used for containerising software to support portability across systems and reproducibility (R5).
 ```

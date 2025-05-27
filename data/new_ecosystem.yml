@@ -526,45 +526,45 @@
 
 - id: dataverse
   name: Dataverse
-  type: Database
+  type: Registry
   description: >-
     Open-source web application for creating data repositories to share,
     preserve, cite, explore, and analyze research data.
   url: https://dataverse.org/
-  biotools-url: https://bio.tools/dataverse
-  fairsharing-url: https://fairsharing.org/FAIRsharing.60ftv5
+  biotools-url: ''
+  fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Database for sharing datasets.
+  osai-explanation: Database usable for sharing and discovering AI/ML datasets (R2).
 
 - id: figshare
   name: Figshare
-  type: Database
+  type: Registry
   description: >-
     Online digital repository for researchers to preserve and share research
     outputs like datasets, figures, software, and papers.
   url: https://figshare.com/
   biotools-url: ''
-  fairsharing-url: https://fairsharing.org/FAIRsharing.j9m7kj
+  fairsharing-url: https://fairsharing.org/FAIRsharing.drtwnh
   access-model: Free with Paid Tiers
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Repository for sharing models and datasets.
+  osai-explanation: Repository usable for finding and sharing AI/ML models and datasets (R2).
 
 - id: arxiv
   name: arXiv
-  type: Database
+  type: Registry
   description: >-
     Preprint server for research papers in physics, mathematics, computer
     science (including AI/ML), quantitative biology, and other fields.
   url: https://arxiv.org/
   biotools-url: ''
-  fairsharing-url: https://fairsharing.org/FAIRsharing.832g2x
+  fairsharing-url: https://fairsharing.org/FAIRsharing.0c1bd4
   access-model: Free
   domain: domain-agnostic # Covers many fields, including CS/AI and quant bio
   osai-recommendation: R2, R4
-  osai-explanation: Shares papers often describing models/datasets (R2) and disclosing info (R4).
+  osai-explanation: Shares papers often describing AI/ML models/datasets and disclosing info (R4) and generally links out to respective models and datasets (R2).
 
 - id: physionet
   name: PhysioNet
@@ -574,15 +574,15 @@
     and related open-source software, widely used for ML in healthcare.
   url: https://physionet.org/
   biotools-url: https://bio.tools/physionet
-  fairsharing-url: https://fairsharing.org/FAIRsharing.kfrh1n
+  fairsharing-url: https://fairsharing.org/FAIRsharing.bemzxg
   access-model: Free
   domain: life science
   osai-recommendation: R2
-  osai-explanation: Database for sharing datasets.
+  osai-explanation: Database for sharing life science datasets (R2).
 
 - id: gitlfs
   name: Git LFS (Large File Storage)
-  type: Database # Or Tool; listed as Database, keeping it
+  type: Registry  
   description: >-
     Git extension for versioning large files, crucial for managing large
     datasets or model weights within Git repositories.
@@ -591,8 +591,8 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R2, R5
-  osai-explanation: Facilitates sharing large model/dataset files (R2) alongside code (R5).
+  osai-recommendation: R2, R5, R6
+  osai-explanation: Facilitates sharing large model/dataset files (R2) supporting portable reprodcubility (R5) and possibility to be used for standardised benchmark datasets (R6).
 
 - id: croissant
   name: Croissant
@@ -602,11 +602,11 @@
     to make datasets easily findable, loadable, and usable across tools.
   url: https://mlcommons.org/working-groups/data/croissant/
   biotools-url: ''
-  fairsharing-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.a0982e
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R1
-  osai-explanation: AI-specific metadata format.
+  osai-explanation: AI-specific metadata format for annotating datasets (R1).
 
 - id: fair4mlschema
   name: FAIR4ML (FAIR for Machine Learning) Schema
@@ -616,11 +616,11 @@
     Accessible, Interoperable, Reusable) to machine learning models.
   url: https://github.com/RDA-FAIR4ML/FAIR4ML-schema
   biotools-url: ''
-  fairsharing-url: ''
+  fairsharing-url: https://fairsharing.org/6227
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R1
-  osai-explanation: AI-specific metadata schema.
+  osai-explanation: AI-specific metadata schema for models (R1).
 
 - id: geocroissant
   name: Geo-croissant
@@ -632,23 +632,9 @@
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: domain-agnostic # Geospatial is broad, but this is a metadata spec
+  domain: domain-agnostic  
   osai-recommendation: R1
-  osai-explanation: AI-specific metadata extension.
-
-- id: stac
-  name: STAC (SpatioTemporal Asset Catalog)
-  type: Metadata
-  description: >-
-    A specification for a common language to describe geospatial information,
-    enabling easy indexing, discovery, and analysis of spatiotemporal assets.
-  url: https://stacspec.org/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic # Geospatial is broad
-  osai-recommendation: R1
-  osai-explanation: Metadata standard relevant to AI datasets.
+  osai-explanation: AI-specific metadata extension, an example of how this can be done for specific life science dataset metadata needs (R1).
 
 - id: onnx
   name: ONNX (Open Neural Network Exchange)

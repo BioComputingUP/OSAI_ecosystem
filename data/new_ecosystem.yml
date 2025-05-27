@@ -2965,8 +2965,8 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: Library of algorithms, implies portable code.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: rayrllib
   name: Ray / RLlib (Reinforcement Learning Library)
@@ -2975,12 +2975,12 @@ with AI models and APIs.
     Ray is a framework for scaling Python applications. RLlib is its scalable
     reinforcement learning library.
   url: https://www.ray.io/
-  biotools-url: https://bio.tools/ray
+  biotools-url: ''
   fairsharing-url: ''
-  access-model: Open Source
+  access-model: Commercial
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: Framework and library for portable code.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: dvc
   name: DVC (Data Version Control)
@@ -2993,22 +2993,22 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R2, R4, R5
-  osai-explanation: Versions models/data (R2), discloses pipeline info (R4), integrates with code (R5).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: openaigymnasium
-  name: OpenAI Gym / Gymnasium
+  name: OpenAI Gym
   type: Benchmarking
   description: >-
-    Toolkits (Gymnasium is the maintained fork of Gym) for developing and
-    comparing reinforcement learning algorithms.
-  url: https://gymnasium.farama.org/
+    Toolkit  for developing and
+    comparing reinforcement learning algorithms. 
+  url: https://github.com/openai/gym
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R6
-  osai-explanation: Provides standardized environments for evaluation.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: allennlp
   name: AllenNLP
@@ -3016,13 +3016,13 @@ with AI models and APIs.
   description: >-
     Open-source NLP research library from AI2, built on PyTorch, for developing
     state-of-the-art models.
-  url: https://allennlp.org/
-  biotools-url: https://bio.tools/allennlp
+  url: https://github.com/allenai/allennlp
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: As a library, it provides code that can be made portable.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: flairnlp
   name: Flair
@@ -3031,12 +3031,12 @@ with AI models and APIs.
     Simple framework for state-of-the-art NLP, focusing on embeddings and
     sequence tagging tasks.
   url: https://flairnlp.github.io/
-  biotools-url: https://bio.tools/flair
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5
-  osai-explanation: As a library, it provides code that can be made portable.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: optuna
   name: Optuna
@@ -3045,12 +3045,12 @@ with AI models and APIs.
     Automatic hyperparameter optimization framework designed for flexibility,
     scalability, and ease of use.
   url: https://optuna.org/
-  biotools-url: https://bio.tools/optuna
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R7
-  osai-explanation: Hyperparameter optimization is a green AI technique.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: hyperopt
   name: Hyperopt
@@ -3058,40 +3058,26 @@ with AI models and APIs.
   description: >-
     Distributed asynchronous hyperparameter optimization library in Python.
   url: http://hyperopt.github.io/hyperopt/
-  biotools-url: https://bio.tools/hyperopt
-  fairsharing-url: ''
-  access-model: Open Source
-  domain: domain-agnostic
-  osai-recommendation: R7
-  osai-explanation: Hyperparameter optimization is a green AI technique.
-
-- id: rapidsai
-  name: RAPIDS
-  type: AI/ML Library
-  description: >-
-    Suite of open-source GPU-accelerated data science libraries (cuDF,
-    cuML, cuGraph, etc.) for end-to-end GPU pipelines.
-  url: https://rapids.ai/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R5, R8
-  osai-explanation: Libraries for portable code (R5) targeted at specific (GPU) hardware (R8).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: distillpub
   name: Distill.pub
-  type: Other # Online journal
+  type: Other
   description: >-
     Online academic journal focused on clear, interactive explanations
-    of machine learning research and concepts.
+    of machine learning research and concepts. Distill is now closed and operated 2016-2021.
   url: https://distill.pub/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R3, R4
-  osai-explanation: Publishes explanations (R4) and serves as training material (R3).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: rdkit
   name: RDKit
@@ -3101,11 +3087,11 @@ with AI models and APIs.
     processing, QSAR, and ML in chemistry.
   url: https://www.rdkit.org/
   biotools-url: https://bio.tools/rdkit
-  fairsharing-url: https://fairsharing.org/FAIRsharing.r3xwd2
+  fairsharing-url: ''
   access-model: Open Source
   domain: life science
-  osai-recommendation: R5
-  osai-explanation: Toolkit providing portable code components.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: nextflow
   name: Nextflow
@@ -3115,11 +3101,11 @@ with AI models and APIs.
     pipelines using software containers.
   url: https://www.nextflow.io/
   biotools-url: https://bio.tools/nextflow
-  fairsharing-url: https://fairsharing.org/FAIRsharing.k0qgjs
+  fairsharing-url: ''
   access-model: Open Source
-  domain: domain-agnostic # Widely used in life sciences but is general
+  domain: domain-agnostic
   osai-recommendation: R5
-  osai-explanation: Ensures portable code/workflows.
+  osai-explanation: Supports orchestrating portable and reproducible code/workflows (R5).
 
 - id: snakemake
   name: Snakemake
@@ -3129,13 +3115,13 @@ with AI models and APIs.
     defining data analysis pipelines.
   url: https://snakemake.readthedocs.io/
   biotools-url: https://bio.tools/snakemake
-  fairsharing-url: https://fairsharing.org/FAIRsharing.wyza9j
+  fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic # Widely used in life sciences but is general
   osai-recommendation: R5
-  osai-explanation: Ensures portable code/workflows.
+  osai-explanation: Supports orchestrating portable and reproducible code/workflows (R5).
 
-- id: galaxyproject # More specific ID
+- id: galaxyproject
   name: Galaxy
   type: Reproducibility tool
   description: >-
@@ -3143,11 +3129,11 @@ with AI models and APIs.
     computational biological research, including ML tools.
   url: https://galaxyproject.org/
   biotools-url: https://bio.tools/galaxy
-  fairsharing-url: https://fairsharing.org/FAIRsharing.97mq6w
+  fairsharing-url: ''
   access-model: Open Source
-  domain: life science # Primarily for biological research
+  domain: life science
   osai-recommendation: R5
-  osai-explanation: Platform for portable workflows.
+  osai-explanation: Supports orchestrating portable and reproducible code/workflows (R5).
 
 - id: cwl
   name: CWL (Common Workflow Language)
@@ -3156,68 +3142,68 @@ with AI models and APIs.
     Open standard for describing analysis workflows and tools in a way
     that makes them portable and scalable across different software and hardware environments.
   url: https://www.commonwl.org/
-  biotools-url: https://bio.tools/cwl
-  fairsharing-url: https://fairsharing.org/FAIRsharing.v67nfw
+  biotools-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.8y5ayx
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R5
-  osai-explanation: Standard for ensuring portable code/workflows.
+  osai-explanation: Supports orchestrating portable and reproducible code/workflows (R5).
 
 - id: workflowhub
   name: WorkflowHub
-  type: Registry
+  type: Reproducibility tool
   description: >-
     Registry for sharing and discovering scientific workflows, supporting
     multiple formats like CWL, Nextflow, Galaxy.
   url: https://workflowhub.eu/
-  biotools-url: https://bio.tools/workflowhub
-  fairsharing-url: https://fairsharing.org/FAIRsharing.s9x592
+  biotools-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.07cf72
   access-model: Free
-  domain: domain-agnostic # Supports various domains
+  domain: domain-agnostic
   osai-recommendation: R2, R5
-  osai-explanation: Registry for workflows (R2) which are a form of portable code (R5).
+  osai-explanation: Registry for workflows (R2) which are a form of portable code (R5), useful for AI/ML reprodcubility.
 
 - id: biocontainers
   name: Biocontainers
   type: Reproducibility tool
   description: >-
     Community-driven project providing standardized software containers
-    (Docker, Singularity) for bioinformatics tools.
+    (Docker, Apptainer) for bioinformatics tools.
   url: https://biocontainers.pro/
   biotools-url: https://bio.tools/biocontainers
   fairsharing-url: ''
   access-model: Free
   domain: life science
   osai-recommendation: R5
-  osai-explanation: Ensures portable code through containerization.
+  osai-explanation: Ensures portable code through containerization (R5).
 
-- id: biotools # ID for bio.tools itself
+- id: biotools
   name: Bio.tools
   type: Registry
   description: >-
-    ELIXIR's Tools and Data Services Registry, a comprehensive catalog
+    Tools and Data Services Registry, a comprehensive catalog
     of bioinformatics software, databases, and services.
   url: https://bio.tools/
-  biotools-url: https://bio.tools/bio.tools # Link to itself
-  fairsharing-url: https://fairsharing.org/FAIRsharing.k59g1g
+  biotools-url: https://bio.tools/bio.tools
+  fairsharing-url: ''
   access-model: Free
   domain: life science
   osai-recommendation: R2
-  osai-explanation: Registry for tools, which can include AI models/datasets.
+  osai-explanation: Registry for tools, which can include AI models.
 
-- id: fairsharing # ID for fairsharing.org itself
+- id: fairsharing
   name: FAIRsharing
   type: Registry
   description: >-
     Curated, searchable portal of data and metadata standards, inter-related
     to databases and data policies, to promote FAIR data.
   url: https://fairsharing.org/
-  biotools-url: https://bio.tools/fairsharing
-  fairsharing-url: https://fairsharing.org/FAIRsharing.mjs971 # Link to itself
+  biotools-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.2abjs5
   access-model: Free
-  domain: domain-agnostic # Covers all scientific data standards
+  domain: domain-agnostic
   osai-recommendation: R1, R2
-  osai-explanation: Registry for metadata standards (R1) and databases (R2).
+  osai-explanation: Registry for finding relevant AI metadata standards (R1) and databases/registries for models and datasets (R2).
 
 - id: datasetnutritionlabel
   name: The Dataset Nutrition Label
@@ -3230,16 +3216,16 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R1, R4
-  osai-explanation: Framework for AI-specific metadata (R1) and disclosing dataset info (R4).
+  osai-recommendation: R1
+  osai-explanation: Framework for AI-specific metadata (R1) and disclosing dataset info.
 
 - id: datacardsplaybook
   name: The Data Cards Playbook
   type: Metadata
   description: >-
-    A resource from Google's People + AI Research (PAIR) initiative providing
+    A resource from Googles People + AI Research (PAIR) initiative providing
     guidance and templates for creating Data Cards to document datasets.
-  url: https://pair.withgoogle.com/explorables/data-cards/
+  url: https://sites.research.google/datacardsplaybook/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -3259,7 +3245,7 @@ with AI models and APIs.
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R1
-  osai-explanation: Example of AI-specific dataset metadata.
+  osai-explanation: Example of AI-specific registry dataset metadata (R1).
 
 - id: kagglecompetitions
   name: Kaggle competitions
@@ -3273,64 +3259,49 @@ with AI models and APIs.
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R6
-  osai-explanation: Defines evaluation protocols and uses standardized datasets.
+  osai-explanation: Defines evaluation protocols and uses standardized datasets (R6).
 
 - id: rdmkit
   name: RDMkit (Research Data Management Toolkit)
   type: Training
   description: >-
-    ELIXIR toolkit providing guidance on research data management across
+    Toolkit providing guidance on research data management across
     the lifecycle of a research project.
   url: https://rdmkit.elixir-europe.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science # ELIXIR context
+  domain: life science
   osai-recommendation: R3
-  osai-explanation: Training on best practices for data.
+  osai-explanation: Training on best practices for research data management which is applicable to AI datasets but not AI specific (R3).
 
 - id: rsqkit
   name: RSQkit (Research Software Quality Toolkit)
   type: Training
   description: >-
-    ELIXIR toolkit offering guidance and best practices for improving the
+    Toolkit offering guidance and best practices for improving the
     quality and sustainability of research software.
-  url: https://rsqkit.elixir-europe.org/
+  url: https://everse.software/RSQKit/reproducible_software_environments
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science # ELIXIR context, but broadly applicable
+  domain: life science
   osai-recommendation: R3, R5
-  osai-explanation: Training on best practices (R3) for portable code (R5).
-
-- id: ai4metadata
-  name: AI4metadata (from AI4EOSC)
-  type: Metadata
-  description: >-
-    A component or deliverable of the AI4EOSC project, focused on using
-    AI to generate or enhance metadata for scientific datasets within the European
-    Open Science Cloud.
-  url: https://ai4eosc.eu/ai4metadata/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic # EOSC is general
-  osai-recommendation: R1
-  osai-explanation: Focuses on AI-specific metadata.
+  osai-explanation: Training on best practices (R3) and guidance for reproducible & portable code (R5) applicable for reuse with AI models.
 
 - id: mlsea
-  name: 'MLSea: A Semantic Layer for Discoverable Machine Learning'
-  type: Metadata # Concept/Paper
+  name: MLSea: A Semantic Layer for Discoverable Machine Learning
+  type: Paper
   description: >-
     A research paper/concept proposing a semantic layer to improve the
-    discoverability of ML artifacts. This links to a KDD 2023 paper.
-  url: https://dl.acm.org/doi/10.1145/3580305.3599801
+    discoverability of ML artifacts.
+  url: https://link.springer.com/chapter/10.1007/978-3-031-60635-9_11
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R1
-  osai-explanation: Proposes AI-specific metadata layer.
+  osai-explanation: Proposes AI-specific metadata layer (R1).
 
 - id: mlenergyleaderboard
   name: Machine Learning Energy Leaderboard
@@ -3343,7 +3314,7 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R9, R6
+  osai-recommendation: R6, R9
   osai-explanation: Standardized evaluation (R6) of environmental impact (R9).
 
 - id: nfdi4datascience
@@ -3357,50 +3328,22 @@ with AI models and APIs.
   fairsharing-url: ''
   access-model: Portal
   domain: domain-agnostic
-  osai-recommendation: R3
-  osai-explanation: Promotes training and best practices.
-
-- id: skills4eosc
-  name: Skills4EOSC (Skills for European Open Science Cloud) (FAIR4ML related)
-  type: Training
-  description: >-
-    European project aiming to upskill researchers and data professionals
-    for the European Open Science Cloud, including FAIR data & ML practices.
-  url: https://www.skills4eosc.eu/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Portal
-  domain: domain-agnostic
-  osai-recommendation: R3
-  osai-explanation: Focuses on training.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: theturingway
-  name: The Turing Way
+  name: The Turing Way - Guide for Reproducible Research
   type: Training
   description: >-
     An open-source community-driven guide to reproducible, ethical, inclusive
     and collaborative data science.
-  url: https://the-turing-way.netlify.app/welcome.html
+  url: https://book.the-turing-way.org/reproducible-research/reproducible-research
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R3, R4, R5
-  osai-explanation: Guide on best practices (R3), info disclosure (R4), and portable code (R5).
-
-- id: consortai
-  name: CONSORT-AI (Extension for AI Trials)
-  type: Paper # Reporting guideline published as paper
-  description: >-
-    Nature Medicine paper presenting the CONSORT-AI extension, a reporting
-    guideline for clinical trials evaluating interventions with AI.
-  url: https://www.nature.com/articles/s41591-020-1034-x
-  biotools-url: ''
-  fairsharing-url: https://fairsharing.org/FAIRsharing.w7x21x
-  access-model: Free
-  domain: life science # Clinical trials
-  osai-recommendation: R4
-  osai-explanation: Reporting guideline for disclosing model/trial info.
+  osai-recommendation: R4, R5
+  osai-explanation: Guide on research software reproducibility best practices covering info disclosure (R4), and portable code (R5) relevant to AI models.
 
 - id: tripodstatement
   name: TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis)
@@ -3410,11 +3353,11 @@ with AI models and APIs.
     a multivariable prediction model for diagnosis or prognosis.
   url: https://www.tripod-statement.org/
   biotools-url: ''
-  fairsharing-url: '' # has FAIRsharing record https://fairsharing.org/FAIRsharing.j68x7h
+  fairsharing-url: ''
   access-model: Free
-  domain: life science # Diagnosis/prognosis models
+  domain: life science
   osai-recommendation: R4
-  osai-explanation: Reporting guideline for disclosing model info.
+  osai-explanation: Reporting guideline for disclosing model info (R4).
 
 - id: futureai
   name: FUTURE-AI (Framework for Unified Triage and Upguidance Recommendations for Evaluation of Artificial Intelligence)
@@ -3422,27 +3365,27 @@ with AI models and APIs.
   description: >-
     International consensus framework providing best practices for developing,
     deploying, and managing trustworthy AI tools in healthcare.
-  url: https://www.bmj.com/content/388/bmj-2024-081554
+  url: https://future-ai.eu/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science # Healthcare
+  domain: life science
   osai-recommendation: R4
-  osai-explanation: Framework promoting disclosure of model information.
+  osai-explanation: Framework promoting disclosure of model information (R4).
 
 - id: dockstore
   name: Dockstore
-  type: Registry
+  type: Reproducibility tool
   description: >-
     Platform for sharing Docker-based tools and workflows described with
     CWL, WDL, or Nextflow, primarily for bioinformatics.
   url: https://dockstore.org/
   biotools-url: https://bio.tools/dockstore
-  fairsharing-url: https://fairsharing.org/FAIRsharing.t7njb7
+  fairsharing-url: ''
   access-model: Free
-  domain: life science # Primarily bioinformatics
-  osai-recommendation: R2, R5
-  osai-explanation: Registry for tools/workflows (R2) that are containerized for portability (R5).
+  domain: life science
+  osai-recommendation: R5
+  osai-explanation: Registry for reproducible tools/workflows that are containerized for portability (R5).
 
 - id: softwareheritage
   name: Software Heritage
@@ -3451,12 +3394,12 @@ with AI models and APIs.
     Global archive of software source code, aiming to preserve all publicly
     available software for future generations.
   url: https://www.softwareheritage.org/
-  biotools-url: https://bio.tools/software_heritage
-  fairsharing-url: https://fairsharing.org/FAIRsharing.z3x2g4
+  biotools-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.6ffb92
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R2, R5
-  osai-explanation: Archive for code (R5) and can include AI models (R2).
+  osai-recommendation: R5
+  osai-explanation: Archive for code (R5) and can include AI models.
 
 - id: apptainer
   name: Apptainer
@@ -3465,55 +3408,55 @@ with AI models and APIs.
     Open-source container platform (formerly Singularity) designed for
     secure, portable, and reproducible application execution, especially in HPC environments.
   url: https://apptainer.org/
-  biotools-url: https://bio.tools/apptainer
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
   osai-recommendation: R5
-  osai-explanation: Ensures portable code through containerization.
+  osai-explanation: Ensures portable code through containerization (R5).
 
 - id: domerecommendations
   name: DOME Recommendations
-  type: Reporting guideline
+  type: Best practice
   description: >-
     Community-wide recommendations for reporting supervised machine learning-based
     analyses applied to biological studies, aiming to improve validation and reproducibility.
-  url: https://www.nature.com/articles/s41591-020-1034-x # URL to Nature Medicine paper (same as CONSORT-AI, this is an issue for uniqueness if using URL as key. The DOME recs are distinct though)
+  url: 
   biotools-url: ''
-  fairsharing-url: '' # DOME Recommendations themselves: https://fairsharing.org/FAIRsharing.y0sfzt
+  fairsharing-url: https://fairsharing.org/FAIRsharing.cf62c2
   access-model: Free
   domain: life science
   osai-recommendation: R4
-  osai-explanation: Reporting guideline for disclosing model/study information to enhance reproducibility.
+  osai-explanation: Reporting guideline for disclosing AI model, dataset and study information to enhance reproducibility (R4).
 
-- id: '6198' # Preserving existing ID
+- id: domeregistry
   name: DOME Registry
   type: Registry
   description: >-
     A database and registry that allows scientists to manage and access
     comprehensive DOME-related information on published and unpublished machine learning
     studies in biology, providing curated annotations and unique identifiers.
-  url: https://registry.dome-ml.org/
+  url: https://registry.dome-ml.org/intro
   biotools-url: ''
-  fairsharing-url: https://fairsharing.org/6198
+  fairsharing-url: https://fairsharing.org/FAIRsharing.5d98bd
   access-model: Free
   domain: life science
   osai-recommendation: R2, R4
-  osai-explanation: Registry for AI/ML studies (R2) and facilitates reporting/disclosure of model information via annotations (R4).
+  osai-explanation: Registry for AI/ML studies (R2) and facilitates reporting/disclosure of model information via publication annotations (R4).
 
-- id: elixirmlfocusgroup # ID for the FG itself
+- id: elixirmlfocusgroup
   name: ELIXIR Machine Learning Focus Group
   type: Focus Group
   description: >-
     An ELIXIR agile structure that brings together interested parties to
     address emerging areas of interest in Machine Learning, aiming to increase the
     reproducibility and transparency of ML methods in the life sciences and responsible
-    for developing the DOME recommendations and registry.
+    for developing the DOME Recommendations and Registry.
   url: https://elixir-europe.org/focus-groups/machine-learning
   biotools-url: ''
-  fairsharing-url: https://fairsharing.org/organisations/845
+  fairsharing-url: ''
   access-model: Free
   domain: life science
-  osai-recommendation: R2, R4, R5
-  osai-explanation: Involved in developing reporting standards (R4), promoting reproducible ML practices (R5), and supporting resources for ML in biology (R2).
+  osai-recommendation: ''
+  osai-explanation: ''
 ```

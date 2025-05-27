@@ -1166,10 +1166,10 @@
   access-model: Free
   domain: domain-agnostic # General literacy
   osai-recommendation: R3
-  osai-explanation: Discusses training and education.
+  osai-explanation: Discusses AI training and education needs in research.
 
 - id: scientificml_systemsbiology
-  name: 'The rise of scientific machine learning: a perspective on combining mechanistic modelling with machine learning for systems biology'
+  name: The rise of scientific machine learning: a perspective on combining mechanistic modelling with machine learning for systems biology
   type: Paper
   description: >-
     Frontiers in Systems Biology paper on combining mechanistic models
@@ -1187,15 +1187,14 @@
   type: Paper
   description: >-
     Scientific Data paper assessing the FAIRness and transparency of data
-    in scientific papers for ML use. Future publication date, URL might be for accepted
-    manuscript or similar.
+    in scientific papers for ML use. 
   url: https://www.nature.com/articles/s41597-025-04402-4
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: domain-agnostic # Assesses scientific data papers broadly for ML
-  osai-recommendation: R4
-  osai-explanation: Focuses on info disclosure for datasets.
+  domain: domain-agnostic  
+  osai-recommendation: R4, R6
+  osai-explanation: Focuses on info disclosure for datasets and relevant to benchmarking (R4, R6).
 
 - id: datasetlicensingauditai
   name: A large-scale audit of dataset licensing and attribution in AI
@@ -1209,25 +1208,23 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R4
-  osai-explanation: Concerns disclosure of dataset information.
+  osai-explanation: Highlights disclosure needs of AI dataset information.
 
 - id: dslformldatasets
   name: A domain-specific language for describing machine learning datasets
   type: Paper
   description: >-
-    Patterns journal paper on a DSL for describing ML datasets.
+    Patterns journal paper on a domain-specific language for describing ML datasets.
   url: https://www.sciencedirect.com/science/article/pii/S2590118423000199
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R1
-  osai-explanation: Proposes an AI-specific metadata language.
-
-# FAIR for Machine Learning Model: Principles and Assessment Metrics (DUPLICATE of fairformlpaper_zenodo13835105) - SKIPPING
+  osai-explanation: Defines a new domain-specific language (DSL) to precisely describe machine learning datasets in terms of their structure, provenance, and social concerns (R1).
 
 - id: transparentai_pmc8144864
-  name: Transparent AI
+  name: Transparency and reproducibility in artificial intelligence
   type: Paper
   description: >-
     Journal article discussing concepts, methods (like Explainable AI -
@@ -1238,21 +1235,20 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R4
-  osai-explanation: Focuses on disclosing model information (explainability).
+  osai-explanation: Focuses on disclosing model information (explainability) for reproducibility (R4).
 
 - id: smdcard
-  name: SMD (Scientific Model Development) Card
+  name: Scorecards for Synthetic Medical Data (SMD) Evaluation and Reporting
   type: Paper
   description: >-
-    Preprint proposing Scientific Model Development (SMD) Cards as a framework
-    for documenting scientific models, including ML models.
+    Preprint proposing Synthetic Medical Data (SMD) Card, which can serve as comprehensive reports that accompany artificially generated datasets.
   url: https://arxiv.org/abs/2406.11143
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: domain-agnostic # General scientific models
+  domain: domain-agnostic 
   osai-recommendation: R1, R4
-  osai-explanation: Framework for AI-specific metadata (R1) and disclosing model info (R4).
+  osai-explanation: Framework for AI-specific metadata (R1) disclosing synthetic medical data info (R4).
 
 - id: reformspaper_sciadv
   name: 'REFORMS: Consensus-based Recommendations for Machine-learning-based Science'
@@ -1269,25 +1265,25 @@
   osai-explanation: Focuses on disclosing relevant model and dataset information.
 
 - id: fair4aipaper_action
-  name: 'FAIR4AI Paper (Action: Extract Resources)'
+  name: FAIR for AI: An interdisciplinary and international community building perspective
   type: Paper
   description: >-
-    Placeholder to extract resources from literature discussing FAIR principles
-    for AI artifacts (models, data, software).
-  url: ''
+    Perspectives, vision, and experiences of researchers from different countries, disciplines, 
+    and backgrounds who are leading the definition and adoption of FAIR principles in their communities of practice, 
+    and discuss outcomes that may result from pursuing and incentivizing FAIR AI research. 
+  url: https://www.nature.com/articles/s41597-023-02298-6
   biotools-url: ''
   fairsharing-url: ''
   access-model: ''
-  domain: domain-agnostic # Placeholder
+  domain: domain-agnostic  
   osai-recommendation: ''
   osai-explanation: ''
 
 - id: mlopstoolsimage_action
-  name: 'MLOps Tools Image (Action: Extract Resources)'
+  name: 45+ MLOps Tools in 2025
   type: Paper
   description: >-
-    Placeholder to extract MLOps tools from the provided image/link. The
-    link itself is a blog post listing MLOps tools.
+    Llandscape of MLOps tools for different components of the ML lifecycle.
   url: https://research.aimultiple.com/mlops-tools/
   biotools-url: ''
   fairsharing-url: ''
@@ -1297,10 +1293,10 @@
   osai-explanation: ''
 
 - id: mlschemacore
-  name: ML Schema
-  type: Paper # This is a schema/standard, but listed as paper type
+  name: ML-Schema
+  type: Metadata 
   description: >-
-    Refers to the ML-Schema initiative and repository for developing a
+    ML-Schema initiative for developing a
     common schema for describing machine learning models, datasets, and experiments,
     often as an extension of Schema.org.
   url: https://github.com/ML-Schema/core
@@ -1309,78 +1305,62 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R1
-  osai-explanation: AI-specific metadata schema.
+  osai-explanation: AI-specific metadata schema for models, datasets and experiments (R1).
 
 - id: mex_aksw
   name: MEX
-  type: Paper # This is a format/project, but listed as paper type
+  type: Metadata
   description: >-
-    Refers to the Machine Learning EXchange (MEX) format and related projects
+    Machine Learning EXchange (MEX) format
     from AKSW group for exchanging ML experiments.
   url: https://aksw.org/Projects/MEX.html
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R1, R2
-  osai-explanation: Format for metadata (R1) and sharing experiments/models (R2).
+  osai-recommendation: R1
+  osai-explanation: Format for ML metadata exchange (R1) to share experiments/models.
 
 - id: skosbasedmltaxonomies
-  name: SKOS (Simple Knowledge Organization System) based ML taxonomies (e.g., scikit-learn, OpenML)
-  type: Paper # Discussion of SKOS use, listed as paper type
+  name: SKOS (Simple Knowledge Organization System) based ML taxonomies
+  type: Metadata
   description: >-
-    Discusses the use of SKOS for creating formal classifications (taxonomies)
-    for machine learning concepts. This link is a blog post explaining SKOS taxonomies.
-  url: https://www.hedden-information.com/skos-taxonomies/
+    SKOS is used for creating formal classifications (taxonomies) applicable
+    for machine learning concepts.
+  url: https://www.w3.org/2004/02/skos/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R1
-  osai-explanation: Use of SKOS is a form of AI-specific metadata.
+  osai-explanation: SKOS can be used for AI-specific metadata applications.
 
 - id: fairprinciplesaimodels_naturepaper_placeholder
-  name: FAIR principles for AI models (Nature paper)
+  name: FAIR principles for AI models with a practical application for accelerated high energy diffraction microscopy
   type: Paper
   description: >-
-    Refers to a conceptual Nature paper discussing the application of FAIR
-    principles to AI models. Specific paper URL not provided, but general topic.
-  url: ''
+    Nature paper discussing the application of FAIR
+    principles to AI models.
+  url: https://www.nature.com/articles/s41597-022-01712-9
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R1, R4
-  osai-explanation: Discusses AI-specific metadata/principles (R1) and info disclosure (R4).
+  osai-explanation: Discusses AI-specific metadata principles (R1) and info disclosure guidance (R4).
 
 - id: fair2squared_placeholder
-  name: FAIR2 squared
+  name: FAIR² Data Management
   type: Paper
   description: >-
-    Informal term, likely referring to research that extends FAIR principles,
-    possibly incorporating concepts like Reproducibility or Responsibility. No specific
-    paper identified by this term alone.
-  url: ''
+    Data management approach from Frontiers to organize, share, and publish data - making it AI-ready, reusable and impactful.
+  url: https://www.frontiersin.org/about/fair-data-management
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: domain-agnostic # Placeholder
+  domain: domain-agnostic  
   osai-recommendation: ''
   osai-explanation: ''
-
-- id: datamininggreeninnovation
-  name: Application of Data Mining Technology in Enterprise Green Innovation Model Construction and Path Analysis
-  type: Paper
-  description: >-
-    Research paper on using data mining (including ML) for modeling green
-    innovation in businesses.
-  url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9300339/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic # Enterprise green innovation is broad
-  osai-recommendation: R7
-  osai-explanation: Application of ML for green innovation implies green ML techniques.
 
 - id: caidpaper_placeholder
   name: CAID (Critical Assessment of Intrinsic Disorder prediction)
@@ -1392,7 +1372,7 @@
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science # CAID is life science
+  domain: life science 
   osai-recommendation: R6
   osai-explanation: Benchmarking implies standardized evaluation.
 

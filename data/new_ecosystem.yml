@@ -1434,7 +1434,7 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ai4eosc_projectoutputs
+- id: ai4eosc_platform
   name: AI4EOSC Platform
   type: Analysis platform
   description: >-
@@ -1663,27 +1663,27 @@
   description: >-
     Online collaborative science platform for machine learning, allowing
     sharing of datasets, tasks, flows (algorithms/code), and runs (experimental results).
-  url: https://www.openml.org/search?type=task 
-  biotools-url: https://bio.tools/openml
-  fairsharing-url: ''
+  url: https://www.openml.org/
+  biotools-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.d36c2c
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R2, R4, R6
-  osai-explanation: Shares models/datasets (R2), shares experiment info (R4), and standardizes tasks (R6).
+  osai-recommendation: R2, R4
+  osai-explanation: Shares models/datasets (R2) and shares experiment info (R4).
 
-- id: ai4lifebioimagemodelzoo
-  name: AI4Life BioImage Model Zoo
-  type: Registry
+- id: ai4lifeproject
+  name: AI4Life
+  type: Project
   description: >-
-    A curated collection of pre-trained AI models for bioimage analysis,
-    part of the BioImage.IO community and supported by projects like AI4Life.
-  url: https://bioimage.io/ # This is BioImage.IO which hosts the zoo
+    Research services and infrastructure project to support life scientists in the adoption of machine learning solutions 
+    that improve the utility and interpretability of image data, aiding biomedical research.
+  url: https://ai4life.eurobioimaging.eu/
   biotools-url: ''
-  fairsharing-url: '' # BioImage.IO has https://fairsharing.org/FAIRsharing.d5p4x7
+  fairsharing-url: ''
   access-model: Free
   domain: life science
-  osai-recommendation: R2
-  osai-explanation: Directly a model registry.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: tensorflowhub
   name: TensorFlow Hub
@@ -1691,13 +1691,13 @@
   description: >-
     Repository by Google offering reusable pre-trained machine learning
     model components (modules, embeddings, full models) for TensorFlow.
-  url: https://tfhub.dev/
+  url: https://www.tensorflow.org/hub
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Directly a model registry.
+  osai-explanation: An AI/ML model registry (R3).
 
 - id: googlecloudmodelgarden
   name: Google Cloud Model Garden
@@ -1711,28 +1711,13 @@
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Registry of models.
-
-- id: modelshareorg # Updated ID from modelshareai
-  name: Model Share AI # Name in list was Model Share AI, URL is modelshare.org
-  type: Registry
-  description: >-
-    Platform for sharing, discovering, versioning, and deploying machine
-    learning models.
-  url: https://www.modelshare.org/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: R2
-  osai-explanation: Directly a model sharing platform.
+  osai-explanation: Registry of AI/ML models (R3).
 
 - id: aircheckai
-  name: Aircheck AI
-  type: Registry # Or Validation Service
+  name: Artificial Intelligence-Ready CHEmiCal Knowledge Base (AIRCHECK) 
+  type: Registry
   description: >-
-    Platform for AI model validation, offering tools to test model performance,
-    robustness, and fairness before deployment.
+    Registry of AI/ML models and datasets for to predict how small molecules interact with proteins.
   url: https://aircheck.ai/
   biotools-url: ''
   fairsharing-url: ''

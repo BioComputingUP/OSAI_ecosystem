@@ -3619,7 +3619,7 @@ with AI models and APIs.
 
 - id: aidrin
   name: AI Data Readiness Inspector (AIDRIN) for Quantitative Assessment of Data Readiness for AI
-  type: Best practice
+  type: Paper
   description: >-
     AIDRIN defines parameters of AI data readiness.
   url: https://arxiv.org/abs/2406.19256
@@ -3630,31 +3630,31 @@ with AI models and APIs.
   osai-recommendation: R4
   osai-explanation: AI-ready data disclosure support (R4).
 
-- id: x
-  name: x
-  type: x
+- id: odiaiready
+  name: Open Data Institute: A framework for AI-ready data
+  type: Paper
   description: >-
-    x
-  url: ''
+    ODI work to define AI readiness and its underlying principles.
+  url: https://theodi.org/insights/reports/a-framework-for-ai-ready-data/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science
+  domain: domain-agnostic
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: x
-  name: x
-  type: x
+- id: fmlcheatsheet
+  name: Foundation Model Cheatsheet - 7 Data Documentation Resources for Foundation Models
+  type: Best practice
   description: >-
-    x
-  url: ''
+    7x Data documentation metadata and practices.
+  url: https://fmcheatsheet.org/foundation-model-resources/data-documentation/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science
-  osai-recommendation: ''
-  osai-explanation: ''
+  domain: domain-agnostic
+  osai-recommendation: R1
+  osai-explanation: Provides foudnation model metadata supports in one place (R1).
 
 - id: x
   name: x

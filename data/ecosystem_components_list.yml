@@ -1861,7 +1861,7 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: ''
-  osai-explanation: ''.
+  osai-explanation: ''
 
 - id: huggingfacedatasets
   name: Hugging Face Datasets

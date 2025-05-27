@@ -1516,7 +1516,7 @@
   osai-explanation: Focuses on metadata (R1), AI best practices (R3), and info disclosure (R4).
 
 - id: aireadinessbiomedicaldata_bridge2ai
-  name: AI-readiness for biomedical data: Bridge2AI recommendations
+  name: AI-readiness for biomedical data - Bridge2AI recommendations
   type: Project
   description: >-
     Preprint detailing recommendations from the NIH Bridge2AI program for

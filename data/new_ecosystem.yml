@@ -2,7 +2,7 @@
 ```yaml
 # This AI Ecosystem components list reuses the YAML file format from the EVERSE RSQkit
 # (metadata format: https://w3id.org/everse/rs/0.0.1), which supports community curation,
-# interoperability, and reuse.
+# interoperability, and reuse. It adds new fields relevant to its use case of capturing AI ecosystem components.
 #
 # It is mapped to the Open & Sustainable AI (OSAI) Recommendations
 # (see paper: https://arxiv.org/abs/2505.16619) but can be copied and
@@ -452,7 +452,7 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R9
-  osai-explanation: Measures and monitors environmental impact which can be reported.
+  osai-explanation: Measures and monitors environmental impact which can be reported(R9).
 
 - id: codeocean
   name: Code Ocean
@@ -493,8 +493,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R2, R5
-  osai-explanation: Platform for sharing models/datasets (R2) and code (R5).
+  osai-recommendation: R5
+  osai-explanation: Platform for sharing models/datasets and code (R5).
 
 - id: github
   name: GitHub
@@ -507,8 +507,8 @@
   fairsharing-url: ''
   access-model: Free with Paid Tiers
   domain: domain-agnostic
-  osai-recommendation: R2, R5
-  osai-explanation: Platform for sharing models/datasets (R2) and code (R5).
+  osai-recommendation: R5
+  osai-explanation: Code sharing platform, can be used for sharing models/datasets and code (R5).
 
 - id: biomodels
   name: BioModels
@@ -536,7 +536,7 @@
   access-model: Open Source
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Database usable for sharing and discovering AI/ML datasets (R2).
+  osai-explanation: Repository usable for sharing and discovering AI/ML datasets (R2).
 
 - id: figshare
   name: Figshare
@@ -578,7 +578,7 @@
   access-model: Free
   domain: life science
   osai-recommendation: R2
-  osai-explanation: Database for sharing life science datasets (R2).
+  osai-explanation: Database for sharing life science ML datasets (R2).
 
 - id: gitlfs
   name: Git LFS (Large File Storage)
@@ -591,8 +591,8 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R2, R5, R6
-  osai-explanation: Facilitates sharing large model/dataset files (R2) supporting portable reprodcubility (R5) and possibility to be used for standardised benchmark datasets (R6).
+  osai-recommendation: R5, R6
+  osai-explanation: Facilitates sharing large model/dataset files supporting portable reprodcubility (R5) and possibility to be used for standardised benchmark datasets (R6).
 
 - id: croissant
   name: Croissant
@@ -634,11 +634,11 @@
   access-model: Free
   domain: domain-agnostic  
   osai-recommendation: R1
-  osai-explanation: AI-specific metadata extension, an example of how this can be done for specific life science dataset metadata needs (R1).
+  osai-explanation: AI-specific metadata extension, an example of how this can be done to extend croissant for specific life science dataset metadata needs (R1).
 
 - id: onnx
   name: ONNX (Open Neural Network Exchange)
-  type: Metadata # Or Standard; listed as Metadata
+  type: Metadata # Or Standard 
   description: >-
     An open standard format for representing machine learning models, enabling
     interoperability between different ML frameworks.
@@ -657,12 +657,12 @@
     An ontology of well-defined terms for bioinformatics concepts, including
     data types, operations, topics, and formats relevant to ML in life sciences.
   url: https://edamontology.org/
-  biotools-url: https://bio.tools/edam
-  fairsharing-url: https://fairsharing.org/FAIRsharing.wsfyg2
+  biotools-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.a6r7zs
   access-model: Free
   domain: life science
   osai-recommendation: R1
-  osai-explanation: Ontology for standardizing metadata terms.
+  osai-explanation: Ontology usable for standardizing metadata terms (R1).
 
 - id: modelcards
   name: Model cards
@@ -690,7 +690,7 @@
   access-model: Free
   domain: domain-agnostic
   osai-recommendation: R1
-  osai-explanation: AI-specific metadata ontology.
+  osai-explanation: AI-specific metadata ontology, usable for standardizing metadata terms (R1).
 
 - id: datasetcards
   name: Dataset cards
@@ -710,15 +710,15 @@
   name: MLCommons
   type: Organisation
   description: >-
-    An open engineering consortium focused on accelerating machine learning
+    An open consortium focused on accelerating machine learning
     innovation through benchmarks, public datasets, and best practices.
   url: https://mlcommons.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Portal
   domain: domain-agnostic
-  osai-recommendation: R1, R2, R3, R6
-  osai-explanation: Develops metadata standards (R1), hosts datasets/benchmarks (R2, R6), promotes best practices (R3).
+  osai-recommendation: R1, R3, R6
+  osai-explanation: Develops metadata standards (R1), hosts benchmarks (R6), promotes best practices (R3).
 
 - id: rdafair4mlig
   name: RDA (Research Data Alliance) - FAIR4ML (FAIR for Machine Learning) Interest Group
@@ -732,7 +732,7 @@
   access-model: Portal
   domain: domain-agnostic
   osai-recommendation: R1, R3, R4
-  osai-explanation: Focuses on AI metadata (R1), best practices (R3), and info disclosure (R4).
+  osai-explanation: Focuses on AI model metadata (R1), best practices (R3), and info disclosure (R4).
 
 - id: elixirmachinelearningfocusgroup
   name: ELIXIR Machine Learning Focus Group
@@ -742,7 +742,7 @@
     ML in life sciences, fostering collaboration and best practices.
   url: https://elixir-europe.org/focus-groups/machine-learning
   biotools-url: ''
-  fairsharing-url: '' # FAIRsharing URL for main ELIXIR is https://fairsharing.org/organisations/845
+  fairsharing-url: '' 
   access-model: Portal
   domain: life science
   osai-recommendation: R3
@@ -760,8 +760,8 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: life science
-  osai-recommendation: R2, R3
-  osai-explanation: Provides models (R2) and promotes their use/best practices (R3).
+  osai-recommendation: R3
+  osai-explanation: Provides reusable AI/ML models and promotes their use/best practices (R3).
 
 - id: nactem
   name: National Centre for Text Mining (NaCTeM)
@@ -773,7 +773,7 @@
   biotools-url: ''
   fairsharing-url: ''
   access-model: Portal
-  domain: life science # NLP applied to bioinformatics
+  domain: life science
   osai-recommendation: ''
   osai-explanation: ''
 
@@ -795,15 +795,15 @@
   name: The Foundation for Best Practices in Machine Learning
   type: Organisation
   description: >-
-    Organization focused on establishing, promoting, and potentially certifying
+    Organization focused on establishing and promoting
     best practices in machine learning development and deployment.
   url: https://www.fbpml.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Portal
   domain: domain-agnostic
-  osai-recommendation: R3, R4
-  osai-explanation: Promotes best practices (R3) including info disclosure (R4).
+  osai-recommendation: R3
+  osai-explanation: Promotes best practices (R3) including AI/ML info disclosure.
 
 - id: greensoftwarefoundation
   name: Green Software Foundation
@@ -820,13 +820,13 @@
   osai-recommendation: R7, R9
   osai-explanation: Focuses on green techniques (R7) and impact measurement (R9).
 
-- id: claireai
-  name: Confederation of Laboratories for Artificial Intelligence Research in Europe (CLAIRE)
+- id: cairneeai
+  name: Confederation of Laboratories for Artificial Intelligence Research in Europe (CAIRNE)
   type: Organisation
   description: >-
     European initiative aiming to strengthen European excellence in AI
     research and innovation, with a network of research groups and labs.
-  url: https://claire-ai.org/
+  url: https://cairne.eu/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Portal
@@ -839,14 +839,14 @@
   type: Organisation
   description: >-
     US activities of the GO FAIR initiative, focusing on implementing FAIR
-    data principles to support Artificial Intelligence research and applications.
-  url: https://www.gofair.us/gofair-and-ai-ml/
+    data principles also covering support for Artificial Intelligence research and applications. Such as FARR-RCN interlinks.
+  url: https://www.gofair.us/farr
   biotools-url: ''
   fairsharing-url: ''
   access-model: Portal
   domain: domain-agnostic
-  osai-recommendation: R1, R3, R4
-  osai-explanation: Promotes AI metadata (R1), best practices (R3), and info disclosure (R4).
+  osai-recommendation: R3
+  osai-explanation: Promotes AI metadata, best practices (R3), and AI/ML info disclosure.
 
 - id: factaitraining
   name: FACT-AI (Fairness, Accountability, Confidentiality, and Transparency in AI) training
@@ -854,14 +854,14 @@
   description: >-
     Training programs or courses focused on educating about Fairness, Accountability,
     Confidentiality, and Transparency (FACT) principles in AI systems. This link refers
-    to a specific course outcome.
+    to a specific course outcome as no other source can be found.
   url: https://ivi.uva.nl/content/news/2022/06/successful-fact-ai-course-leads-to-student-awards.html
   biotools-url: ''
   fairsharing-url: ''
   access-model: ''
   domain: domain-agnostic
   osai-recommendation: R3
-  osai-explanation: Directly provides training on best practices.
+  osai-explanation: AI/ML training example (R3), focused on best practices related to confidentiality and transparency.
 
 - id: googleaideepmind
   name: Google AI / DeepMind
@@ -967,22 +967,8 @@
   type: Organisation
   description: >-
     Canadian AI research institute based in Toronto, focusing on deep learning
-    and machine learning research, training, and application.
+    and machine learning research aspects such as transparency, training, and application.
   url: https://vectorinstitute.ai/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Portal
-  domain: domain-agnostic # Broad AI research
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: mila
-  name: Mila - Quebec AI Institute
-  type: Organisation
-  description: >-
-    Leading academic AI research institute based in Montreal, specializing
-    in deep learning, reinforcement learning, and their applications.
-  url: https://mila.quebec/en/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Portal
@@ -1008,7 +994,7 @@
   name: Data Mining Group (DMG)
   type: Organisation
   description: >-
-    Vendor-led consortium that develops and promotes data mining standards,
+    Cnsortium that develops and promotes data mining standards,
     most notably PMML (Predictive Model Markup Language).
   url: https://www.dmg.org/
   biotools-url: ''
@@ -1016,21 +1002,7 @@
   access-model: Portal
   domain: domain-agnostic
   osai-recommendation: R1
-  osai-explanation: Develops AI-specific metadata standards (PMML).
-
-- id: elixireuropemlfocusgroup # Duplicate of elixirmachinelearningfocusgroup but with slightly different name
-  name: ELIXIR Europe ML Focus Group
-  type: Organisation
-  description: >-
-    Focus group within ELIXIR addressing challenges and opportunities of
-    ML in life sciences.
-  url: https://elixir-europe.org/focus-groups/machine-learning
-  biotools-url: ''
-  fairsharing-url: '' # FAIRsharing URL for main ELIXIR is https://fairsharing.org/organisations/845
-  access-model: Portal
-  domain: life science
-  osai-recommendation: R3
-  osai-explanation: Promotes training and best practices.
+  osai-explanation: Develops AI-specific metadata standards (PMML) (R1). #to add in PMML
 
 - id: quareplimipaper # Name based on URL content
   name: Community-developed checklists for publishing images and image analyses

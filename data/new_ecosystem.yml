@@ -2239,11 +2239,11 @@
     and drug discovery.
   url: https://qsardb.org/repository/
   biotools-url: ''
-  fairsharing-url: https://fairsharing.org/FAIRsharing.ywpcp1
+  fairsharing-url: https://fairsharing.org/FAIRsharing.ad3e10
   access-model: Free
   domain: life science
   osai-recommendation: R2
-  osai-explanation: Database for sharing models and datasets.
+  osai-explanation: Database for sharing AI models and datasets (R2).
 
 - id: thegardensai
   name: The Garden (thegardens.ai)
@@ -2257,95 +2257,52 @@
   access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: R2
-  osai-explanation: Platform for sharing models.
+  osai-explanation: Platform for sharing models (R2).
 
 - id: neptuneai
   name: Neptune AI
-  type: Registry # MLOps platform with registry
+  type: Analysis platform
   description: >-
     MLOps platform providing experiment tracking, model registry, and monitoring
     for machine learning projects.
   url: https://neptune.ai/
   biotools-url: ''
   fairsharing-url: ''
-  access-model: Free with Paid Tiers
+  access-model: Commercial
   domain: domain-agnostic
-  osai-recommendation: R2, R4, R9
-  osai-explanation: Model registry (R2), experiment tracking (R4), and potentially monitoring resource usage (R9).
+  osai-recommendation: ''
+  osai-explanation: ''
 
-- id: modeldbscience # original modeldb from MIT
-  name: ModelDB
-  type: Registry
-  description: >-
-    Open-source system from MIT for managing machine learning models, including
-    versioning, metadata tracking, and experiment results. Original system, Verta.ai
-    commercialized similar concepts.
-  url: https://modeldb.science/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Open Source
-  domain: domain-agnostic
-  osai-recommendation: R1, R2, R4
-  osai-explanation: Supports metadata (R1), is a model DB (R2), and tracks experiment info (R4).
-
-- id: tpbench
-  name: TPBench (Time Series Prediction Benchmark)
-  type: Resource # Or Benchmarking
-  description: >-
-    A benchmark suite for evaluating time series prediction methods.
-  url: https://tpbench.org/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic # Time series prediction is general
-  osai-recommendation: R6
-  osai-explanation: Standardized evaluation protocol.
-
-- id: dockermodels
-  name: Docker models
+- id: dockermodelrunner
+  name: Docker Model Runner
   type: Reproducibility tool
   description: >-
-    Refers to the practice of packaging ML models, dependencies, and environments
-    into Docker containers for portability and reproducibility.
-  url: https://www.docker.com/
-  biotools-url: https://bio.tools/docker
+    Pulls and runs models from Docker Hub.
+  url: https://docs.docker.com/model-runner/
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
   osai-recommendation: R5
-  osai-explanation: Ensures portable code through containerization.
-
-- id: sincmlplatformargentina
-  name: Sinc ML platform (Argentina)
-  type: Registry # Or Platform
-  description: >-
-    Refers to ML platforms or resources provided by Argentina's National
-    High-Performance Computing System (SNCAD - Sinc).
-  url: https://www.sinc.gob.ar/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Portal
-  domain: domain-agnostic # HPC platform can be general
-  osai-recommendation: R2, R8
-  osai-explanation: Platform can host models (R2) and provides hardware resources (R8).
+  osai-explanation: Ensures portable model runs through containerization.
 
 - id: datachainai
-  name: Datachain
+  name: Tool
   type: Resource
   description: >-
-    Company providing tools and platforms related to data management and
-    MLOps, including solutions for data versioning and pipelining.
+    DataChain connects the unstructured data in cloud storage
+with AI models and APIs.
   url: https://datachain.ai/
   biotools-url: ''
   fairsharing-url: ''
-  access-model: Commercial
+  access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R2, R4
-  osai-explanation: Tools for data versioning (R2) and MLOps (R4).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: ogctrainingdmlai
-  name: OGC (Open Geospatial Consortium) TrainingDML-AI (Training Data Markup Language for AI)
-  type: Standard
+  name: TrainingDML-AI (Training Data Markup Language for AI)
+  type: Metadata
   description: >-
     OGC standard specifying a markup language for describing training datasets
     for AI/ML applications with geospatial components.
@@ -2353,13 +2310,13 @@
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: domain-agnostic # Geospatial data is broad
-  osai-recommendation: R1, R6
-  osai-explanation: AI-specific metadata standard (R1) for standardizing datasets (R6).
+  domain: domain-agnostic
+  osai-recommendation: R1
+  osai-explanation: AI-specific metadata standard (R1) for standardizing datasets.
 
 - id: pmml
   name: Predictive Model Markup Language (PMML)
-  type: Standard
+  type: Metadata
   description: >-
     XML-based standard by the Data Mining Group for representing predictive
     models, enabling interoperability.
@@ -2368,12 +2325,12 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R1, R5
-  osai-explanation: AI-specific metadata format (R1) that ensures model portability (R5).
+  osai-recommendation: R1
+  osai-explanation: AI-specific metadata format (R1).
 
 - id: aiml
   name: Artificial Intelligence Markup Language (AIML)
-  type: Standard
+  type: Metadata
   description: >-
     XML-based markup language for creating chatbots and conversational
     AI agents.
@@ -2387,7 +2344,7 @@
 
 - id: isoiec23053_2022
   name: ISO/IEC 23053:2022 Framework for Artificial Intelligence (AI) Systems Using Machine Learning (ML)
-  type: Standard
+  type: Metadata
   description: >-
     ISO/IEC standard providing a framework and common terminology for AI
     systems using ML.
@@ -2401,7 +2358,7 @@
 
 - id: isoiec42001_2023
   name: ISO/IEC 42001:2023 AI management systems
-  type: Standard
+  type: Best practice
   description: >-
     ISO/IEC standard specifying requirements for an Artificial Intelligence
     Management System (AIMS).
@@ -2415,7 +2372,7 @@
 
 - id: isoiec23894_2023
   name: ISO/IEC 23894:2023 AI — Guidance on risk management
-  type: Standard
+  type: Best practice
   description: >-
     ISO/IEC standard providing guidelines for risk management in AI systems.
   url: https://www.iso.org/standard/77304.html
@@ -2423,12 +2380,12 @@
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
-  osai-recommendation: R4
-  osai-explanation: Risk management guidance involves disclosing information.
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: metricsreloaded
   name: Metrics Reloaded
-  type: Standard # Or Resource/Initiative
+  type: Benchmarking
   description: >-
     Initiative and resource library for critically evaluating and standardizing
     metrics for ML model performance assessment, particularly in biomedical image
@@ -2437,23 +2394,23 @@
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science # Biomedical image analysis
+  domain: life science
   osai-recommendation: R6
-  osai-explanation: Focuses on standardizing evaluation protocols/metrics.
+  osai-explanation: Focuses on standardizing evaluation protocols/metrics (R6).
 
 - id: shap
   name: SHAP (SHapley Additive exPlanations)
-  type: Standard # Or Tool/Library
+  type: Standard
   description: >-
     Game theory-based method and software for explaining machine learning
     model outputs by attributing contribution scores to features.
   url: https://shap.readthedocs.io/en/latest/
-  biotools-url: https://bio.tools/shap
+  biotools-url: ''
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R4
-  osai-explanation: Tool for disclosing model information (explainability).
+  osai-recommendation: ''
+  osai-explanation: ''
 
 - id: lime
   name: LIME (Local Interpretable Model-agnostic Explanations)

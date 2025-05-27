@@ -3694,4 +3694,17 @@ with AI models and APIs.
   domain: domain-agnostic
   osai-recommendation: R5
   osai-explanation: Used for containerising software to support portability across systems and reproducibility (R5).
+
+- id: dockercontainerhub
+  name: Docker Hub
+  type: Reproducibility tool
+  description: >-
+    Docker Hub hosts reusable containers that helps developers build, share, run, and verify applications without tedious environment configuration or management.
+  url: https://hub.docker.com/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R5
+  osai-explanation: Used for downloading and sharing container software to support portability across systems and reproducibility (R5).
 ```

@@ -3601,7 +3601,7 @@
   osai-recommendation: R4
   osai-explanation: Disclosure best practice checklist (R4)
 
-  - id: carbonaware
+- id: carbonaware
   name: Carbon Aware
   type: Tool
   description: >-

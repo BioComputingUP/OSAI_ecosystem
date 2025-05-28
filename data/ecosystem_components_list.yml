@@ -1277,19 +1277,6 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: mlopstoolsimage_action
-  name: 45+ MLOps Tools in 2025
-  type: Paper
-  description: >-
-    Llandscape of MLOps tools for different components of the ML lifecycle.
-  url: https://research.aimultiple.com/mlops-tools/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: ''
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
 - id: mlschemacore
   name: ML-Schema
   type: Metadata 

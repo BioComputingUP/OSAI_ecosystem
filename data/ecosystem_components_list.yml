@@ -3645,7 +3645,7 @@
   type: Tool
   description: >-
     A catalogue of tools and metrics for trustworthy AI.
-  url: ''
+  url: https://oecd.ai/en/catalogue/overview
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free

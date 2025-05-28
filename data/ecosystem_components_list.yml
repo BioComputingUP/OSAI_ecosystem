@@ -3405,7 +3405,7 @@
   description: >-
     Community-wide recommendations for reporting supervised machine learning-based
     analyses applied to biological studies, aiming to improve validation and reproducibility.
-  url: 
+  url: https://dome-ml.org/guidelines
   biotools-url: ''
   fairsharing-url: https://fairsharing.org/FAIRsharing.cf62c2
   access-model: Free

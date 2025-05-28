@@ -14,7 +14,7 @@ Our goal is to provide a centrally curated list for discovering relevant AI reso
 
 This list originates from an upcoming publication by members of the **ELIXIR Machine Learning Focus Group**. It represents a collective effort to identify and map key components supporting the **OSAI Recommendations** within the life sciences.
 
-**Digital Object Identifier (DOI):** TBC - upon preprint.
+**Digital Object Identifier (DOI):** [Preprint available on aRxiv](https://doi.org/10.48550/arXiv.2505.16619)
 
 The primary goal of this list is to serve as a dynamic, community-maintained inventory. It is explicitly **designed for reuse and adaptation**. We envision this list feeding into various resources, frameworks, and platforms, providing a long-term, accessible collection of OSAI ecosystem components.
 

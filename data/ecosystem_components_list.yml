@@ -566,7 +566,7 @@
 
 - id: physionet
   name: PhysioNet
-  type: Database
+  type: Registry
   description: >-
     Repository of freely-available physiological signals (e.g., ECG, EEG)
     and related open-source software, widely used for ML in healthcare.

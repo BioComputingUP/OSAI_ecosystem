@@ -3287,7 +3287,7 @@
   osai-explanation: Training on best practices (R3) and guidance for reproducible & portable code (R5) applicable for reuse with AI models.
 
 - id: mlsea
-  name: MLSea: A Semantic Layer for Discoverable Machine Learning
+  name: MLSea - A Semantic Layer for Discoverable Machine Learning
   type: Paper
   description: >-
     A research paper/concept proposing a semantic layer to improve the

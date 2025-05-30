@@ -3968,31 +3968,33 @@
   osai-recommendation: R5
   osai-explanation: Package dependencies and software environment management tool like conda, applicable for reproducible AI/ML models (R5).
 
-- id: ''
-  name: ''
-  type: ''
+- id: questfororthologs
+  name: Quest for Orthologs consortium
+  type: Benchmarking
   description: >-
-    ''
-  url: ''
+    Joint effort to benchmark, improve and standardize orthology predictions through collaboration.
+  url: https://questfororthologs.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
+  osai-recommendation: R6
+  osai-explanation: Benchmarking challenge standardising assessment of AI/ML models for ortholog prediction (R6).
 
-- id: ''
-  name: ''
-  type: ''
+- id: cameo
+  name: Continuous Automated Model EvaluatiOn (CAMEO)
+  type: Benchmarking
   description: >-
-    ''
-  url: ''
+    CAMEO provides weekly, automated, and independent benchmarking of structure prediction servers, serving as a continuous complement to the CASP experiments. 
+    By delivering continuous, blind, and objective evaluations, 
+    CAMEO supports the ongoing development and refinement of next-generation structure prediction methodologies.
+  url: https://cameo3d.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
+  osai-recommendation: R6
+  osai-explanation: Benchmarking challenge reporting website standardising assessment of AI/ML models for protein structure prediction (R6).
 
 - id: ''
   name: ''

@@ -3929,44 +3929,44 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: poetry
+  name: Poetry (Python)
+  type: Reproducibility tool
   description: >-
-    ''
-  url: ''
+    Python packaging and dependency management resource. Poetry offers a lockfile to ensure repeatable installs, and can build your project for distribution.
+  url: https://python-poetry.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
+  osai-recommendation: R5
+  osai-explanation: Resource to support reproducibility of Python packages, applicable to python based AI/ML models (R5).
 
-- id: ''
-  name: ''
-  type: ''
+- id: miniforge
+  name: Miniforge
+  type: Reproducibility tool
   description: >-
-    ''
-  url: ''
+    Miniforge is a minimal installer for Conda specific to conda-forge. Miniforge allows users to install the conda package manager with the following features pre-configured conda-forge set as the default.
+  url: https://github.com/conda-forge/miniforge
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
+  osai-recommendation: R5
+  osai-explanation: Software environment control support, applicable to aid reproducible AI/ML model developments via conda and mamba (R5).
 
-- id: ''
-  name: ''
-  type: ''
+- id: mamba
+  name: Mamba
+  type: Reproducibility tool
   description: >-
-    ''
-  url: ''
+    Mamba is a fast, C++ re-implementation of the Conda package manager. Its designed to address one of the main pain points of using Conda - speed. 
+  url: https://mamba.readthedocs.io/en/latest/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
+  osai-recommendation: R5
+  osai-explanation: Package dependencies and software environment management tool like conda, applicable for reproducible AI/ML models (R5).
 
 - id: ''
   name: ''

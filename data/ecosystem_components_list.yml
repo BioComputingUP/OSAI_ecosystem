@@ -3996,18 +3996,19 @@
   osai-recommendation: R6
   osai-explanation: Benchmarking challenge reporting website standardising assessment of AI/ML models for protein structure prediction (R6).
 
-- id: ''
-  name: ''
-  type: ''
+- id: lrgasp
+  name: Long-read RNA-seq Genome Annotation Assessment Project (LRGASP) 
+  type: Benchmarking
   description: >-
-    ''
-  url: ''
+    Consortium organizing a systematic evaluation of different methods for transcript computational identification 
+    and quantification using long-read sequencing technologies such as PacBio and Oxford Nanopore. 
+  url: https://www.gencodegenes.org/pages/LRGASP/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
+  osai-recommendation: R6
+  osai-explanation: Benchmarking challenge standardising assessment of AI/ML models for data generating annotations of expressed genes and transcripts level prediction (R6).
 
 - id: ''
   name: ''

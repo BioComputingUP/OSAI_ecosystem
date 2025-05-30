@@ -3864,64 +3864,64 @@
   osai-recommendation: R8
   osai-explanation: Resource for informing choice of low carbon emission datacentre choice when using Google cloud, useful for reducing AI/ML model development carbon emissions (R8).
 
-- id: ''
-  name: ''
-  type: ''
+- id: podman
+  name: Podman
+  type: Reproducibility tool
   description: >-
-    ''
+    Podman is open source tool to manage containers, regardless of container engine.
+  url: https://podman.io/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R5
+  osai-explanation: Conatainer management resource, useful to support reproducible software environments for AI/ML models (R5).
+
+- id: kubernetes
+  name: Kubernetes
+  type: Reproducibility tool
+  description: >-
+    Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications.
+  url: https://kubernetes.io/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R5
+  osai-explanation: Conatainer management resource, useful to support reproducible software environments for AI/ML models (R5).
+
+- id: cromwell
+  name: Cromwell
+  type: Reproducibility tool
+  description: >-
+    Cromwell is a Workflow Management System geared towards scientific workflows.
+  url: https://cromwell.readthedocs.io/en/latest/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R5
+  osai-explanation: Workflow management system that can be used to support reproducible re-orchestration of AI/ML model across systems (R5).
+
+- id: awesomeworkflowengines
+  name: awesome-workflow-engines
+  type: Reproducibility tool
+  description: >-
+    A curated list of awesome open source workflow management systems.
   url: ''
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
+  osai-recommendation: R5
+  osai-explanation: Curated list of workflow management systems applicable to support reproducible AI/ML model orchestration (R5). 
 
-- id: ''
-  name: ''
-  type: ''
+- id: systreportingenandcarbinml
+  name: Towards the Systematic Reporting of the Energy and Carbon Footprints of Machine Learning
+  type: Paper 
   description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
+    Paper introduces a framework that makes it easier to track AI/ML carbon footprints by providing a simple interface for tracking realtime energy consumption and carbon emissions.
+  url: https://arxiv.org/pdf/2002.05651
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free

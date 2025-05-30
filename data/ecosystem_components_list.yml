@@ -4143,12 +4143,39 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: fair2016paper
+  name: The FAIR Guiding Principles for scientific data management and stewardship
+  type: Paper
   description: >-
-    ''
-  url: ''
+    Original 2016 paper on the FAIR Data Principles. General scientific data focused but AI/ML dataset relevant. 
+  url: https://www.nature.com/articles/sdata201618
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: greendisc
+  name: Green DiSC - a Digital Sustainability Certification
+  type: Tool
+  description: >-
+    Green DiSC is a new certification scheme which provides a roadmap for research groups and 
+    institutions who want to tackle the environmental impacts of their computing activities.
+  url: https://www.software.ac.uk/GreenDiSC
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R7, R8, R9
+  osai-explanation: Certfication of digital sustainability, may be of interest to AI/ML research groups and service prvoiders (R7,R8,R9). 
+
+- id: sofwtaresustinstitute
+  name: Software Sustainability Institute
+  type: Organisation
+  description: >-
+    An organisation that helps people build better software and more sustainable research software to enable world-class research. Covering areas such as green software, of relevance to Green AI.
+  url: https://www.software.ac.uk/about
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -4156,12 +4183,25 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: graimatterdareuk
+  name: GRAIMATTER
+  type: Best practice
   description: >-
-    ''
-  url: ''
+    Guidelines and Resources for Artificial Intelligence Model Access from Trusted Research Environments.
+  url: https://dareuk.org.uk/how-we-work/previous-activities/dare-uk-phase-1-sprint-exemplar-projects/graimatter-guidelines-and-resources-for-artificial-intelligence-model-access-from-trusted-research-environments/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: deepseekr1
+  name: DeepSeek-R1
+  type: LLM
+  description: >-
+    DeepSeek reasoning large language models.
+  url: https://huggingface.co/deepseek-ai/DeepSeek-R1
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -4169,12 +4209,12 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: llamafamilyhuggingface
+  name: Llama LLM Family
+  type: LLM
   description: >-
-    ''
-  url: ''
+    Official Hugging Face organization containing inforamtion on Llama, Llama Guard, and Prompt Guard models from Meta.
+  url: https://huggingface.co/meta-llama
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -4182,12 +4222,12 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: responsibleaivirginiapaper
+  name: Responsible Artificial Intelligence -- from Principles to Practice
+  type: Paper
   description: >-
-    ''
-  url: ''
+    Paper covering responsible AI.
+  url: https://arxiv.org/abs/2205.10785
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -4195,12 +4235,12 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: mistralaihuggingface
+  name: Mistral AI LLMs
+  type: LLM
   description: >-
-    ''
-  url: ''
+    Mistral AI large language models information on Hugging Face.
+  url: https://huggingface.co/mistralai
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -4208,106 +4248,15 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: copilot
+  name: GitHub Copilot
+  type: LLM
   description: >-
-    ''
-  url: ''
+    GitHub Copilot offers integration of LLMs into coding IDEs such as VS Code to facilitate generative AI coding.
+  url: https://huggingface.co/mistralai
   biotools-url: ''
   fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
+  access-model: Commercial
   domain: domain-agnostic
   osai-recommendation: ''
   osai-explanation: ''

@@ -3704,3 +3704,604 @@
   domain: domain-agnostic
   osai-recommendation: ''
   osai-explanation: ''
+
+- id: prov-o
+  name: PROV-O
+  type: Metadata
+  description: >-
+    PROV Ontology (PROV-O) expresses the PROV Data Model using the OWL2 Web Ontology Language (OWL2). 
+    It provides a set of classes, properties, and restrictions that can be used to represent and interchange provenance information generated in different systems and under different contexts. 
+  url: https://www.w3.org/TR/prov-o/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R1
+  osai-explanation: Ontology useful for ensuring accurate provenance metadata is used for data. Work ongoing in 2025 to integrate with Croissant ML datasets metadata (R1).
+
+- id: choosealicense
+  name: Choose an open source license
+  type: Metadata
+  description: >-
+    Website to support choice of open source software license.
+  url: https://choosealicense.com/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R1
+  osai-explanation: Useful website to support license choice for model licensing and ensure reuse compatible licensing (R1).
+  
+- id: turwaylicense
+  name: Licensing Machine Learning models (Turing Way)
+  type: Metadata
+  description: >-
+    Dedicated machine learning models licensing info webpage on the Turing Way resource.
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R1
+  osai-explanation: Dedicated information to guide ML model licensing metadata choice to enable reuse (R1).
+
+- id: venv
+  name: venv (Python)
+  type: Reproducibility tool
+  description: >-
+    The venv module supports creating lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories. 
+    A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” 
+    Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available.
+  url: https://docs.python.org/3/library/venv.html
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R5
+  osai-explanation: Python specifc virtual software environment creator to support portable and reproducible python code, applicable to AI/ML models that are python based (R5).
+
+- id: renv
+  name: renv (R)
+  type: Reproducibility tool
+  description: >-
+    The renv package helps create reproducible environments for R software projects. renv can make R projects more isolated, portable and reproducible.
+  url: https://rstudio.github.io/renv/index.html
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R5
+  osai-explanation: Specifc virtual software environment creator to support portable and reproducible R code, applicable to AI/ML models that are R based (R5).
+
+- id: nixos
+  name: NixOS
+  type: Reproducibility tool
+  description: >-
+    Nix is a tool that facilitates package management and system configuration. Useful to make reproducible, declarative and reliable systems.
+  url: https://nixos.org/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R5
+  osai-explanation: Can be used to ensure reproducible environments with declarative package management, tracking all system dependencies and configurations useful for ensuring reproducible AI/ML models (R5)
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: ''
+  name: ''
+  type: ''
+  description: >-
+    ''
+  url: ''
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''

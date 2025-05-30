@@ -1,5 +1,4 @@
-# List of contributors 
-# (template reused from RSQkit)
+# List of contributors to the AI ecosystem components file (template reused from RSQkit)
 #
 # Full Name:
 #    git: github id (required)
@@ -14,5 +13,10 @@
 
 Gavin Farrell:
     git: gavinf97
+    email: gavinmichael.farrell@studenti.unipd.it
     orcid: 0000-0001-5166-8551
     role: author
+    affiliation: University of Padova, Italy
+    image_url:
+
+

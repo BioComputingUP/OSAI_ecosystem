@@ -3786,12 +3786,25 @@
   osai-recommendation: R5
   osai-explanation: Can be used to ensure reproducible environments with declarative package management, tracking all system dependencies and configurations useful for ensuring reproducible AI/ML models (R5)
 
-- id: ''
-  name: ''
-  type: ''
+- id: ansible
+  name: Ansible
+  type: Reproducibility tool
   description: >-
-    ''
-  url: ''
+    Ansible is an automation tool used for system configuration, software deployment, and orchestration.
+  url: https://docs.ansible.com/ansible/latest/getting_started/index.html
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R5
+  osai-explanation: Ansible supports reproducible environments and ensure consistent states across systems, useful for reproducibility of AI/ML models (R5). 
+
+- id: greenaipaper
+  name: Green AI
+  type: Paper
+  description: >-
+    Arxiv paper from 2019 on Green AI by members of the Allen Institute for AI.
+  url: https://doi.org/10.48550/arXiv.1907.10597
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -3799,12 +3812,12 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: neptuneaireproduceblog
+  name: Neptune.ai Reproducibility Guide
+  type: Paper
   description: >-
-    ''
-  url: ''
+    Blog post from neputune.ai offering guiding information on developing reproducible AI/ML models. 
+  url: https://neptune.ai/blog/how-to-solve-reproducibility-in-ml
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -3812,12 +3825,12 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: reproducibilitystandardspaper
+  name: Reproducibility standards for machine learning in the life sciences
+  type: Paper
   description: >-
-    ''
-  url: ''
+    Paper proposes standards based on data, model and code publication, programming best practices and workflow automation for reprodcubility.
+  url: https://www.nature.com/articles/s41592-021-01256-7
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -3825,44 +3838,31 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: cloudcarbonfootprint
+  name: Cloud Carbon Footprint
+  type: Tool
   description: >-
-    ''
-  url: ''
+    Cloud carbon emissions measurement and analysis tool.
+  url: https://www.cloudcarbonfootprint.org/
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
+  osai-recommendation: R9
+  osai-explanation: Resource to support measurment of AI/ML model emissions (R9)
 
-- id: ''
-  name: ''
-  type: ''
+- id: googlecarbonfreeguide
+  name: Carbon free energy for Google Cloud regions
+  type: Tool
   description: >-
-    ''
-  url: ''
+    Guide for choosing low carbon Google cloud computing datacentres.
+  url: https://cloud.google.com/sustainability/region-carbon
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
+  osai-recommendation: R8
+  osai-explanation: Resource for informing choice of low carbon emission datacentre choice when using Google cloud, useful for reducing AI/ML model development carbon emissions (R8).
 
 - id: ''
   name: ''

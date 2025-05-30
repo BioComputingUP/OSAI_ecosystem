@@ -4085,7 +4085,7 @@
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: domain-agnostic
+  domain: life science
   osai-recommendation: ''
   osai-explanation: ''
 
@@ -4098,16 +4098,16 @@
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: domain-agnostic
+  domain: life science
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: microsoftaiforbeginners
+  name: Microsofts AI-For-Beginners Course
+  type: Training
   description: >-
-    ''
-  url: ''
+    Microsofts 2-week, 24-lesson curriculum on AI. It includes practical lessons, quizzes, and labs. The curriculum is beginner-friendly and covers tools like TensorFlow and PyTorch, as well as ethics in AI.
+  url: https://github.com/microsoft/AI-For-Beginners
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -4115,12 +4115,14 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: awesomemlcourse
+  name: awesome-ml-courses
+  type: Training
   description: >-
-    ''
-  url: ''
+    A curated list of awesome, free machine learning and artificial intelligence 
+    courses with video lectures. All courses are available as high-quality video lectures 
+    by some of the best AI researchers and teachers on this planet.
+  url: https://github.com/luspr/awesome-ml-courses
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -4128,12 +4130,12 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: kagglecuratedlistmlopstools
+  name: Kaggle hosted curated lists of MLOPS tools
+  type: Tool
   description: >-
-    ''
-  url: ''
+    Extensive list of AI/ML resources hosted in a Kaggle blog post from 2022. Covers AutoML, CI/CD, interpretability tools, and many more categories. 
+  url: https://www.kaggle.com/discussions/general/405593
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free

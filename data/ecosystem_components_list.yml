@@ -4010,12 +4010,12 @@
   osai-recommendation: R6
   osai-explanation: Benchmarking challenge standardising assessment of AI/ML models for data generating annotations of expressed genes and transcripts level prediction (R6).
 
-- id: ''
-  name: ''
-  type: ''
+- id: greenaiinst
+  name: Green AI Institute
+  type: Organisation
   description: >-
-    ''
-  url: ''
+     Collective of researchers, academics, and professionals dedicated to advancing the integration of artificial intelligence and environmental sustainability.
+  url: https://www.greenai.institute/home
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -4023,12 +4023,26 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: greencomputeuk
+  name: Green Compute UK
+  type: Tool
   description: >-
-    ''
-  url: ''
+    Green Compute UK hosts the repository for Green Software Engineering. This repository covers best practises and current research into all elements of Green Software Engineering.
+  url: https://greencompute.uk/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R7, R8, R9
+  osai-explanation: Information repository covering all aspects of green software engineering applicable for Green AI model development (R7, R8, R9)
+
+- id: natscireportsgreenai
+  name: Nature Scientific Reports - Publication collection of Green AI content.
+  type: Paper
+  description: >-
+    This publication collection hosts original research on AI-based environmental clean and sustainable solutions, 
+    including AI systems carbon footprint and strategies to develop more efficient systems and algorithms.
+  url: https://www.nature.com/collections/gaidcjdfhj
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -4036,12 +4050,38 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: galaxymltraining
+  name: Artificial Intelligence and Machine Learning in Life Sciences using Python (Galaxy)
+  type: Training
   description: >-
-    ''
-  url: ''
+    In depth AI/ML training by Galaxy Training Network.
+  url: https://training.galaxyproject.org/training-material/learning-pathways/ml-using-python.html
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: galaxytrainingmaterials
+  name: Galaxy Training Materials
+  type: Training
+  description: >-
+    Collection of tutorials developed and maintained by the worldwide Galaxy community, hosting some life science and AI/ML relevant materials with a focus on reproducibility.
+  url: https://training.galaxyproject.org/training-material/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: sibstatmltraining
+  name: SIB Statistics and Machine Learning training
+  type: Training
+  description: >-
+    Github repository for the statistics and machine learning for life science hosted in April 2025 by SIB.
+  url: https://github.com/sib-swiss/statistics-and-machine-learning-training
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -4049,51 +4089,12 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: ''
-  name: ''
-  type: ''
+- id: sibelearning
+  name: SIB E-learning
+  type: Training
   description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
-- id: ''
-  name: ''
-  type: ''
-  description: >-
-    ''
-  url: ''
+    SIB hosted E-learning resources covering bioinformatics topics. Some courses relevant to improve AI/ML development such as vocabularies, identifiers and metadata.
+  url: https://www.sib.swiss/training/e-learning
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free

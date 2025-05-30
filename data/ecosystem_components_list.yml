@@ -367,7 +367,7 @@
   osai-explanation: Defines genomic interpretation prediction evaluation protocols and uses standardized datasets (R6).
 
 - id: esipaireadinesschecklist
-  name: Checklist to Examine AI-readiness for Open Environmental Datasets. 
+  name: Checklist to Examine AI-readiness for Open Environmental Datasets
   type: Best practice
   description: >-
     Guidelines by ESIP to evaluate if environmental datasets are prepared
@@ -580,7 +580,7 @@
 
 - id: gitlfs
   name: Git LFS (Large File Storage)
-  type: Registry  
+  type: Registry
   description: >-
     Git extension for versioning large files, crucial for managing large
     datasets or model weights within Git repositories.
@@ -1001,7 +1001,7 @@
   osai-recommendation: R1
   osai-explanation: Develops AI-specific metadata standards (PMML) (R1). #to add in PMML
 
-- id: quareplimipaper  
+- id: quareplimipaper
   name: Quality Assessment and Reproducibility for Instruments & Images in Light Microscopy
   type: Best practice
   description: >-
@@ -1011,11 +1011,11 @@
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
-  domain: life science  
+  domain: life science
   osai-recommendation: R4
   osai-explanation: Guideline on disclosing AI/ML light microscopy information (R4).
 
-- id: fairformlpaper_zenodo  
+- id: fairformlpaper_zenodo
   name: FAIR for Machine Learning Model - Principles and Assessment Metrics
   type: Paper
   description: >-
@@ -1762,7 +1762,7 @@
   biotools-url: ''
   fairsharing-url: ''
   access-model: ''
-  domain: domain-agnostic 
+  domain: domain-agnostic
   osai-recommendation: ''
   osai-explanation: ''
 
@@ -2984,8 +2984,7 @@
   name: OpenAI Gym
   type: Benchmarking
   description: >-
-    Toolkit  for developing and
-    comparing reinforcement learning algorithms. 
+    Toolkit  for developing and comparing reinforcement learning algorithms.
   url: https://github.com/openai/gym
   biotools-url: ''
   fairsharing-url: ''
@@ -3916,9 +3915,9 @@
   osai-recommendation: R5
   osai-explanation: Curated list of workflow management systems applicable to support reproducible AI/ML model orchestration (R5). 
 
-- id: systreportingenandcarbinml
+- id: systreportingenandcarbonml
   name: Towards the Systematic Reporting of the Energy and Carbon Footprints of Machine Learning
-  type: Paper 
+  type: Paper
   description: >-
     Paper introduces a framework that makes it easier to track AI/ML carbon footprints by providing a simple interface for tracking realtime energy consumption and carbon emissions.
   url: https://arxiv.org/pdf/2002.05651

@@ -110,20 +110,6 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: fastai
-  name: Fastai
-  type: AI/ML Library
-  description: >-
-    High-level deep learning library built on PyTorch, simplifying the
-    training of fast and accurate neural nets using modern best practices.
-  url: https://www.fast.ai/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Open Source
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
 - id: xgboost
   name: XGBoost
   type: AI/ML Library

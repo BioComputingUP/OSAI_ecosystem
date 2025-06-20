@@ -3755,19 +3755,6 @@
   osai-recommendation: ''
   osai-explanation: ''
 
-- id: reproducibilitystandardspaper
-  name: Reproducibility standards for machine learning in the life sciences
-  type: Paper
-  description: >-
-    Paper proposes standards based on data, model and code publication, programming best practices and workflow automation for reprodcubility.
-  url: https://www.nature.com/articles/s41592-021-01256-7
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: domain-agnostic
-  osai-recommendation: ''
-  osai-explanation: ''
-
 - id: cloudcarbonfootprint
   name: Cloud Carbon Footprint
   type: Tool

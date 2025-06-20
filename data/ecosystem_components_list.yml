@@ -695,7 +695,10 @@
   type: Organisation
   description: >-
     Focus group within ELIXIR addressing challenges and opportunities of
-    ML in life sciences, fostering collaboration and best practices.
+    ML in life sciences, fostering collaboration and best practices. Brings together interested parties to
+    address emerging areas of interest in ML, aiming to increase the
+    reproducibility and transparency of ML methods in the life sciences and responsible
+    for developing the DOME Recommendations and Registry.
   url: https://elixir-europe.org/focus-groups/machine-learning
   biotools-url: ''
   fairsharing-url: '' 
@@ -3384,22 +3387,6 @@
   domain: life science
   osai-recommendation: R2, R4
   osai-explanation: Registry for AI/ML studies (R2) and facilitates reporting/disclosure of model information via publication annotations (R4).
-
-- id: elixirmlfocusgroup
-  name: ELIXIR Machine Learning Focus Group
-  type: Organisation
-  description: >-
-    An ELIXIR agile structure that brings together interested parties to
-    address emerging areas of interest in Machine Learning, aiming to increase the
-    reproducibility and transparency of ML methods in the life sciences and responsible
-    for developing the DOME Recommendations and Registry.
-  url: https://elixir-europe.org/focus-groups/machine-learning
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: life science
-  osai-recommendation: ''
-  osai-explanation: ''
 
 - id: moframework
   name: Model Openness Framework (MOF)

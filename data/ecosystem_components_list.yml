@@ -4177,3 +4177,134 @@
   domain: domain-agnostic
   osai-recommendation: ''
   osai-explanation: ''
+
+- id: ogb
+  name: OGB (Open Graph Benchmark)
+  type: Benchmarking
+  description: >-
+    A collection of large-scale and diverse benchmark datasets
+    for machine learning on graphs.
+  url: https://ogb.stanford.edu/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R6
+  osai-explanation: >-
+    Provides standardized datasets for benchmarking ML on graph
+    data, defining evaluation protocols (R6).
+
+- id: helm
+  name: HELM (Holistic Evaluation of Language Models)
+  type: Benchmarking
+  description: >-
+    A benchmarking suite from Stanford CRFM for language models that is broad,
+    scenario-diverse, and multimetric, designed to make evaluations more
+    comprehensive and reproducible.
+  url: https://crfm.stanford.edu/helm/latest/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R6
+  osai-explanation: >-
+    A benchmarking suite that standardizes the evaluation protocols
+    for language models to improve transparency and rigor (R6).
+
+- id: lmevalharness
+  name: Language Model Evaluation Harness (lm-eval)
+  type: Tool
+  description: >-
+    A toolkit and framework from EleutherAI designed for conducting standardized
+    and reproducible evaluations of language models across hundreds of tasks.
+  url: https://github.com/EleutherAI/lm-evaluation-harness
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Open Source
+  domain: domain-agnostic
+  osai-recommendation: R6
+  osai-explanation: >-
+    A tool for implementing standardized evaluation protocols for language
+    models, supporting benchmarking efforts (R6).
+
+- id: topguidelines
+  name: TOP (Transparency and Openness Promotion) Guidelines
+  type: Best practice
+  description: >-
+    A framework of eight modular standards to promote open science practices,
+    encouraging journals to adopt more transparent and open policies for reporting.
+  url: https://www.cos.io/top
+  biotools-url: ''
+  fairsharing-url: https://fairsharing.org/FAIRsharing.yvmb9y
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R3, R4
+  osai-explanation: >-
+    A framework of best practices (R3) for transparent reporting, directly supporting
+    information disclosure (R4) at the publication level.
+
+- id: probast
+  name: PROBAST (Prediction model Risk Of Bias ASsessment Tool)
+  type: Best practice
+  description: >-
+    A checklist and guideline for assessing the risk of bias and applicability of
+    multivariable prediction model studies for diagnosis or prognosis.
+  url: https://www.probast.org/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R4, R6
+  osai-explanation: >-
+    A reporting guideline that supports information disclosure (R4) by assessing risk
+    of bias, which is crucial for model evaluation and benchmarking (R6).
+
+- id: robustmlchecklist
+  name: ROBUST-ML Checklist
+  type: Best practice
+  description: >-
+    A reporting checklist for clinically developed machine learning models, designed
+    to ensure transparency, minimize the effects of bias, and improve reproducibility.
+  url: https://academic.oup.com/ehjdh/article/3/2/125/6567505
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R4
+  osai-explanation: >-
+    A reporting checklist for disclosing information about clinical ML models to
+    improve transparency and reduce bias (R4).
+
+- id: modelinfosheets
+  name: Model Info Sheets
+  type: Metadata
+  description: >-
+    Documentation sheets designed to detect and prevent data leakage in machine
+    learning models, published alongside research to help others verify data validity.
+  url: https://reproducible.cs.princeton.edu/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R1, R4, R5
+  osai-explanation: >-
+    A metadata framework (R1) for documenting data usage to prevent and disclose
+    information about potential data leakage (R4) and address reprodcubility (R5).
+
+- id: reproducibilitymlwileypaper
+  name: 'Reproducibility in machine-learning-based research: Overview, barriers, and drivers'
+  type: Paper
+  description: >-
+    A comprehensive overview paper analyzing the key barriers and drivers to
+    reproducibility in machine learning research, proposing a drivers-barriers
+    matrix to guide researchers.
+  url: https://onlinelibrary.wiley.com/doi/10.1002/aaai.70002
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R3, R4, R5, R6
+  osai-explanation: >-
+    This overview paper discusses numerous drivers for reproducibility, including
+    best practices (R3), information disclosure via checklists/model cards (R4),
+    portable code (R5), and standardized evaluation (R6).

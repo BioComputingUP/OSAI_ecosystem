@@ -324,48 +324,6 @@
   osai-recommendation: R6
   osai-explanation: Defines evaluation protocols and uses standardized datasets.
 
-- id: caid
-  name: CAID (Critical Assessment of Intrinsic Disorder prediction)
-  type: Benchmarking
-  description: >-
-    Community experiment to evaluate methods for predicting intrinsically
-    disordered proteins.
-  url: https://www.idpcentral.org/caid
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: life science
-  osai-recommendation: R6
-  osai-explanation: Defines intrinsically disordered proteins (IDP) prediction evaluation protocols and uses standardized datasets (R6).
-
-- id: casp
-  name: CASP (Critical Assessment of protein Structure Prediction)
-  type: Benchmarking
-  description: >-
-    Community-wide experiment for protein structure prediction, assessing
-    methods including AI/ML.
-  url: https://predictioncenter.org/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: life science
-  osai-recommendation: R6
-  osai-explanation: Defines protein structure prediction evaluation protocols and uses standardized datasets (R6).
-
-- id: cagi
-  name: CAGI (Critical Assessment of Genome Interpretation)
-  type: Benchmarking
-  description: >-
-    Community experiment to assess computational methods for predicting
-    the functional, phenotypic, and clinical impact of genomic variation.
-  url: https://genomeinterpretation.org/
-  biotools-url: ''
-  fairsharing-url: ''
-  access-model: Free
-  domain: life science
-  osai-recommendation: R6
-  osai-explanation: Defines genomic interpretation prediction evaluation protocols and uses standardized datasets (R6).
-
 - id: esipaireadinesschecklist
   name: Checklist to Examine AI-readiness for Open Environmental Datasets
   type: Best practice
@@ -1365,7 +1323,7 @@
   name: CASP (Critical Assessment of protein Structure Prediction)
   type: Benchmarking
   description: >-
-    . The Critical Assessment of protein Structure Prediction (CASP) experiments aim at establishing the 
+    The Critical Assessment of protein Structure Prediction (CASP) experiments aim at establishing the 
     current state of the art in protein structure prediction, 
     identifying what progress has been made, and highlighting where future effort may be most productively focused through standardised benchmarking of AI/ML methods.
   url: https://predictioncenter.org/

@@ -1,3 +1,4 @@
+``yaml
 # This AI Ecosystem components list repurposes the YAML file format from the EVERSE RSQkit
 # (metadata format: https://w3id.org/everse/rs/0.0.1), which supports community curation,
 # interoperability, and reuse. It adds new fields relevant to its use case of capturing AI ecosystem components.
@@ -236,8 +237,8 @@
   fairsharing-url: ''
   access-model: Free with Paid Tiers
   domain: domain-agnostic
-  osai-recommendation: R2, R8
-  osai-explanation: Hosts models/datasets (R2) and focuses on specific (NVIDIA) hardware (R8).
+  osai-recommendation: R2, R9
+  osai-explanation: Hosts models/datasets (R2) and focuses on specific (NVIDIA) hardware (R9).
 
 - id: jupyter
   name: Jupyter
@@ -293,8 +294,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R6, R8
-  osai-explanation: Standardizes model performance evaluation (R6), and considers hardware performance (R8).
+  osai-recommendation: R6, R9
+  osai-explanation: Standardizes model performance evaluation (R6), and considers hardware performance (R9).
 
 - id: bioasq
   name: BioASQ (Biomedical Semantic Question Answering)
@@ -379,8 +380,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R7, R8
-  osai-explanation: Directly hosts accessible information for implementing Green AI/ML techniques (R7, R8).
+  osai-recommendation: R7, R9
+  osai-explanation: Directly hosts accessible information for implementing Green AI/ML techniques (R7, R9).
 
 - id: greenalgorithms
   name: Green Algorithms
@@ -393,8 +394,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Measures and monitors environmental impact which can be reported(R9).
+  osai-recommendation: R8
+  osai-explanation: Measures and monitors environmental impact which can be reported(R8).
 
 - id: codeocean
   name: Code Ocean
@@ -762,8 +763,8 @@
   fairsharing-url: ''
   access-model: Portal
   domain: domain-agnostic
-  osai-recommendation: R7, R9
-  osai-explanation: Focuses on green techniques (R7) and impact measurement (R9).
+  osai-recommendation: R7, R8
+  osai-explanation: Focuses on green techniques (R7) and impact measurement (R8).
 
 - id: cairneeai
   name: Confederation of Laboratories for Artificial Intelligence Research in Europe (CAIRNE)
@@ -1488,8 +1489,8 @@
   fairsharing-url: ''
   access-model: Portal
   domain: domain-agnostic
-  osai-recommendation: R7, R9
-  osai-explanation: Directly targets green AI techniques (R7) and considers impact measurement (R9).
+  osai-recommendation: R7, R8
+  osai-explanation: Directly targets green AI techniques (R7) and considers impact measurement (R8).
 
 - id: ahead_euproject
   name: AHEAD (AI for Health - Evaluation of Applications & Datasets)
@@ -1697,8 +1698,8 @@
   fairsharing-url: ''
   access-model: Mixed
   domain: domain-agnostic
-  osai-recommendation: R2, R8
-  osai-explanation: Registry of models (R2) focused on specific hardware optimisation (R8).
+  osai-recommendation: R2, R9
+  osai-explanation: Registry of models (R2) focused on specific hardware optimisation (R9).
 
 - id: mlentory
   name: MLentory
@@ -2031,8 +2032,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R6, R9
-  osai-explanation: Standardized evaluation energy benchmarking protocol leaderboard (R6) focusing on energy/environmental impact (R9).
+  osai-recommendation: R6, R8
+  osai-explanation: Standardized evaluation energy benchmarking protocol leaderboard (R6) focusing on energy/environmental impact (R8).
 
 - id: biochatter
   name: BioChatter
@@ -2380,7 +2381,7 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R9
+  osai-recommendation: R8
   osai-explanation: Standard for measuring environmental impact.
 
 - id: ai_ontology
@@ -2491,8 +2492,8 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact (R9).
+  osai-recommendation: R8
+  osai-explanation: Tool for measuring environmental impact (R8).
 
 - id: automlorg
   name: AutoML Website
@@ -2519,8 +2520,8 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact (R9).
+  osai-recommendation: R8
+  osai-explanation: Tool for measuring environmental impact (R8).
 
 - id: mlco2impact
   name: ML CO2 Impact Calculator
@@ -2533,8 +2534,8 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact (R9).
+  osai-recommendation: R8
+  osai-explanation: Tool for measuring environmental impact (R8).
 
 - id: autosklearn
   name: Auto-sklearn
@@ -2561,8 +2562,8 @@
   fairsharing-url: ''
   access-model: Open Source
   domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact (R9).
+  osai-recommendation: R8
+  osai-explanation: Tool for measuring environmental impact (R8).
 
 - id: microsoftemissionsdashboard
   name: Microsoft Emissions Dashboard
@@ -2575,8 +2576,8 @@
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Dashboard for measuring environmental impact (R9).
+  osai-recommendation: R8
+  osai-explanation: Dashboard for measuring environmental impact (R8).
 
 - id: googlecarbonfootprint
   name: Google Carbon Footprint
@@ -2589,8 +2590,8 @@
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact (R9).
+  osai-recommendation: R8
+  osai-explanation: Tool for measuring environmental impact (R8).
 
 - id: awscarbonfootprinttool
   name: AWS (Amazon Web Services) Carbon Footprint Tool
@@ -2603,8 +2604,8 @@
   fairsharing-url: ''
   access-model: Commercial
   domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Tool for measuring environmental impact (R9).
+  osai-recommendation: R8
+  osai-explanation: Tool for measuring environmental impact (R8).
 
 - id: catboost
   name: CatBoost
@@ -3244,8 +3245,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R6, R9
-  osai-explanation: Standardized evaluation (R6) of environmental impact (R9).
+  osai-recommendation: R6, R8
+  osai-explanation: Standardized evaluation (R6) of environmental impact (R8).
 
 - id: nfdi4datascience
   name: NFDI4DataScience (National Research Data Infrastructure for Data Science)
@@ -3437,8 +3438,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Green data retrieval techniques useful for AI application (R9).
+  osai-recommendation: R8
+  osai-explanation: Green data retrieval techniques useful for AI application (R8).
 
 - id: popcoe
   name: Performance Optimisation and Productivity Centre of Excellence in HPC 
@@ -3450,7 +3451,7 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R8, R9
+  osai-recommendation: R9, R8
   osai-explanation: ''
 
 - id: top500green
@@ -3463,8 +3464,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R8
-  osai-explanation: Useful resource to check if a HPC centre is green for informing deployment choice to optimise Green AI (R8).
+  osai-recommendation: R9
+  osai-explanation: Useful resource to check if a HPC centre is green for informing deployment choice to optimise Green AI (R9).
 
 - id: aibio
   name: AIBIO-UK
@@ -3528,8 +3529,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R8, R9
-  osai-explanation: Green AI tooling to schedule AI workloads over green zones (R8) dynamically and report carbon emissions (R9) 
+  osai-recommendation: R9, R8
+  osai-explanation: Green AI tooling to schedule AI workloads over green zones (R9) dynamically and report carbon emissions (R8) 
 
 - id: aidrin
   name: AI Data Readiness Inspector (AIDRIN) for Quantitative Assessment of Data Readiness for AI
@@ -3765,8 +3766,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R9
-  osai-explanation: Resource to support measurment of AI/ML model emissions (R9)
+  osai-recommendation: R8
+  osai-explanation: Resource to support measurment of AI/ML model emissions (R8)
 
 - id: googlecarbonfreeguide
   name: Carbon free energy for Google Cloud regions
@@ -3778,8 +3779,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R8
-  osai-explanation: Resource for informing choice of low carbon emission datacentre choice when using Google cloud, useful for reducing AI/ML model development carbon emissions (R8).
+  osai-recommendation: R9
+  osai-explanation: Resource for informing choice of low carbon emission datacentre choice when using Google cloud, useful for reducing AI/ML model development carbon emissions (R9).
 
 - id: podman
   name: Podman
@@ -3950,8 +3951,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R7, R8, R9
-  osai-explanation: Information repository covering all aspects of green software engineering applicable for Green AI model development (R7, R8, R9)
+  osai-recommendation: R7, R9, R8
+  osai-explanation: Information repository covering all aspects of green software engineering applicable for Green AI model development (R7, R9, R8)
 
 - id: natscireportsgreenai
   name: Nature Scientific Reports - Publication collection of Green AI content.
@@ -4084,8 +4085,8 @@
   fairsharing-url: ''
   access-model: Free
   domain: domain-agnostic
-  osai-recommendation: R7, R8, R9
-  osai-explanation: Certfication of digital sustainability, may be of interest to AI/ML research groups and service prvoiders (R7,R8,R9). 
+  osai-recommendation: R7, R9, R8
+  osai-explanation: Certfication of digital sustainability, may be of interest to AI/ML research groups and service prvoiders (R7,R9,R8). 
 
 - id: sofwtaresustinstitute
   name: Software Sustainability Institute
@@ -4292,7 +4293,7 @@
     information about potential data leakage (R4) and address reprodcubility (R5).
 
 - id: reproducibilitymlwileypaper
-  name: 'Reproducibility in machine-learning-based research: Overview, barriers, and drivers'
+  name: 'Reproducibility in machine-learning-based research - Overview, barriers, and drivers'
   type: Paper
   description: >-
     A comprehensive overview paper analyzing the key barriers and drivers to
@@ -4324,7 +4325,7 @@
   osai-explanation: AI model and dataset specific metadata format (R1).
 
 - id: fairformlassessment
-  name: FAIR for Machine Learning Model: Principles and Assessment Metrics
+  name: FAIR for Machine Learning Model - Principles and Assessment Metrics
   type: Best practice
   description: >-
     FAIR4ML Model specifies the adoption of the 
@@ -4336,8 +4337,64 @@
   domain: domain-agnostic
   osai-recommendation: R4
   osai-explanation: AI model assessment metrics based on FAIR principles mapped to ML models (R4).
-#TO ADD: 
-# Galaxy ML
-# WAIFINDER /oecd AI
-# TODY MODELS
-#  https://www.ebi.ac.uk/msd-srv/capri/ & CAFFA
+
+- id: galaxyml
+  name: Galaxy Machine Learning (ML) / Artificial Intelligence (AI) Special Interest Group (SIG)
+  type: Organisation
+  description: A community group within the Galaxy Project that focuses on advancing the integration and application of AI and Machine Learning tools and reproducible workflows in scientific research.
+  url: https://galaxyproject.org/community/sig/ml-ai-across-galaxy/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R3, R5
+  osai-explanation: Community group promoting AI/ML best practices and training (R3), leveraging the Galaxy platform for portable and reproducible workflows (R5).
+
+- id: waifinder
+  name: WAIFINDER
+  type: Registry
+  description: An interactive digital map and directory of the UKs artificial intelligence research and innovation ecosystem, developed by UK Research and Innovation (UKRI) to help users find and connect with companies, funders, and academic institutions.
+  url: https://waifinder.iuk.ktn-uk.org/explorer
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: oecdaicapabilityindicators
+  name: OECD AI Capability Indicators
+  type: Best practice
+  description: A framework from the OECD designed to assess and benchmark AI advancements against human abilities across nine domains, providing a tool for policymakers to understand AIs potential impacts.
+  url: https://oecd.ai/en/measuring
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: ''
+  osai-explanation: ''
+
+- id: capri
+  name: CAPRI (Critical Assessment of Prediction of Interactions)
+  type: Benchmarking
+  description: A community-wide blind prediction experiment designed to assess the performance of computational methods for predicting the structure of protein-protein complexes.
+  url: https://www.ebi.ac.uk/msd-srv/capri/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R6
+  osai-explanation: A long-running community benchmarking challenge that defines standardized evaluation protocols for protein-protein interaction prediction models (R6).
+
+- id: cafa
+  name: CAFA (Critical Assessment of Functional Annotation)
+  type: Benchmarking
+  description: A community-driven, time-based challenge to evaluate and benchmark the performance of computational methods for predicting protein function using Gene Ontology and other functional terms.
+  url: https://biofunctionprediction.org/cafa/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R6
+  osai-explanation: A benchmarking experiment that provides standardized datasets and evaluation protocols for protein function prediction methods (R6).
+```

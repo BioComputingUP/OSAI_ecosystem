@@ -21,7 +21,7 @@
 #   domain: The primary application domain of the resource (e.g., 'life science', 'domain-agnostic').
 #   osai-recommendation: Mapped Open and Sustainable AI (OSAI) Recommendation(s) (see osai_recommendations.yml; e.g., R2 or R2, R3).
 #   osai-explanation: Brief explanation of the OSAI recommendation mapping (e.g., Ersilia Model Hub is a registry (R2) providing accessible ML models for drug discovery/disease research.).
-
+#
 # Blank tool entry template (Make a copy and insert at bottom of file after the last existing entry):
 
 # - id:

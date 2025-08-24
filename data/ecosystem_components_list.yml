@@ -1,4 +1,4 @@
-``yaml
+```yaml
 # This AI Ecosystem components list repurposes the YAML file format from the EVERSE RSQkit
 # (metadata format: https://w3id.org/everse/rs/0.0.1), which supports community curation,
 # interoperability, and reuse. It adds new fields relevant to its use case of capturing AI ecosystem components.

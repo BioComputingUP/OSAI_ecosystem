@@ -7,16 +7,185 @@
 #    role: the role of the contributor (current possible values "editor" or leave empty)
 #    affiliation: affiliation
 #    image_url: absolute path to image (defaults to image from GitHub)
-# 
+#
 # This information will later be used to represent contributor's for credit.
 
-
 Gavin Farrell:
-    git: gavinf97
-    email: gavinmichael.farrell@studenti.unipd.it
+    git: https://github.com/gavinf97
     orcid: 0000-0001-5166-8551
-    role: author
-    affiliation: University of Padova, Italy
-    image_url:
+    role: lead author and infrastructure, New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Department of Biomedical Sciences, University of Padova, Italy
 
+Eleni Adamidi:
+    git:
+    orcid: 0000-0001-9925-1560
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Athena Research & Innovation Center, Greece
 
+Rafael Andrade Buono:
+    git:
+    orcid: 0000-0002-6675-3836
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: VIB Data Core, VIB.AI Center for AI & Computational Biology, Belgium
+
+Mihail Anton:
+    git: https://github.com/mihai-sysbio
+    orcid: 0000-0002-7753-9042
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: ELIXIR Europe Hub, EMBL-EBI South Building, Wellcome Genome, United Kingdom
+
+Omar Abdelghani Attafi:
+    git: https://github.com/Abdelghaniomar
+    orcid: 0009-0002-2327-9430
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Department of Biomedical Sciences, University of Padova, Italy
+
+Salvador Capella Gutierrez:
+    git: https://github.com/scapella
+    orcid: 0000-0002-0309-604X
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Barcelona Supercomputing Center (BSC), Spain
+
+Emidio Capriotti:
+    git: https://github.com/emidio-capriotti
+    orcid: 0000-0002-2323-0963
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Department of Pharmacy and Biotechnology, University of Bologna; Computational Genomics Platform, IRCCS University Hospital of Bologna, Italy
+
+Leyla Jael Castro:
+    git: https://github.com/ljgarcia
+    orcid: 0000-0003-3986-0510
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: ZB MED Information Centre for Life Sciences, Germany
+
+Davide Cirillo:
+    git: https://github.com/cirillodavide
+    orcid: 0000-0003-4982-4716
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Barcelona Supercomputing Center (BSC), Spain
+
+Lisa Crossman:
+    git: https://github.com/LCrossman
+    orcid: 0000-0003-2390-4750
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: SequenceAnalysis.co.uk; University of East Anglia, United Kingdom
+
+Christophe Dessimoz:
+    git: https://github.com/cdessimoz
+    orcid: 0000-0002-2170-853X
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Department of Computational Biology, University of Lausanne; Swiss Institute of Bioinformatics, Switzerland
+
+Alexandros Dimopoulos:
+    git:
+    orcid: 0000-0002-4602-2040
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Institute for Fundamental Biomedical Science, Biomedical Sciences Research Center ‘Alexander Fleming’; Department of Informatics & Telematics, School of Digital Technology, Harokopio University, Greece
+
+Raúl Fernández-Díaz:
+    git: https://github.com/RaulFD-creator
+    orcid: 0000-0002-7383-6568
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: School of Medicine, University College Dublin; Conway Institute of Biomolecular and Biomedical Research, University College Dublin; IBM Research Dublin, Ireland
+
+Styliani-Christina Fragkouli:
+    git: https://github.com/sfragkoul
+    orcid: 0000-0003-4067-7123
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Institute of Applied Biosciences, Centre for Research and Technology Hellas; Department of Biology, National & Kapodistrian University of Athens, Greece
+
+Carole Goble:
+    git: https://github.com/carolegoble
+    orcid: 0000-0003-1219-2137
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Department of Computer Science, University of Manchester, United Kingdom
+
+Wei Gu:
+    git: https://github.com/weiguUL
+    orcid: 0000-0003-3951-6680
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Luxembourg National Data Service, Luxembourg
+
+John M. Hancock:
+    git:
+    orcid: 0000-0003-2991-2217
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Institute of Biochemistry and Molecular Genetics, Faculty of Medicine, University of Ljubljana, Slovenia
+
+Alireza Khanteymoori:
+    git: https://github.com/khanteymoori
+    orcid: 0000-0001-6811-9196
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Department of Psychology, University of Freiburg, Germany
+
+Tom Lenaerts:
+    git:
+    orcid: 0000-0003-3645-1455
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Machine Learning Group, Université Libre de Bruxelles; Artificial Intelligence Lab, Vrije Universiteit Brussel; Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB; FARI, AI for the common good institute, ULB-VUB, Belgium; Center for Human-Compatible AI, UC Berkeley, USA
+
+Fabio G. Liberante:
+    git:
+    orcid: 0000-0002-0192-5385
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: ELIXIR Europe Hub, EMBL-EBI South Building, Wellcome Genome, United Kingdom
+
+Peter Maccallum:
+    git:
+    orcid: 0000-0001-5260-5915
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: ELIXIR Europe Hub, EMBL-EBI South Building, Wellcome Genome, United Kingdom
+
+Alexander Miguel Monzon:
+    git:
+    orcid: 0000-0003-0362-8218
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Department of Biomedical Sciences, University of Padova, Italy
+
+Magnus Palmblad:
+    git: https://github.com/magnuspalmblad
+    orcid: 0000-0002-5865-8994
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Leiden University Medical Center, Netherlands
+
+Lucy Poveda:
+    git:
+    orcid: 0000-0002-5291-5582
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Swiss Institute of Bioinformatics, Switzerland
+
+Ovidiu Radulescu:
+    git: https://github.com/oradules
+    orcid: 0000-0001-6453-5707
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: LPHI, University of Montpellier, CNRS, INSERM, France
+
+Denis C. Shields:
+    git:
+    orcid: 0000-0003-4015-2474
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: School of Medicine, University College Dublin; Conway Institute of Biomolecular and Biomedical Research, University College Dublin, Ireland
+
+Shoaib Sufi:
+    git: https://github.com/shoaibsufi
+    orcid: 0000-0001-6390-2616
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Department of Computer Science, University of Manchester, United Kingdom
+
+Thanasis Vergoulis:
+    git: https://github.com/vergoulis
+    orcid: 0000-0003-0555-4128
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Athena Research & Innovation Center, Greece
+
+Fotis Psomopoulos:
+    git: https://github.com/fpsom
+    orcid: 0000-0002-0222-4273
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Institute of Applied Biosciences, Centre for Research and Technology Hellas, Greece
+
+Silvio C.E. Tosatto:
+    git: https://github.com/silvio-tosatto
+    orcid: 0000-0003-4525-7793
+    role: New components contributor via ELIXIR Machine Learning Focus Group and OSAI co-author
+    affiliation: Department of Biomedical Sciences, University of Padova; Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Italy

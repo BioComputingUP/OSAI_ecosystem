@@ -1,4 +1,3 @@
-```yaml
 # This AI Ecosystem components list repurposes the YAML file format from the EVERSE RSQkit
 # (metadata format: https://w3id.org/everse/rs/0.0.1), which supports community curation,
 # interoperability, and reuse. It adds new fields relevant to its use case of capturing AI ecosystem components.
@@ -3668,7 +3667,7 @@
   type: Metadata
   description: >-
     Dedicated machine learning models licensing info webpage on the Turing Way resource.
-  url: ''
+  url: https://book.the-turing-way.org/reproducible-research/licensing/licensing-ml.html
   biotools-url: ''
   fairsharing-url: ''
   access-model: Free
@@ -4397,4 +4396,3 @@
   domain: life science
   osai-recommendation: R6
   osai-explanation: A benchmarking experiment that provides standardized datasets and evaluation protocols for protein function prediction methods (R6).
-```

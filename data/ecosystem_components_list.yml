@@ -4396,3 +4396,151 @@
   domain: life science
   osai-recommendation: R6
   osai-explanation: A benchmarking experiment that provides standardized datasets and evaluation protocols for protein function prediction methods (R6).
+
+- id: pixi
+  name: Pixi
+  type: Reproducibility tool
+  description: >-
+    A cross-platform package manager and workflow tool built on Conda that
+    aims to provide robust, reproducible software environments for development.
+  url: https://pixi.sh/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Open Source
+  domain: domain-agnostic
+  osai-recommendation: R5
+  osai-explanation: >-
+    Creates reproducible software environments through lockfiles, ensuring
+    portable code and dependencies for AI/ML projects (R5).
+
+- id: stardai
+  name: STARD-AI (Standards for Reporting of Diagnostic Accuracy Studies - AI)
+  type: Best practice
+  description: >-
+    Reporting guideline for studies evaluating the diagnostic accuracy of an
+    artificial intelligence based test.
+  url: https://www.nature.com/articles/s41591-025-03953-8
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R4
+  osai-explanation: >-
+    A reporting guideline checklist that promotes transparent information
+    disclosure for diagnostic AI studies (R4).
+
+- id: decideai
+  name: DECIDE-AI (DEvelopment and Clinical-validation of trustworthy AI in DEcision-support)
+  type: Best practice
+  description: >-
+    Reporting guideline for the early-stage clinical evaluation of decision
+    support systems driven by artificial intelligence, including safety and human
+    factors evaluation.
+  url: https://www.bmj.com/content/377/bmj-2022-070904
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R4
+  osai-explanation: >-
+    A reporting guideline promoting transparent information disclosure for the
+    evaluation of clinical AI decision support systems (R4).
+
+- id: cheersai
+  name: CHEERS-AI (Consolidated Health Economic Evaluation Reporting Standards - AI)
+  type: Best practice
+  description: >-
+    Reporting guideline for studies describing health economic evaluations to
+    estimate the value for money (cost-effectiveness) of artificial intelligence
+    interventions.
+  url: https://www.sciencedirect.com/science/article/pii/S1098301524023660
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R4
+  osai-explanation: >-
+    A reporting guideline promoting transparent information disclosure for the
+    health economic evaluation of AI interventions (R4).
+
+- id: spiritai
+  name: SPIRIT-AI (Standard Protocol Items: Recommendations for Interventional Trials - AI)
+  type: Best practice
+  description: >-
+    Reporting guideline for protocols of clinical trials evaluating an
+    intervention with an artificial intelligence component.
+  url: https://www.nature.com/articles/s41591-020-1037-7
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R4
+  osai-explanation: >-
+    A reporting guideline promoting transparent information disclosure for AI
+    clinical trial protocols (R4).
+
+- id: consortai
+  name: CONSORT-AI (Consolidated Standards of Reporting Trials - AI)
+  type: Best practice
+  description: >-
+    Reporting guideline for clinical trial reports evaluating an intervention
+    with an artificial intelligence component.
+  url: https://www.nature.com/articles/s41591-020-1034-x
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R4
+  osai-explanation: >-
+    A reporting guideline promoting transparent information disclosure for AI
+    clinical trial reports (R4).
+
+- id: prismaai
+  name: PRISMA-AI (Preferred Reporting Items for Systematic reviews and Meta-Analyses - AI)
+  type: Best practice
+  description: >-
+    A reporting guideline for systematic reviews that use or evaluate artificial
+    intelligence tools.  
+  url: https://www.nature.com/articles/s41591-022-02139-w
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R4
+  osai-explanation: >-
+    A reporting guideline promoting transparent information disclosure for
+    systematic reviews involving AI (R4).
+
+- id: biocypher
+  name: BioCypher
+  type: Tool
+  description: >-
+    A Python framework for building and managing FAIR biomedical knowledge graphs
+    by simplifying the process of integrating and harmonizing heterogeneous data
+    sources.
+  url: https://biocypher.org/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Open Source
+  domain: life science
+  osai-recommendation: ''
+  osai-explanation: >-
+    Facilitates the creation of standardized, AI-ready knowledge graphs,
+    promoting metadata and data interoperability.
+
+- id: flarechallenge
+  name: FLARE (Fast and Low-resource Abdominal oRgan sEgmentation) Challenge
+  type: Benchmarking
+  description: >-
+    A MICCAI challenge for benchmarking abdominal organ segmentation methods,
+    with a focus on computational efficiency and performance on low-resource
+    hardware.
+  url: https://flare.grand-challenge.org/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R6, R7
+  osai-explanation: >-
+    Provides standardized evaluation protocols and datasets for organ
+    segmentation (R6) and promotes efficient Green AI techniques (R7).

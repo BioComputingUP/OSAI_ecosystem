@@ -67,6 +67,10 @@ All participants are expected to adhere to the project's [Code of Conduct](CODE_
 
 For questions, suggestions, or to report issues, please open an [Issue](https://github.com/gavinf97/OSAI_ecosystem]/issues) in this repository, or contact the **primary maintainer** at **gavinmichael.farrell@studenti.unipd.it**.
 
-## Acknowledgements – RSQkit & RDMkit
+## GitHub Structure Acknowledgements – RSQkit & RDMkit
 
 This repository's structure and documentation approach draw inspiration from, and adapt elements of, the excellent work done by the [Research Software Quality Kit (RSQKit)](https://github.com/EVERSE-ResearchSoftware/RSQKit) and ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/).
+
+## OSAI AI Ecosystem Content Exchange Acknowledgements – FAIRsharing
+
+This repository's AI ecosystem components YAML file has been extended with content exchange through partnership with the [FAIRsharing AI Resource Collection](https://fairsharing.org/7193). FAIRsharing can be cited from its Nature Biotechnology publication [doi.org/10.1038/s41587-019-0080-8](https://www.nature.com/articles/s41587-019-0080-8): Sansone, SA., McQuilton, P., Rocca-Serra, P. et al. FAIRsharing as a community approach to standards, repositories and policies. Nat Biotechnol 37, 358–367 (2019).

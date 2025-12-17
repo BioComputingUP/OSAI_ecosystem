@@ -1,0 +1,52 @@
+[
+    {
+      "type": "event",
+      "date": "November 3, 2025",
+      "title": "DOME and OSAI featured in BioHackathon Europe 2025",
+      "description": "DOME team members contributed to two key projects at the BioHackathon Europe in Berlin: Project 6, 'Defining the components of an ELIXIR ML ecosystem', and Project 31, 'World DOMEination: Conquering ML metadata, one standard at a time'.",
+      "link": "https://biohackathon-europe.org/projects/",
+      "linkText": "View Projects",
+      "linkIcon": "icon-external-link-alt",
+      "tags": ["BioHackathon", "Workshop", "Ecosystem"]
+    },
+    {
+        "type": "news",
+        "date": "September 3, 2025",
+        "title": "ELIXIR launches AI Ecosystem Focus Group",
+        "description": "ELIXIR has officially launched the AI Ecosystem Focus Group to address the growing importance of Artificial Intelligence in the life sciences and to build on the work of the original Machine Learning Focus Group.",
+        "link": "https://elixir-europe.org/focus-groups/machine-learning",
+        "linkText": "Learn more",
+        "linkIcon": "icon-external-link-alt",
+        "tags": ["Focus Group", "ELIXIR", "AI"]
+      },
+    {
+      "type": "news",
+      "date": "August 10, 2025",
+      "title": "OSAI website launched",
+      "description": "The Open and Sustainable AI (OSAI) website is now live, expanding on the DOME recommendations to provide resources for sustainable AI development in research.",
+      "link": "https://osai.dome-ml.org/",
+      "linkText": "Visit OSAI Website",
+      "linkIcon": "icon-external-link-alt",
+      "tags": ["Launch", "OSAI", "Sustainability"]
+    },
+    {
+        "type": "news",
+        "date": "May 22, 2025",
+        "title": "Open and Sustainable AI in Life Sciences Paper Released",
+        "description": "A new publication led by Gavin Farrell, Fotis Psomopoulos & Silvio Tosatto outlines a framework for creating Open and Sustainable AI (OSAI), building on principles established by the DOME recommendations.",
+        "link": "https://arxiv.org/abs/2505.16619",
+        "linkText": "Read the paper",
+        "linkIcon": "icon-external-link-alt",
+        "tags": ["Publication", "OSAI", "Sustainability"]
+      },
+    {
+        "type": "event",
+        "date": "May 21, 2025",
+        "title": "Presentation on DOME and Sustainable AI at CERN",
+        "description": "Gavin Farrell presented on 'DOME: Life Science ML Best Practices & the AI Ecosystem' at the FAIR and environmentally sustainable ML workshop hosted by CERN.",
+        "link": "https://zenodo.org/records/15477471",
+        "linkText": "View on Zenodo",
+        "linkIcon": "icon-external-link-alt",
+        "tags": ["Presentation", "CERN", "Sustainability"]
+      }
+  ]

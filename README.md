@@ -119,3 +119,28 @@ The UI includes a script to pull the latest YAML data from the main repository:
 ```bash
 python3 scripts/update_yaml.py
 ```
+
+### Docker (Easy Local Setup)
+
+To run the application without installing Node.js or Angular locally, use Docker. This setup supports "live reloading," so changes you make to the code will instantly update in the browser.
+
+1.  **Prerequisites:** Ensure [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/install/) are installed.
+
+2.  **Navigate to the UI directory:**
+    ```bash
+    cd dome-ml-osai-ui
+    ```
+
+3.  **Start the Container:**
+    ```bash
+    docker-compose up --build
+    ```
+
+4.  **Access the App:**
+    Open your browser to [http://localhost:4200](http://localhost:4200).
+
+5.  **Stop the Container:**
+    Press `Ctrl+C` in the terminal, or run:
+    ```bash
+    docker-compose down
+    ```

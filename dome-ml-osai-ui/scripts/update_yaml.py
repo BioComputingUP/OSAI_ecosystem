@@ -10,7 +10,11 @@ import shutil
 from datetime import datetime
 
 # Configuration
-LOCAL_FILE_PATH = "/home/gavinfarrell/PhD_Code/dome-ml-osai-ui/src/assets/ecosystem_components_list.yml"
+# Use relative path to ensure it works on any machine (and inside Docker if mounted)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+LOCAL_FILE_PATH = os.path.join(PROJECT_ROOT, "src", "assets", "ecosystem_components_list.yml")
+
 GITHUB_RAW_URL = "https://raw.githubusercontent.com/BioComputingUP/OSAI_ecosystem/main/data/ecosystem_components_list.yml"
 BACKUP_SUFFIX = ".backup"
 

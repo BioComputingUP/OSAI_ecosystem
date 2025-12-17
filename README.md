@@ -74,3 +74,48 @@ This repository's structure and documentation approach draw inspiration from, an
 ## OSAI AI Ecosystem Content Exchange Acknowledgements – FAIRsharing
 
 This repository's AI ecosystem components YAML file has been extended with content exchange through partnership with the [FAIRsharing AI Resource Collection](https://fairsharing.org/7193). FAIRsharing can be cited from its Nature Biotechnology publication [doi.org/10.1038/s41587-019-0080-8](https://www.nature.com/articles/s41587-019-0080-8): Sansone, SA., McQuilton, P., Rocca-Serra, P. et al. FAIRsharing as a community approach to standards, repositories and policies. Nat Biotechnol 37, 358–367 (2019).
+
+---
+
+## OSAI Ecosystem UI (Web Interface)
+
+This repository includes the **dome-ml-osai-ui**, a web-based user interface designed to interact with the OSAI ecosystem. It is an Angular application located in the `dome-ml-osai-ui/` subdirectory.
+
+### Prerequisites
+*   **Node.js** and **npm** installed.
+*   **Angular CLI** (optional, but recommended).
+
+### Getting Started with the UI
+
+1.  **Navigate to the UI directory:**
+    ```bash
+    cd dome-ml-osai-ui
+    ```
+
+2.  **Install Dependencies:**
+    Use `npm ci` to install dependencies as specified in the lock file to avoid breaking changes.
+    ```bash
+    npm ci
+    ```
+
+3.  **Run the Development Server:**
+    ```bash
+    npm start
+    # OR
+    ng serve
+    ```
+    Navigate to `http://localhost:4200/` in your browser. The application will automatically reload if you change any of the source files.
+
+### Building for Production
+
+To build the project for deployment:
+```bash
+ng build --prod
+```
+The build artifacts will be stored in the `dist/` directory within the `dome-ml-osai-ui` folder.
+
+### Data Synchronization
+The UI includes a script to pull the latest YAML data from the main repository:
+```bash
+python3 scripts/update_yaml.py
+```

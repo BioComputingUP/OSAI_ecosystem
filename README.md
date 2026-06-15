@@ -29,17 +29,32 @@ The list data is maintained in human-readable Tab-Separated Values (`.tsv`) file
 
 ## Contributing
 
-We welcome contributions to help grow and maintain this resource. The **OSAI Ecosystem Components List** relies on community input and updates to remain valuable.
+We welcome contributions to help grow and maintain this resource. The **OSAI Ecosystem Components List** relies on community input and updates to remain valuable. 
 
-The contribution process is designed to be straightforward:
+We have two straightforward ways to submit a new tool or component:
 
-1.  **Edit the .yml file:** Locate the `ecosystem_components.yml` file in the `/data` directory. Add a new component using the template and correct fields or modify existing lines.
-2.  **Submit a Pull Request (PR):** Propose your changes via a GitHub Pull Request. Please use the provided PR template to describe your contribution.
-3.  **Review:** The project maintainers will review your submission for relevance, accuracy, and formatting.
-4.  **Merge & Convert:** Once approved, your changes will be merged into the main `ecosystem_components.tsv` file. The updated JSON file will be automatically generated shortly thereafter.
+### Option 1: Submit an Issue (Recommended)
+The easiest way to propose a new addition is to use our structured GitHub Issue form. 
+
+1. Navigate to the [Issues tab](../../issues) in this repository.
+2. Click **New Issue** and select the **Submit a New AI Ecosystem Component** template.
+3. Fill out the provided fields with the tool details. 
+4. Submit the issue. Project maintainers will review the submission and add it directly to the dataset.
+
+### Option 2: Submit a Pull Request (PR)
+If you prefer working directly with the code, you can add entries to the dataset yourself.
+
+1. **Edit the .yml file:** Locate the `ecosystem_components.yml` file in the `/data` directory. Add a new component using the blank template provided at the bottom of the file.
+2. **Submit a Pull Request:** Propose your changes via a GitHub PR, describing your contribution.
+3. **Review:** The project maintainers will review your submission for relevance, accuracy, and formatting.
+4. **Merge & Convert:** Once approved, your changes will be merged into the main file, and the updated JSON will be automatically generated.
 
 After contributing:
-1.  **Hosted Online:** The JSON will be used to populate the **OSAI Ecosystem Components List** on [https://dome-ml.org/ai-ecosystem](https://dome-ml.org/ai-ecosystem).
+1. **Hosted Online:** The JSON will be used to populate the **OSAI Ecosystem Components List** on [https://dome-ml.org/ai-ecosystem](https://dome-ml.org/ai-ecosystem).
+
+Please see our [Contribution Guidelines](CONTRIBUTING.md) for detailed instructions on formatting entries and the PR process.
+
+The OSAI project is maintained by the **project maintainers**, who review contributions and manage the repository.
 
 **Please see our [Contribution Guidelines](CONTRIBUTING.md) for detailed instructions on formatting entries and the PR process.**
 

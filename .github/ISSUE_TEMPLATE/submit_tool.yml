@@ -1,0 +1,104 @@
+name: Submit a New AI Ecosystem Component
+description: Propose a new tool or resource for the AI Ecosystem list.
+title: "[New Tool]: <Tool Name>"
+labels: ["enhancement", "new tool"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the AI Ecosystem list! 
+        
+        Before you submit, please ensure you have read our [CONTRIBUTING.md](CONTRIBUTING.md) and reviewed the [TOOLS_SELECTION_CRITERIA.md](TOOLS_SELECTION_CRITERIA.md) to ensure your submission fits the required scope.
+
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool Name
+      description: The full, human-readable name of the resource (e.g., Ersilia Model Hub).
+    validations:
+      required: true
+
+  - type: input
+    id: tool_id
+    attributes:
+      label: ID
+      description: A unique, lowercase, string identifier for the resource without spaces (e.g., ersiliamodelhub).
+    validations:
+      required: true
+
+  - type: input
+    id: type
+    attributes:
+      label: Type
+      description: Resource category type (please check TOOLS_SELECTION_CRITERIA.md for valid types, e.g., Registry, AI/ML Library).
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A short description of the purpose of the resource.
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Primary URL
+      description: The primary homepage of the resource.
+    validations:
+      required: true
+
+  - type: input
+    id: biotools_url
+    attributes:
+      label: bio.tools URL
+      description: A bio.tools registry link for this resource, if available.
+    validations:
+      required: false
+
+  - type: input
+    id: fairsharing_url
+    attributes:
+      label: FAIRsharing URL
+      description: A fairsharing.org registry link for this resource, if available.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: access_model
+    attributes:
+      label: Access Model
+      description: The access model for the resource.
+      options:
+        - Open Source
+        - Commercial
+        - Free
+        - Mixed
+    validations:
+      required: true
+
+  - type: input
+    id: domain
+    attributes:
+      label: Domain
+      description: The primary application domain of the resource (e.g., life science, domain-agnostic).
+    validations:
+      required: true
+
+  - type: input
+    id: osai_recommendation
+    attributes:
+      label: OSAI Recommendation
+      description: Mapped Open and Sustainable AI Recommendation(s) (e.g., R2 or R2, R3).
+    validations:
+      required: false
+
+  - type: textarea
+    id: osai_explanation
+    attributes:
+      label: OSAI Explanation
+      description: Brief explanation of the OSAI recommendation mapping.
+    validations:
+      required: false

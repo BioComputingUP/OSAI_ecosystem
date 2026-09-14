@@ -4970,3 +4970,37 @@
   domain: life science
   osai-recommendation: R2
   osai-explanation: A registry for discovering and sharing MCP servers that connect agentic AI to biomedical resources (R2).
+
+- id: drai
+  name: Data Readiness for Scientific AI at Scale (DRAI)
+  type: Paper
+  description: >-
+    Preprint from Oak Ridge National Laboratory examining how Data Readiness for AI
+    (DRAI) principles apply to leadership-scale scientific datasets used to train
+    foundation models across climate, fusion, bio/health and materials. Proposes a
+    two-dimensional framework of Data Readiness Levels (raw to AI-ready) and Data
+    Processing Stages (ingest to shard) for HPC environments.
+  url: https://arxiv.org/abs/2507.23018
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic # Spans climate, fusion, bio/health and materials
+  osai-recommendation: R1, R3
+  osai-explanation: Defines a readiness framework with standardised formats and metadata for AI training datasets (R1) and best-practice guidance for preparing scientific data for AI (R3).
+
+- id: setgo
+  name: 'SetGo: Metadata Readiness for Scientific AI Datasets'
+  type: Tool
+  description: >-
+    Open-source Python toolkit (Apache-2.0) from Oak Ridge National Laboratory that
+    assesses and repairs dataset metadata readiness before publication across six
+    dimensions: FAIR compliance, licensing, provenance, governance, reproducibility
+    and catalog readiness. Includes guided metadata enrichment and an LLM agent skill
+    for the assess-enrich-publish workflow (paper: arXiv:2607.22677, SSDBM 2026).
+  url: https://code.ornl.gov/drai/setgo
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Open Source
+  domain: domain-agnostic
+  osai-recommendation: R1, R4
+  osai-explanation: Assesses and enriches AI dataset metadata against FAIR and catalog standards (R1) and improves disclosure of licensing, provenance and governance details (R4).

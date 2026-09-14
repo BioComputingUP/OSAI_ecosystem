@@ -5005,3 +5005,115 @@
   domain: domain-agnostic
   osai-recommendation: R1, R4
   osai-explanation: Assesses and enriches AI dataset metadata against FAIR and catalog standards (R1) and improves disclosure of licensing, provenance and governance details (R4).
+
+- id: fairscape
+  name: FAIRSCAPE
+  type: Tool
+  description: >-
+    Open-source framework (MIT) that packages biomedical datasets with rich pre-model
+    metadata, deep provenance graphs and RO-Crate packaging, and automatically evaluates
+    them against the 28 Bridge2AI AI-readiness criteria. Provides a server, REST API,
+    Python client and GUI, and generates human-readable datasheets.
+  url: https://fairscape.github.io/
+  biotools-url: https://bio.tools/fairscape
+  fairsharing-url: ''
+  access-model: Open Source
+  domain: life science
+  osai-recommendation: R1, R4
+  osai-explanation: Captures AI-readiness metadata and provenance for biomedical datasets (R1) and discloses dataset characteristics through generated datasheets (R4).
+
+- id: responsiblehandoverai
+  name: Responsible Handover of AI
+  type: Best practice
+  description: >-
+    Governance framework from Sense about Science that preserves critical information
+    when AI tools pass from developers to adopters. A one-page set of layered questions,
+    with an implementation guide and case studies from healthcare and clinical research,
+    helps both parties understand a tool's capabilities, limitations and misuse risks.
+  url: https://senseaboutscience.org/responsible-handover-of-ai/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R3, R4
+  osai-explanation: Best-practice guidance for AI handover (R3) centred on disclosing model capabilities and limitations to adopters (R4).
+
+- id: agentskills
+  name: Agent Skills
+  type: Metadata
+  description: >-
+    Open standard, originated by Anthropic, for packaging reusable agent capabilities
+    as folders containing a SKILL.md file of YAML metadata and Markdown instructions,
+    optionally with scripts and resources loaded on demand. Supported across many
+    agent platforms, including Claude Code, OpenAI Codex, Gemini CLI and GitHub Copilot.
+  url: https://agentskills.io/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Open Source
+  domain: domain-agnostic
+  osai-recommendation: R5
+  osai-explanation: A portable, platform-agnostic format for sharing reproducible agent workflows (R5).
+
+- id: bridge2aidatasheetsschema
+  name: Bridge2AI Data Sheets Schema
+  type: Metadata
+  description: >-
+    LinkML schema implementing the Datasheets for Datasets model, giving structured,
+    machine-readable documentation of a dataset's motivation, composition, collection
+    process and recommended uses. Includes curated datasheets for Bridge2AI projects
+    such as AI-READI, CM4AI, VOICE and CHORUS.
+  url: https://bridge2ai.github.io/data-sheets-schema/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Open Source
+  domain: life science
+  osai-recommendation: R1, R4
+  osai-explanation: A machine-readable metadata schema for AI datasets (R1) that standardises disclosure of dataset details (R4).
+
+- id: bioairepo
+  name: BioAIrepo
+  type: Registry
+  description: >-
+    Pilot AI model repository from EMBL-EBI, run as a BioStudies collection, where life
+    scientists openly share models with their metadata, weights and links to the
+    datasets used for training, testing and validation. Submissions draw on community
+    standards such as DOME, Croissant and FAIR4ML.
+  url: https://www.ebi.ac.uk/biostudies/BioAIrepo
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R2, R4
+  osai-explanation: A registry for sharing and discovering life science AI models linked to their datasets (R2), with structured documentation of model details (R4).
+
+- id: ai4curationaidocs
+  name: AI4Curators - AI Guides
+  type: Training
+  description: >-
+    Documentation site from the AI4Curation community with patterns, tools and how-to
+    guides for using AI agents in curation of ontologies and knowledge bases. Covers
+    curator and administrator workflows, with case studies on the Gene Ontology, Uberon,
+    Mondo and the Cell Ontology, plus a glossary of key terms.
+  url: https://ai4curation.io/aidocs/
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: life science
+  osai-recommendation: R3
+  osai-explanation: Training and best-practice guidance for AI-assisted biocuration (R3).
+
+- id: huggingscience
+  name: Hugging Science
+  type: Registry
+  description: >-
+    Hugging Face community initiative for AI in science that curates an up-to-date
+    index of scientific datasets, models and blog posts shared on the Hugging Face Hub
+    across biology, chemistry, physics, materials and climate, alongside open
+    challenges and collaborative projects.
+  url: https://huggingface.co/hugging-science
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R2
+  osai-explanation: Supports discovery and sharing of scientific AI models and datasets (R2).

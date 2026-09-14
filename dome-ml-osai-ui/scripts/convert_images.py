@@ -3,10 +3,10 @@ from PIL import Image
 
 # Define the directory containing the original PNG images
 # Update this path if you place your original images elsewhere
-input_dir = '/home/gavinfarrell/PhD_Code/dome-ml-osai-ui/src/assets/img_originals'
+input_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'src', 'assets', 'img_originals'))
 
 # Define the directory where the WebP images will be saved
-output_dir = '/home/gavinfarrell/PhD_Code/dome-ml-osai-ui/src/assets/img'
+output_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'src', 'assets', 'img'))
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_dir):

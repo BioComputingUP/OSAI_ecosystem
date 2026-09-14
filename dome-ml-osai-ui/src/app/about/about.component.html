@@ -175,6 +175,9 @@
     }
     
     .cta-button {
+      display: inline-block;
+      max-width: 100%;
+      text-align: center;
       background-color: white;
       color: #F66729;
       border: 2px solid #F66729;
@@ -189,6 +192,16 @@
       color: white;
       transform: translateY(-3px);
       box-shadow: 0 5px 15px rgba(246, 103, 41, 0.3);
+    }
+    @media (max-width: 575.98px) {
+      .cta-button {
+        display: block;
+        width: 100%;
+        max-width: 22rem;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0.75rem 1.25rem;
+      }
     }
     
     /* Add no-underline class for stakeholder buttons */
@@ -559,7 +572,7 @@
         <div class="row justify-content-center">
           <div class="col-md-5 col-lg-4 mb-4">
             <div class="profile-card">
-              <img src="assets/img/contact-1.gif" alt="Silvio Tosatto" class="profile-img">
+              <img src="assets/img/contact-1.jpg" alt="Silvio Tosatto" class="profile-img">
               <h4 class="profile-name">Silvio Tosatto</h4>
               <p class="profile-role">Lead PI</p>
               <p class="profile-affiliation">University of Padova</p>
@@ -971,7 +984,7 @@
         <p class="lead mb-5">Reach out to explore how you can adopt the OSAI Recommendations, <br> or collaborate with our team.</p>
         
         <a href="mailto:contact@dome-ml.org" class="cta-button">
-          <i class="icon icon-common icon-envelope mr-2"></i>contact@dome-ml.org
+          <i class="icon icon-common icon-envelope me-2"></i>contact@dome-ml.org
         </a>
       </div>
     </div>

@@ -1,9 +1,36 @@
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
+@import "bootstrap/scss/functions";
+
+$primary: #103444;
+$secondary: #23d5ab;
+$dark: #505050;
+
+// Keep Bootstrap 4 look after the move to Bootstrap 5
+$link-decoration: none;
+$enable-rfs: false;
+$hr-opacity: 1;
+$grid-gutter-width: 30px;
+$border-radius: .25rem;
+$border-radius-sm: .2rem;
+$border-radius-lg: .3rem;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+@import "bootstrap/scss/variables";
 
 $theme-colors: (
-  primary: #103444,
-  secondary: #23d5ab,
+  primary: $primary,
+  secondary: $secondary,
   tertiary: #606c71,
   quaternary: #693c15,
   quinary: #fff9e3,
@@ -12,7 +39,7 @@ $theme-colors: (
   warning: $yellow,
   danger: $red,
   light: $gray-100,
-  dark: #505050
+  dark: $dark
 );
 $custom-colors: (
   color1: #f669a3,
@@ -35,7 +62,7 @@ body {
 }
 
 a {
-  color: theme-color("primary");
+  color: $primary;
 }
 
 a:focus {

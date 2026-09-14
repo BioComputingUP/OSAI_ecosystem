@@ -125,7 +125,7 @@ This repository includes the **dome-ml-osai-ui**, a web-based user interface des
 
 To build the project for deployment:
 ```bash
-ng build --prod
+npm run build-prod
 ```
 The build artifacts will be stored in the `dist/` directory within the `dome-ml-osai-ui` folder.
 
@@ -148,7 +148,7 @@ To run the application without installing Node.js or Angular locally, use Docker
 
 3.  **Start the Container:**
     ```bash
-    docker-compose up --build
+    docker compose up --build
     ```
 
 4.  **Access the App:**
@@ -157,5 +157,5 @@ To run the application without installing Node.js or Angular locally, use Docker
 5.  **Stop the Container:**
     Press `Ctrl+C` in the terminal, or run:
     ```bash
-    docker-compose down
+    docker compose down
     ```

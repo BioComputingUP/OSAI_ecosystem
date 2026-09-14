@@ -47,7 +47,7 @@
     <div class="container">
       <h1 class="page-title">OSAI: Open and Sustainable AI Ecosystem Components</h1>
       <p class="page-subtitle">Discover and explore tools, standards, and resources that support implementing the OSAI recommendations</p>
-      
+
       <div class="action-buttons">
         <a href="/guidelines" class="btn-action">
           <img src="assets/img/book-solid.svg" alt="Guidelines icon">
@@ -64,7 +64,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="container">
     <!-- Filters Section -->
     <div class="filters-section">
@@ -72,68 +72,79 @@
         <i class="icon icon-common icon-filter" style="color: #F66729;"></i>
         Filter Components
       </h2>
-      
+
       <div class="filters-grid">
         <div class="filter-group">
           <label for="searchTerm" class="filter-label">Search</label>
           <input type="text" id="searchTerm" class="filter-input" [(ngModel)]="searchTerm" (ngModelChange)="applyFilters()" placeholder="Enter search term...">
         </div>
-        
+
         <div class="filter-group">
           <label for="typeFilter" class="filter-label">Type</label>
           <select id="typeFilter" class="filter-select" [(ngModel)]="selectedType" (ngModelChange)="applyFilters()">
-            <option *ngFor="let type of availableTypes" [value]="type">{{ type }}</option>
+            @for (type of availableTypes; track type) {
+              <option [value]="type">{{ type }}</option>
+            }
           </select>
         </div>
-        
+
         <div class="filter-group">
           <label for="recommendationFilter" class="filter-label">OSAI Recommendation</label>
           <select id="recommendationFilter" class="filter-select" [(ngModel)]="selectedRecommendation" (ngModelChange)="applyFilters()">
-            <option *ngFor="let rec of availableRecommendations" [value]="rec.value">
-              {{ rec.displayName === 'R9 - Impact' ? 'R9 - Monitoring' : rec.displayName }}
-            </option>
+            @for (rec of availableRecommendations; track rec) {
+              <option [value]="rec.value">
+                {{ rec.displayName === 'R9 - Impact' ? 'R9 - Monitoring' : rec.displayName }}
+              </option>
+            }
           </select>
         </div>
-        
+
         <div class="filter-group">
           <label for="accessModelFilter" class="filter-label">Access Model</label>
           <select id="accessModelFilter" class="filter-select" [(ngModel)]="selectedAccessModel" (ngModelChange)="applyFilters()">
-            <option *ngFor="let model of availableAccessModels" [value]="model">{{ model }}</option>
+            @for (model of availableAccessModels; track model) {
+              <option [value]="model">{{ model }}</option>
+            }
           </select>
         </div>
       </div>
     </div>
-    
+
     <!-- Results Section -->
     <div class="results-section">
       <!-- Loading state -->
-      <div *ngIf="isLoading" class="loading-spinner">
-        <div class="spinner"></div>
-        <p class="mt-3 text-center text-muted">Loading ecosystem components...</p>
-      </div>
-      
+      @if (isLoading) {
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          <p class="mt-3 text-center text-muted">Loading ecosystem components...</p>
+        </div>
+      }
+
       <!-- Error state -->
-      <div *ngIf="errorLoading" class="empty-state">
-        <i class="icon icon-common icon-exclamation-triangle"></i>
-        <h3>Error Loading Data</h3>
-        <p>There was a problem loading the ecosystem components. Please try again later.</p>
-        <button class="btn-action mt-3" (click)="loadData()">Retry</button>
-      </div>
-      
+      @if (errorLoading) {
+        <div class="empty-state">
+          <i class="icon icon-common icon-exclamation-triangle"></i>
+          <h3>Error Loading Data</h3>
+          <p>There was a problem loading the ecosystem components. Please try again later.</p>
+          <button class="btn-action mt-3" (click)="loadData()">Retry</button>
+        </div>
+      }
+
       <!-- Empty state for when there are no results -->
-      <div *ngIf="filteredData.length === 0 && originalData.length > 0 && !isLoading" class="empty-state">
-        <i class="icon icon-common icon-search"></i>
-        <h3>No Matching Results</h3>
-        <p>Try adjusting your filters to find what you're looking for.</p>
-      </div>
-      
+      @if (filteredData.length === 0 && originalData.length > 0 && !isLoading) {
+        <div class="empty-state">
+          <i class="icon icon-common icon-search"></i>
+          <h3>No Matching Results</h3>
+          <p>Try adjusting your filters to find what you're looking for.</p>
+        </div>
+      }
+
       <!-- Results content -->
-      <ng-container *ngIf="filteredData.length > 0">
+      @if (filteredData.length > 0) {
         <!-- Results header with count -->
         <div class="results-header">
           <div class="results-count">{{ filteredData.length }} components</div>
         </div>
-        
         <!-- Modern table for components -->
         <div class="table-responsive">
           <table class="ecosystem-table">
@@ -159,84 +170,107 @@
               </tr>
             </thead>
             <tbody>
-              <tr *ngFor="let item of paginatedData">
-                <td>
-                  <span class="table-type-badge">{{ item.type || 'N/A' }}</span>
-                </td>
-                <td>
-                  <div class="component-name">
-                    <a *ngIf="item.url" [href]="item.url" target="_blank" rel="noopener noreferrer">{{ item.name || 'N/A' }}</a>
-                    <span *ngIf="!item.url">{{ item.name || 'N/A' }}</span>
-                  </div>
-                </td>
-                <td>
-                  <div class="component-description">
-                    {{ item.description || 'No description available' }}
-                    <div *ngIf="item['osai-explanation']" class="mt-2">
-                      <strong>Relevance:</strong> {{ item['osai-explanation'] }}
+              @for (item of paginatedData; track item) {
+                <tr>
+                  <td>
+                    <span class="table-type-badge">{{ item.type || 'N/A' }}</span>
+                  </td>
+                  <td>
+                    <div class="component-name">
+                      @if (item.url) {
+                        <a [href]="item.url" target="_blank" rel="noopener noreferrer">{{ item.name || 'N/A' }}</a>
+                      }
+                      @if (!item.url) {
+                        <span>{{ item.name || 'N/A' }}</span>
+                      }
                     </div>
-                  </div>
-                </td>
-                <td>
-                  <div *ngIf="item['osai-recommendation']" class="table-recommendation-tags">
-                    <span *ngFor="let rec of item['osai-recommendation'].split(',')" class="table-recommendation-tag">
-                      {{ rec.trim() }}
-                    </span>
-                  </div>
-                  <span *ngIf="!item['osai-recommendation']">N/A</span>
-                </td>
-                <td>
-                  <span *ngIf="item['access-model']" class="table-access-model">{{ item['access-model'] }}</span>
-                  <span *ngIf="!item['access-model']">N/A</span>
-                </td>
-                <td>
-                  <div class="table-external-links" style="display: flex; flex-wrap: wrap; gap: 8px;">
-                    <a *ngIf="item.url" [href]="item.url" target="_blank" rel="noopener noreferrer" class="table-external-link" style="display: inline-flex; align-items: center;">
-                      <i class="icon icon-common icon-external-link-alt" style="margin-right: 6px;"></i>
-                      Website
-                    </a>
-                    <a *ngIf="item['biotools-url']" [href]="item['biotools-url']" target="_blank" rel="noopener noreferrer" class="table-external-link" style="display: inline-flex; align-items: center;">
-                      <i class="icon icon-common icon-tools" style="margin-right: 6px;"></i>
-                      <i class="icon icon-common icon-share-alt" style="margin-right: 6px;"></i>
-                      bio.tools
-                    </a>
-                    <a *ngIf="item['fairsharing-url']" [href]="item['fairsharing-url']" target="_blank" rel="noopener noreferrer" class="table-external-link" style="display: inline-flex; align-items: center;">
-                      <i class="icon icon-common icon-share-alt" style="margin-right: 6px;"></i>
-                      FAIRsharing
-                    </a>
-                  </div>
-                </td>
-              </tr>
+                  </td>
+                  <td>
+                    <div class="component-description">
+                      {{ item.description || 'No description available' }}
+                      @if (item['osai-explanation']) {
+                        <div class="mt-2">
+                          <strong>Relevance:</strong> {{ item['osai-explanation'] }}
+                        </div>
+                      }
+                    </div>
+                  </td>
+                  <td>
+                    @if (item['osai-recommendation']) {
+                      <div class="table-recommendation-tags">
+                        @for (rec of item['osai-recommendation'].split(','); track rec) {
+                          <span class="table-recommendation-tag">
+                            {{ rec.trim() }}
+                          </span>
+                        }
+                      </div>
+                    }
+                    @if (!item['osai-recommendation']) {
+                      <span>N/A</span>
+                    }
+                  </td>
+                  <td>
+                    @if (item['access-model']) {
+                      <span class="table-access-model">{{ item['access-model'] }}</span>
+                    }
+                    @if (!item['access-model']) {
+                      <span>N/A</span>
+                    }
+                  </td>
+                  <td>
+                    <div class="table-external-links" style="display: flex; flex-wrap: wrap; gap: 8px;">
+                      @if (item.url) {
+                        <a [href]="item.url" target="_blank" rel="noopener noreferrer" class="table-external-link" style="display: inline-flex; align-items: center;">
+                          <i class="icon icon-common icon-external-link-alt" style="margin-right: 6px;"></i>
+                          Website
+                        </a>
+                      }
+                      @if (item['biotools-url']) {
+                        <a [href]="item['biotools-url']" target="_blank" rel="noopener noreferrer" class="table-external-link" style="display: inline-flex; align-items: center;">
+                          <i class="icon icon-common icon-tools" style="margin-right: 6px;"></i>
+                          <i class="icon icon-common icon-share-alt" style="margin-right: 6px;"></i>
+                          bio.tools
+                        </a>
+                      }
+                      @if (item['fairsharing-url']) {
+                        <a [href]="item['fairsharing-url']" target="_blank" rel="noopener noreferrer" class="table-external-link" style="display: inline-flex; align-items: center;">
+                          <i class="icon icon-common icon-share-alt" style="margin-right: 6px;"></i>
+                          FAIRsharing
+                        </a>
+                      }
+                    </div>
+                  </td>
+                </tr>
+              }
             </tbody>
           </table>
         </div>
-        
         <!-- Pagination controls -->
         <div class="pagination-section">
           <div class="pagination-info">
             Showing {{ (currentPage - 1) * itemsPerPage + 1 }} - {{ currentPage * itemsPerPage > filteredData.length ? filteredData.length : currentPage * itemsPerPage }} of {{ filteredData.length }} items
           </div>
-          
           <div class="pagination-controls">
             <button class="pagination-btn" (click)="previousPage()" [disabled]="currentPage === 1">
               Previous
             </button>
-            
-            <ng-container *ngFor="let pageNum of pageNumbers">
-              <button *ngIf="pageNum === 1 || pageNum === totalPages || (pageNum >= currentPage - 2 && pageNum <= currentPage + 2)"
-                      class="pagination-btn" 
-                      [class.active]="pageNum === currentPage"
-                      (click)="goToPage(pageNum)">
-                {{ pageNum }}
-              </button>
-              <span *ngIf="(pageNum === currentPage - 3 && currentPage > 4) || (pageNum === currentPage + 3 && currentPage < totalPages - 3)">...</span>
-            </ng-container>
-            
+            @for (pageNum of pageNumbers; track pageNum) {
+              @if (pageNum === 1 || pageNum === totalPages || (pageNum >= currentPage - 2 && pageNum <= currentPage + 2)) {
+                <button
+                  class="pagination-btn"
+                  [class.active]="pageNum === currentPage"
+                  (click)="goToPage(pageNum)">
+                  {{ pageNum }}
+                </button>
+              }
+              @if ((pageNum === currentPage - 3 && currentPage > 4) || (pageNum === currentPage + 3 && currentPage < totalPages - 3)) {
+                <span>...</span>
+              }
+            }
             <button class="pagination-btn" (click)="nextPage()" [disabled]="currentPage === totalPages">
               Next
             </button>
           </div>
-          
           <div class="items-per-page">
             <label for="itemsPerPage">Items per page:</label>
             <select id="itemsPerPage" [(ngModel)]="itemsPerPage" (ngModelChange)="applyFilters()">
@@ -247,7 +281,7 @@
             </select>
           </div>
         </div>
-      </ng-container>
+      }
     </div>
   </div>
 </div>

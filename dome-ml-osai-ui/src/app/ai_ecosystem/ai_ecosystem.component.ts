@@ -1,8 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms'; // Import FormsModule
-import * as yaml from 'js-yaml'; // Import js-yaml
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { load } from 'js-yaml';
 
 interface RegistryItem {
   name: string | null;
@@ -24,6 +22,8 @@ interface RecommendationOption {
 
 @Component({
   selector: 'app-ai-ecosystem',
+  standalone: false,
+  changeDetection: ChangeDetectionStrategy.Eager,
   templateUrl: './ai_ecosystem.html',
   styleUrls: ['./ai_ecosystem.component.css'] // Added styleUrls
 })
@@ -82,7 +82,7 @@ export class AiEcosystemComponent implements OnInit {
       .subscribe({
         next: (yamlData) => {
           try {
-            const data: any = yaml.load(yamlData);
+            const data: any = load(yamlData);
             
             if (data && Array.isArray(data)) {
               this.originalData = data as RegistryItem[];

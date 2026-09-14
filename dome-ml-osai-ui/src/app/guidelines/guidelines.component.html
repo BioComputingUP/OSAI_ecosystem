@@ -29,6 +29,9 @@
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     }
     .cta-button {
+      display: inline-block;
+      max-width: 100%;
+      text-align: center;
       background-color: white;
       color: #F66729;
       border: 2px solid #F66729;
@@ -44,6 +47,16 @@
       transform: translateY(-3px);
       box-shadow: 0 5px 15px rgba(246, 103, 41, 0.3);
       text-decoration: none !important;
+    }
+    @media (max-width: 575.98px) {
+      .cta-button {
+        display: block;
+        width: 100%;
+        max-width: 22rem;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0.75rem 1.25rem;
+      }
     }
     .guideline-item {
       margin-bottom: 2.5rem;
@@ -508,7 +521,7 @@
         
         <div class="text-center mb-5">
           <a routerLink="/ai-ecosystem" class="cta-button">
-            <i class="icon icon-common icon-project-diagram mr-2"></i>Explore the AI Ecosystem
+            <i class="icon icon-common icon-project-diagram me-2"></i>Explore the AI Ecosystem
           </a>
         </div>
       </div>

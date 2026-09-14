@@ -1,6 +1,12 @@
-@import 'src/variables';
+@import 'variables';
 
 .brand-img {
   max-height: 15rem;
+}
+
+// Positioned so the mobile nav menu drops from under the full-width header, above page content
+.site-header {
+  position: relative;
+  z-index: 1030;
 }
 

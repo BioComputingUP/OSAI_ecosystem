@@ -1,4 +1,4 @@
-@import 'src/variables';
+@import 'variables';
 
 // Variables to match sister resource
 $font-primary: 'Lato', sans-serif;
@@ -26,8 +26,10 @@ $color-dark-blue: #103344; // Updated to new blue color
     height: 90px; // Keep height fixed
     min-height: 90px;
     display: flex;
+    flex-wrap: nowrap; // Keep logo and toggler on one row
     justify-content: space-between;
     align-items: center;
+    position: static; // Mobile menu anchors to the full-width header instead
   }
 }
 
@@ -37,7 +39,7 @@ $color-dark-blue: #103344; // Updated to new blue color
     padding-left: 2%; // Further reduce side padding
     padding-right: 2%; // Further reduce side padding
   }
-  
+
   .btn-navbar {
     padding-left: 0.5rem !important; // Reduced padding
     padding-right: 0.5rem !important; // Reduced padding
@@ -56,6 +58,13 @@ $color-dark-blue: #103344; // Updated to new blue color
   height: 7.2rem; // Fixed logo height
   min-height: 7.2rem;
   max-height: 7.2rem;
+
+  @media (max-width: 991px) {
+    height: 70px; // Fit inside the 90px mobile bar
+    min-height: 0;
+    max-height: 70px;
+    width: auto;
+  }
 }
 
 .brand-img-small {
@@ -101,7 +110,7 @@ $color-dark-blue: #103344; // Updated to new blue color
   &:hover {
     background-color: transparent;
     color: rgba(255, 255, 255, 0.85) !important;
-    
+
     &::after {
       width: 100%;
       opacity: 1;
@@ -145,7 +154,7 @@ $color-dark-blue: #103344; // Updated to new blue color
   top: 50%;
   transform: translateY(-50%);
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  
+
   @media (min-width: 1200px) {
     left: 120px;
   }
@@ -156,7 +165,9 @@ $color-dark-blue: #103344; // Updated to new blue color
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
-    height: 90px; // Match navbar height
+    height: auto;
+    flex: 0 1 auto;
+    min-width: 0;
     display: flex;
     align-items: center;
   }
@@ -185,6 +196,8 @@ $color-dark-blue: #103344; // Updated to new blue color
   @media (max-width: 991px) {
     opacity: 1;
     visibility: visible;
+    flex-shrink: 0;
+    margin-left: auto;
   }
 
   @media (min-width: 992px) {
@@ -220,10 +233,10 @@ $color-dark-blue: #103344; // Updated to new blue color
 
   @media (max-width: 991px) {
     position: absolute;
-    top: 90px; /* Match navbar height */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100vw;
+    top: 100%; // Directly below the header section
+    left: 0;
+    right: 0;
+    width: auto;
     background-color: $color-dark-blue;
     padding: 10px 15px;
     margin: 0;

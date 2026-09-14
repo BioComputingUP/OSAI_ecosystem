@@ -169,6 +169,16 @@
       box-shadow: 0 5px 15px rgba(246, 103, 41, 0.3);
       text-decoration: none !important;
     }
+    @media (max-width: 575.98px) {
+      .cta-button {
+        width: 100%;
+        max-width: 22rem;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0.75rem 1.25rem;
+      }
+    }
     @media (max-width: 1599px) {
       .fixed-nav {
         opacity: 0;
@@ -223,7 +233,7 @@
           These example implementation pathways provide logical steps and example resources to help you apply the OSAI recommendations and AI ecosystem components
           in your AI research. <br> <br> For future OSAI and general AI best practice implementation pathways, check the RDMkit, RSQkit & FAIR Cookbook resources:
         </p>
-        <div class="d-flex justify-content-center" style="margin-top: 1.5rem;">
+        <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center row-gap-3" style="margin-top: 1.5rem;">
           <a href="https://rdmkit.elixir-europe.org/" target="_blank" class="cta-button" style="margin-right: 1rem;">
             <i class="icon icon-common icon-external-link-alt"></i>
             RDMkit
@@ -248,7 +258,7 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <div class="d-flex align-items-center mb-4">
-          <i class="icon icon-common icon-recycle pathway-icon mr-3"></i>
+          <i class="icon icon-common icon-recycle pathway-icon me-3"></i>
           <h2 class="section-heading mb-0">Reusability Pathway</h2>
         </div>
         <p class="mb-4">
@@ -529,7 +539,7 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <div class="d-flex align-items-center mb-4">
-          <i class="icon icon-common icon-copy pathway-icon mr-3"></i>
+          <i class="icon icon-common icon-copy pathway-icon me-3"></i>
           <h2 class="section-heading mb-0">Reproducibility Pathway</h2>
         </div>
         <p class="mb-4">
@@ -888,7 +898,7 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <div class="d-flex align-items-center mb-4">
-          <i class="icon icon-common icon-leaf pathway-icon mr-3"></i>
+          <i class="icon icon-common icon-leaf pathway-icon me-3"></i>
           <h2 class="section-heading mb-0">Environmental Sustainability Pathway</h2>
         </div>
         <p class="mb-4">
@@ -1264,9 +1274,9 @@
   <section class="py-4" id="osai-implementation-section">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <div class="d-flex align-items-center justify-content-between mb-4">
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-4">
           <div class="d-flex align-items-center">
-            <i class="icon icon-common icon-flask pathway-icon mr-3"></i>
+            <i class="icon icon-common icon-flask pathway-icon me-3"></i>
             <h2 class="section-heading mb-0">OSAI Implementation Example: APNet</h2>
           </div>
           <a href="https://academic.oup.com/bioinformatics/article/41/3/btaf063/8005858" target="_blank" class="cta-button">

@@ -1,12 +1,8 @@
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { provideZoneChangeDetection } from '@angular/core';
+import { platformBrowser } from '@angular/platform-browser';
 
 import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
 
-if (environment.production) {
-  enableProdMode();
-}
-
-platformBrowserDynamic().bootstrapModule(AppModule)
+// Angular 21+ is zoneless by default; this app relies on zone.js to re-render after HTTP loads
+platformBrowser().bootstrapModule(AppModule, { applicationProviders: [provideZoneChangeDetection()] })
   .catch(err => console.error(err));

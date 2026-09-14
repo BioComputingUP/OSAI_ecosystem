@@ -12,9 +12,9 @@ Our goal is to provide a centrally curated list for discovering relevant AI reso
 
 ## OSAI Ecosystem Components: Background and Purpose
 
-This list originates from an upcoming publication by members of the **ELIXIR Machine Learning Focus Group**. It represents a collective effort to identify and map key components supporting the **OSAI Recommendations** within the life sciences.
+This list originates from an upcoming publication by members of the **ELIXIR Machine Learning Focus Group**. It represents a collective effort to identify and map key components supporting the **OSAI Recommendations** within the life sciences. The [preprint is available on aRxiv](https://doi.org/10.48550/arXiv.2505.16619), subsequently published:
 
-**Digital Object Identifier (DOI):** [Preprint available on aRxiv](https://doi.org/10.48550/arXiv.2505.16619)
+> Farrell, G., et al. Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences. Nat Methods (2026). [doi: 10.1038/s41592-026-03037-6](https://doi.org/10.1038/s41592-026-03037-6)
 
 The primary goal of this list is to serve as a dynamic, community-maintained inventory. It is explicitly **designed for reuse and adaptation**. We envision this list feeding into various resources, frameworks, and platforms, providing a long-term, accessible collection of OSAI ecosystem components.
 

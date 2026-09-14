@@ -2,7 +2,7 @@
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15391274.svg)](https://doi.org/10.5281/zenodo.15391274)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15391273.svg)](https://doi.org/10.5281/zenodo.15391273)
 
 Welcome to the **OSAI Ecosystem Components List**! This repository hosts a community-curated list of AI-relevant components useful for AI research. Our aim is to connect researchers developing AI models and datasets with resources that are FAIR, Open, and environmentally sustainable.
 
@@ -12,9 +12,11 @@ Our goal is to provide a centrally curated list for discovering relevant AI reso
 
 ## OSAI Ecosystem Components: Background and Purpose
 
-This list originates from an upcoming publication by members of the **ELIXIR Machine Learning Focus Group**. It represents a collective effort to identify and map key components supporting the **OSAI Recommendations** within the life sciences. The [preprint is available on aRxiv](https://doi.org/10.48550/arXiv.2505.16619), subsequently published:
+This list originates from a publication by members of the **ELIXIR Machine Learning Focus Group**. It represents a collective effort to identify and map key components supporting the **OSAI Recommendations** within the life sciences. The paper is published in Nature Methods:
 
-> Farrell, G., et al. Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences. Nat Methods (2026). [doi: 10.1038/s41592-026-03037-6](https://doi.org/10.1038/s41592-026-03037-6)
+> Farrell, G., et al. Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences. Nat Methods 23, 1734–1745 (2026). [doi: 10.1038/s41592-026-03037-6](https://doi.org/10.1038/s41592-026-03037-6)
+
+An open-access [preprint is also available on arXiv](https://doi.org/10.48550/arXiv.2505.16619).
 
 The primary goal of this list is to serve as a dynamic, community-maintained inventory. It is explicitly **designed for reuse and adaptation**. We envision this list feeding into various resources, frameworks, and platforms, providing a long-term, accessible collection of OSAI ecosystem components.
 

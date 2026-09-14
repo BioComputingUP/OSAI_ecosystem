@@ -3,7 +3,8 @@
 # interoperability, and reuse. It adds new fields relevant to its use case of capturing AI ecosystem components.
 #
 # It is mapped to the Open & Sustainable AI (OSAI) Recommendations
-# (see paper: https://arxiv.org/abs/2505.16619), but can be copied and
+# (see paper: https://doi.org/10.1038/s41592-026-03037-6;
+# open-access preprint: https://arxiv.org/abs/2505.16619), but can be copied and
 # repurposed with other mappings for different domains or regions.
 #
 # Before contributing, please check the CONTRIBUTING.md information.

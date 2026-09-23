@@ -5117,3 +5117,20 @@
   domain: domain-agnostic
   osai-recommendation: R2
   osai-explanation: Supports discovery and sharing of scientific AI models and datasets (R2).
+
+- id: dpccarbonfootprinttoolkit
+  name: DPC Carbon Footprint Toolkit
+  type: Tool
+  description: >-
+    Digital Preservation Coalition toolkit for measuring and reducing the carbon
+    footprint of digital preservation, storage and infrastructure activities. Bundles a
+    downloadable carbon footprint calculation spreadsheet with guidance on scoping, data
+    gathering across on-premise, cloud, networking and travel, reduction strategies and
+    seven community case studies (DOI: 10.7207/carbonfootprinttoolkit26-01).
+  url: https://www.dpconline.org/digipres/implement-digipres/carbon-footprint-toolkit
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Free
+  domain: domain-agnostic
+  osai-recommendation: R8
+  osai-explanation: Provides a practical methodology and calculator for measuring and reporting the carbon footprint of digital infrastructure (R8).

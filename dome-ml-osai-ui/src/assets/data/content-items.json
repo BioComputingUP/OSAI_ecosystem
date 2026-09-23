@@ -1,6 +1,26 @@
 [
     {
       "type": "news",
+      "date": "September 23, 2026",
+      "title": "DOME & OSAI Tutorial Published: Publishing Reusable AI/ML Models in the Life Sciences",
+      "description": "The materials from the MAQC 2026 Technical Tutorial P06 are now openly available on Zenodo (CC BY-SA 4.0). The tutorial covers the DOME Recommendations, the DOME Registry, DOME Copilot, the Open and Sustainable AI (OSAI) recommendations and agentic AI skills, with hands-on routes to produce a DOME transparency report using the DOME Wizard, DOME Copilot or the DOME Agent Skill.",
+      "link": "https://doi.org/10.5281/zenodo.22900624",
+      "linkText": "View on Zenodo",
+      "linkIcon": "icon-external-link-alt",
+      "tags": ["Tutorial", "Training", "DOME", "OSAI", "Zenodo"]
+    },
+    {
+      "type": "event",
+      "date": "September 23, 2026",
+      "title": "DOME Tutorial at MAQC 2026, Brescia",
+      "description": "Gavin Farrell led Technical Tutorial P06, \"Publishing Reusable AI/ML Models in the Life Sciences\", at the MAQC Society 2026 Annual Meeting (Precision in a Complex World, 22–26 September 2026, University of Brescia, Italy). Participants learned about DOME and OSAI and produced DOME transparency reports hands-on.",
+      "link": "https://themaqc.org/conferences/",
+      "linkText": "Visit MAQC 2026",
+      "linkIcon": "icon-external-link-alt",
+      "tags": ["Tutorial", "MAQC", "DOME", "OSAI"]
+    },
+    {
+      "type": "news",
       "date": "June 15, 2026",
       "title": "Connecting ELIXIR's AI Ecosystem Workshop Report 2026",
       "description": "A workshop report documenting the ELIXIR AHM session in Lyon, France (June 9, 2026), attended by over 60 participants. Discussions covered service gaps, unified web presence for AI agents, and actionable recommendations including defining ELIXIR's AI services and establishing best practices resources.",

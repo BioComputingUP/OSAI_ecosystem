@@ -5151,3 +5151,21 @@
   domain: domain-agnostic
   osai-recommendation: R1, R5
   osai-explanation: Self-describing model file format with embedded, machine-readable metadata (R1) that makes models portable and runnable locally across hardware and inference tools (R5).
+
+- id: safetensors
+  name: Safetensors
+  type: Metadata
+  description: >-
+    Simple, secure file format and Python/Rust library from Hugging Face for storing
+    machine learning model tensors. Unlike pickle-based formats it cannot execute arbitrary
+    code on load, and it supports fast zero-copy and lazy loading via a small JSON header
+    describing each tensor's dtype, shape and offsets plus free-form metadata. It is the
+    default weight format on the Hugging Face Hub and is supported by PyTorch, TensorFlow,
+    JAX/Flax, PaddlePaddle and NumPy.
+  url: https://huggingface.co/docs/safetensors/index
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Open Source
+  domain: domain-agnostic
+  osai-recommendation: R1, R5
+  osai-explanation: Framework-agnostic model weight format with a machine-readable tensor and metadata header (R1) that makes model sharing and reuse safe and portable across ML frameworks (R5).

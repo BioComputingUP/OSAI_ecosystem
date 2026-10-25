@@ -5134,3 +5134,20 @@
   domain: domain-agnostic
   osai-recommendation: R8
   osai-explanation: Provides a practical methodology and calculator for measuring and reporting the carbon footprint of digital infrastructure (R8).
+
+- id: gguf
+  name: GGUF (GPT-Generated Unified Format)
+  type: Metadata
+  description: >-
+    Binary file format for storing machine learning models for inference with GGML-based
+    executors such as llama.cpp. A single GGUF file bundles the model tensors, tokenizer and
+    a typed key-value metadata header (architecture, hyperparameters, licence, quantization
+    type), supports a wide range of quantization schemes for efficient local inference, and
+    is natively supported on the Hugging Face Hub with a built-in metadata and tensor viewer.
+  url: https://huggingface.co/docs/hub/en/gguf
+  biotools-url: ''
+  fairsharing-url: ''
+  access-model: Open Source
+  domain: domain-agnostic
+  osai-recommendation: R1, R5
+  osai-explanation: Self-describing model file format with embedded, machine-readable metadata (R1) that makes models portable and runnable locally across hardware and inference tools (R5).
